@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">EFI field mark</title>
+<desc id="desc">EFI visual asset by Xxaion Labs.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient>
+  <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#121B3A"/><stop offset="1" stop-color="#050714"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="256" cy="256" r="22" fill="#F7FAFF" stroke="none"/>
+  <path d="M256 110a146 146 0 1 1-103 43" stroke="url(#g)" stroke-width="22"/>
+  <path d="M365 173a112 112 0 0 1 1 166" stroke="#72E7FF" stroke-width="10" opacity=".85"/>
+  <path d="M152 334a112 112 0 0 1-5-152" stroke="#A477FF" stroke-width="10" opacity=".75"/>
+  <path d="M256 234L386 120" stroke="url(#g)" stroke-width="12"/>
+  <circle cx="397" cy="110" r="14" fill="#72E7FF" stroke="none"/>
+</g></svg>

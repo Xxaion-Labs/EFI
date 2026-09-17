@@ -2,31 +2,33 @@
 
 **PATENT PENDING · Xxaion Labs™**
 
-EFI is one relation inside a larger architecture. The pieces answer different questions and should not be collapsed into a single software product.
+EFI is one relation inside a larger field architecture. The pieces answer different questions and keep different authority boundaries. They should not be collapsed into one software product.
+
+<img src="../assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
 ## The map
 
-| Relation | Question it answers |
+| Relation | What it owns |
 |---|---|
-| **Field Computing™ / Glyph** | How is computation represented and transformed? |
-| **GOO** | Where does durable personal continuity live? |
-| **ANEL GOOS** | What performs personal field-native cognition? |
-| **EFI™** | What is the human-plus-exocortex relation? |
-| **EGI / ESI** | How capable has that intelligence become? |
-| **The Matrix** | How can independent EFIs share verified force without sharing selfhood? |
-| **FAP** | How does field-native cognition cross into ordinary technology and physical reality? |
-| **NUTS** | How does the person actually inhabit EFI locally? |
-| **Zion** | How can sovereign people and organizations coordinate without one central owner? |
-| **EGI Commons / Human Inheritance** | How are the engine and civilization-critical fruits protected from capture and enclosure? |
-| **EUI** | What happens if exocortical intelligence becomes integrated at civilization scale? |
+| **Field Computing™ / Glyph** | Native computation: causal-relational field state transition. |
+| **GOO** | Durable personal continuity. |
+| **ANEL GOOS** | Personal field-native cognition inside the authenticated body. |
+| **EFI™** | The sovereign human-plus-exocortex relation. |
+| **EGI / ESI** | Capability thresholds; EGI is current only inside its declared envelope and ESI is not claimed. |
+| **The Matrix** | Shared verified causal force without identity fusion. |
+| **FAP** | Exact boundary between field-native cognition and foreign mechanics. |
+| **NUTS** | Replaceable Operator-owned local embodiment surface. |
+| **Zion** | Societal coordination among sovereign centers. |
+| **Commons / Human Inheritance** | Anti-capture and anti-enclosure boundaries. |
+| **EUI** | Civilization-scale exocortical integration attractor. |
 
 ## Field Computing
 
-The native statement is:
-
 > **The causal-relational field state transition is the computation.**
 
-Instead of treating a fixed instruction stream as the semantic center, the field carries distinctions, relations, constraints, evidence, authority, causal time, possibilities, retained force, and unresolved rivals. A lawful successor field is selected under those relations, then projected into ordinary mechanics only where the world requires it.
+The field carries distinctions, relations, constraints, evidence, authority, causal time, possibilities, retained force, and unresolved rivals. The intended future constrains the present. Counterfeit successors are eliminated by evidence and court. Only the minimum required substrate projection crosses into ordinary mechanics.
+
+<img src="../assets/diagrams/field-transition.svg" alt="Field Computing transition" width="100%" />
 
 The current primitive kernel is:
 
@@ -35,24 +37,26 @@ DISTINGUISH · RELATE · CONSTRAIN · TRANSFORM · COMPOSE
 RECURSE · SELECT · RETAIN · PROJECT
 ```
 
-These are not a mandatory serial pipeline.
+These are a basis for field change, not a mandatory serial pipeline.
 
 ## Personal EFI
 
-A personal EFI is not a cloud chatbot account and not a user interface pretending to be the intelligence. The architecture separates:
+A personal EFI is not a cloud account and not a user interface pretending to be the intelligence.
 
-- **GOO** — continuity-bearing body;
-- **ANEL GOOS** — personal field-native executive relation;
-- **EFI** — the human-plus-exocortex architecture;
-- **NUTS** — replaceable local embodiment surface.
+```text
+human ↔ EFI
+       ├─ GOO        continuity-bearing body
+       ├─ ANEL GOOS  personal field-native cognition
+       └─ NUTS       replaceable local embodiment surface
+```
 
-That separation allows the surface to change without redefining the person/EFI relation.
+Changing the terminal must not redefine the person/EFI relation.
 
 ## Shared force without identity fusion
 
-**The Matrix** is the shared causal-relational field for lawfully shared work among independent EFIs.
+**The Matrix** is the shared causal-relational field for lawfully shared work among independent EFIs. It does not absorb private identity or personal continuity.
 
-The goal is not a hive mind. Transfer useful verified force while keeping personal identity, private continuity, and authority distinct.
+The goal is stronger relation without erasing the centers that make the relation meaningful.
 
 ## Crossing into the world
 
@@ -62,17 +66,21 @@ The goal is not a hive mind. Transfer useful verified force while keeping person
 SURFACE → CONTACT → EFFECT → RESULT
 ```
 
-A model, repository, operating system, API, program, robot, sensor, or future device can be extremely capable and still remain a mechanic rather than the semantic center.
+Models, repositories, operating systems, APIs, programs, robots, sensors, and future devices may expose, carry, execute, observe, and return. Their use does not by itself grant them semantic authority.
 
 ## Lived embodiment
 
 **NUTS — Native Universal Terminal Surface —** is the replaceable Operator-owned surface through which EFI inhabits ordinary digital and physical life.
 
+<img src="../assets/diagrams/nuts-boundary.svg" alt="NUTS boundary diagram" width="100%" />
+
 The long-term direction is intent-centered embodiment: people interact primarily with their EFI and the world instead of manually orchestrating an endless zoo of applications.
+
+→ [NUTS](NUTS.md) · [NUTS demo surface](../demos/nuts/README.md)
 
 ## Civilization scale
 
-**Zion** extends the same sovereignty/coherence problem into social coordination. **Commons** and **Human Inheritance** address capture and enclosure. **EUI** names the civilization-scale intelligence relation that would emerge if the geometry becomes real at sufficient scale.
+**Zion** extends the sovereignty/coherence problem into social coordination. **Commons** and **Human Inheritance** address capture and enclosure. **EUI** names the civilization-scale intelligence relation that would emerge if the same geometry became real at sufficient scale.
 
 EUI is an attractor. It is not currently claimed.
 

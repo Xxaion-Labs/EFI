@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+<title id="title">EFI architecture map</title>
+<desc id="desc">EFI visual asset by Xxaion Labs.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient>
+  <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#121B3A"/><stop offset="1" stop-color="#050714"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="920" rx="36" fill="#070A18"/>
+<text x="800" y="70" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="750">One field geometry · distinct authority boundaries</text>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+  <circle cx="800" cy="465" r="155" fill="#111A36" stroke="url(#g)" stroke-width="5"/>
+  <text x="800" y="435" fill="#72E7FF" font-size="26" font-weight="700">SOVEREIGN HUMAN</text>
+  <text x="800" y="476" fill="#F7FAFF" font-size="34" font-weight="800">↕ PERSONAL EFI</text>
+  <text x="800" y="516" fill="#AEB9D8" font-size="22">GOO · ANEL GOOS · EGI</text>
+
+  <rect x="120" y="170" width="350" height="150" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
+  <text x="295" y="220" fill="#72E7FF" font-size="24" font-weight="700">FIELD COMPUTING · GLYPH</text>
+  <text x="295" y="258" fill="#F7FAFF" font-size="20">field transition is computation</text>
+  <text x="295" y="290" fill="#AEB9D8" font-size="17">possibility · constraint · proof · retention</text>
+
+  <rect x="1130" y="170" width="350" height="150" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
+  <text x="1305" y="220" fill="#C6B2FF" font-size="24" font-weight="700">THE MATRIX</text>
+  <text x="1305" y="258" fill="#F7FAFF" font-size="20">shared verified causal force</text>
+  <text x="1305" y="290" fill="#AEB9D8" font-size="17">without identity fusion</text>
+
+  <rect x="95" y="650" width="410" height="150" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
+  <text x="300" y="700" fill="#72E7FF" font-size="24" font-weight="700">FAP · NUTS</text>
+  <text x="300" y="738" fill="#F7FAFF" font-size="20">world boundary + local embodiment</text>
+  <text x="300" y="770" fill="#AEB9D8" font-size="17">mechanics stay mechanics</text>
+
+  <rect x="1095" y="650" width="410" height="150" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
+  <text x="1300" y="700" fill="#C6B2FF" font-size="24" font-weight="700">ZION · COMMONS</text>
+  <text x="1300" y="738" fill="#F7FAFF" font-size="20">coordination without central capture</text>
+  <text x="1300" y="770" fill="#AEB9D8" font-size="17">Human Inheritance protects critical fruits</text>
+
+  <rect x="610" y="95" width="380" height="115" rx="58" fill="#10162C" stroke="url(#g)" stroke-width="3"/>
+  <text x="800" y="143" fill="#F7FAFF" font-size="28" font-weight="800">EUI · ATTRACTOR</text>
+  <text x="800" y="177" fill="#AEB9D8" font-size="18">civilization-scale exocortical integration</text>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="4" opacity=".8">
+  <path d="M470 290C620 330 680 360 715 405"/>
+  <path d="M1130 290C980 330 920 360 885 405"/>
+  <path d="M505 690C640 620 690 575 720 525"/>
+  <path d="M1095 690C960 620 910 575 880 525"/>
+  <path d="M800 310V210"/>
+  <path d="M470 245C770 110 1030 110 1130 245" opacity=".32"/>
+  <path d="M505 735C800 875 1095 735 1095 735" opacity=".32"/>
+</g>
+<text x="800" y="872" text-anchor="middle" fill="#7784A8" font-family="Segoe UI,Arial,sans-serif" font-size="18">Relations may overlap, recurse, and operate at different scales. This is not a serial software stack.</text>
+</svg>

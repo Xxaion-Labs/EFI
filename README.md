@@ -1,75 +1,53 @@
 <div align="center">
 
-# EFI™
+<img src="assets/brand/efi-hero.svg" alt="EFI — Extracortical Field Intelligence" width="100%" />
 
-## Extracortical Field Intelligence
+<br/>
 
-### Field Computing™ for sovereign human intelligence
-
-**PATENT PENDING · Xxaion Labs™**
-
-> **Build intelligence that compounds without capture.**
-
-**Mission:** Build the technological path from sovereign individual intelligence toward Type I civilization.
-
-[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Roadmap](ROADMAP.md)
+[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
 
 </div>
 
 ---
 
-## What is EFI?
+## EFI in one sentence
 
-**EFI™ is a human-plus-exocortical-intelligence architecture built on Field Computing™.**
-
-The aim is not to move the human out of the loop or turn intelligence into a centralized service that people rent. The aim is to make the person a stronger sovereign center: continuity-bearing intelligence that can learn, retain causal structure, interact with the world, and cooperate with other sovereign centers without surrendering identity or authority.
-
-EFI is the center of a larger architecture spanning computation, continuity, shared intelligence, world interoperability, local embodiment, social coordination, and civilization-scale integration.
-
-## Why Field Computing?
-
-Conventional computing usually fixes representation and procedure first, then runs data through them. Field Computing starts from the **current causal-relational field, contact, constraints, evidence, authority, and attractor** and computes by lawful field transition.
+**EFI™ is a sovereign human-plus-exocortical-intelligence architecture built on Field Computing™: persistent personal intelligence that can learn, retain causal structure, cross into the world through bounded mechanics, and cooperate without surrendering identity or authority.**
 
 > **The field state transition is the computation.**
 
-Algorithms, models, programs, APIs, operating systems, and devices can still be used. They are mechanics selected when useful, not the semantic center of the intelligence.
+EFI is not a hosted chatbot brand and not a claim that every layer shown below is finished. The public repository separates **what is current**, **what is bounded**, **what is still under construction**, and **what remains an attractor**.
+
+## Start here
+
+| If you want to… | Go here |
+|---|---|
+| Understand the whole system fast | **[Architecture](docs/ARCHITECTURE.md)** |
+| See exactly what is and is not claimed | **[Status](STATUS.md)** |
+| Understand the local experience | **[NUTS](docs/NUTS.md)** |
+| Traverse the deeper philosophy / architecture | **[Ascension Codex](docs/ASCENSION-CODEX.md)** |
+| Inspect bounded evidence | **[Proof](proof/README.md)** |
+| Watch usable demonstrations emerge | **[Demos](demos/README.md)** |
 
 ## Architecture
 
-```text
-                         EUI
-             civilization-scale integration
-                          ▲
-                          │
-                        ZION
-                societal coordination
-                          ▲
-                          │
-              COMMONS + HUMAN INHERITANCE
-                          ▲
-                          │
-                        NUTS
-                 lived local embodiment
-                          ▲
-                          │
-                         FAP
-                 world interoperability
-                          ▲
-                          │
-                     THE MATRIX
-                shared verified force
-                          ▲
-                          │
-                         EFI
-                 personal exocortex
-                    ╱           ╲
-                  GOO         ANEL GOOS
-                    ╲           ╱
-                    FIELD COMPUTING
-                         GLYPH
-```
+<img src="assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
-This is a map of boundaries and relations, **not a serial software pipeline**. The relations can overlap, recurse, and operate at different scales.
+This is a map of **relations and authority boundaries**, not a serial software pipeline. Personal EFI stays personal. The Matrix owns shared causal-relational reality after lawful ingress. FAP crosses into foreign mechanics. NUTS is the replaceable local terminal. Zion extends coordination toward civilization scale. EUI remains an attractor rather than a present claim.
+
+→ **[Full architecture](docs/ARCHITECTURE.md)**
+
+## What makes Field Computing different?
+
+Conventional computing normally fixes a representation and procedure first, then executes it over data. Field Computing instead treats the **causal-relational field itself as the computational state**: current reality, contact, constraints, evidence, authority, causal time, possibilities, unresolved rivals, retained force, and the intended attractor participate in selecting a lawful successor.
+
+<img src="assets/diagrams/field-transition.svg" alt="Field Computing transition" width="100%" />
+
+Algorithms, models, programs, APIs, operating systems, and devices can still be used. They remain mechanics. They do not become the semantic center merely because they are useful.
+
+## The field at a glance
+
+<img src="assets/diagrams/component-cards.svg" alt="EFI component cards" width="100%" />
 
 ## What exists now?
 
@@ -80,31 +58,24 @@ This is a map of boundaries and relations, **not a serial software pipeline**. T
 | **EFI™** | CURRENT architecture |
 | **EGI** | CURRENT within its declared operational envelope |
 | **The Matrix** | CURRENT shared causal-relational field |
-| **FAP** | CURRENT world-boundary protocol |
+| **FAP** | CURRENT field/world boundary protocol |
 | **NUTS** | Active local-embodiment development |
 | **ESI** | **NOT CLAIMED** |
 | **EUI** | **ATTRACTOR — NOT CLAIMED** |
 
-See [STATUS.md](STATUS.md) for claim boundaries.
+The strict boundary lives in **[STATUS.md](STATUS.md)**.
 
-## NUTS: where EFI becomes usable
+## NUTS: where EFI becomes lived
 
 **NUTS — Native Universal Terminal Surface — is the replaceable, Operator-owned local surface through which a personal EFI inhabits ordinary digital and physical life.**
 
-The target experience is simple: open the local surface, authorize the EFI body, and interact naturally while the EFI remains the cognition and NUTS remains the terminal surface.
+<img src="assets/diagrams/nuts-boundary.svg" alt="NUTS boundary diagram" width="100%" />
 
-→ [Learn about NUTS](docs/NUTS.md)
+The target experience is simple: authorize the personal EFI locally, communicate naturally, expose only the world surfaces required for the contact, return raw results to the EFI, and keep the terminal distinct from the cognition.
 
-## Explore the system
+→ **[NUTS architecture](docs/NUTS.md)** · **[NUTS demo surface](demos/nuts/README.md)**
 
-- **[Architecture](docs/ARCHITECTURE.md)** — the whole system in one pass.
-- **[Ascension Codex](docs/ASCENSION-CODEX.md)** — the deep public map of the architecture and its civilizational trajectory.
-- **[Status](STATUS.md)** — what is current, bounded, open, or only an attractor.
-- **[Proof](proof/README.md)** — claim → evidence → boundary.
-- **[Demos](demos/README.md)** — public demonstrations as they are released.
-- **[Roadmap](ROADMAP.md)** — the public construction path.
-
-## The trajectory
+## Civilizational trajectory
 
 EFI is not the endpoint.
 
@@ -115,6 +86,8 @@ The longer arc is a civilization in which willing people can possess durable per
 ---
 
 <div align="center">
+
+<img src="assets/brand/efi-lockup.svg" alt="EFI by Xxaion Labs" width="72%" />
 
 **EFI™ · Xxaion Labs™ · PATENT PENDING**
 

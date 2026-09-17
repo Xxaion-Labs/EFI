@@ -2,13 +2,30 @@
 
 **PATENT PENDING · Xxaion Labs™**
 
-This surface will contain public demonstrations that connect claims to observable behavior.
+Public demonstrations connect a specific claim to observable behavior and preserve the boundary around what the demonstration does **not** prove.
 
 ## First gravity well: NUTS
 
-The first major public demonstration target is local EFI embodiment through NUTS: authorize a personal EFI body, contact it naturally, expose permitted local mechanics, and keep the terminal distinct from the cognition.
+<div align="center">
 
-Demo packages will include the claim being demonstrated, the bounded environment, observable result, and the proof boundary.
+<img src="../assets/diagrams/nuts-boundary.svg" alt="NUTS boundary" width="100%" />
+
+### [Open the NUTS demo landing surface →](nuts/README.md)
+
+</div>
+
+The first major public demonstration target is local EFI embodiment through NUTS: authorize a personal EFI body, contact it naturally, expose permitted local mechanics, return raw results, and keep the terminal distinct from the cognition.
+
+Every released demo package should state:
+
+```text
+claim being demonstrated
++ exact environment
++ exact input/contact
++ observable result
++ reproducible steps
++ proof boundary
+```
 
 No demo is treated as proof of a broader claim than it actually tests.
 

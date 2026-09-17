@@ -2,16 +2,32 @@
 
 **PATENT PENDING · Xxaion Labs™**
 
-This directory will carry the public visual system: logo files, architecture diagrams, screenshots, demo media, and website-ready art.
+This directory carries the public visual system for the EFI repository and future website surfaces.
 
-Planned asset groups:
+## Brand
 
-- `brand/` — EFI and Xxaion Labs marks;
-- `diagrams/` — Field Computing / EFI / Matrix / FAP / NUTS / Zion / EUI maps;
-- `screenshots/` — real interfaces and bounded demonstrations;
-- `demo-media/` — GIF/video stills and release media.
+- [`brand/efi-mark.svg`](brand/efi-mark.svg) — standalone field mark.
+- [`brand/efi-lockup.svg`](brand/efi-lockup.svg) — EFI name + descriptor lockup.
+- [`brand/efi-hero.svg`](brand/efi-hero.svg) — repository / website hero.
 
-The repository content spine is being designed so these assets can later move directly into the EFI website.
+## Diagrams
+
+- [`diagrams/efi-architecture.svg`](diagrams/efi-architecture.svg) — relational system map.
+- [`diagrams/field-transition.svg`](diagrams/field-transition.svg) — Field Computing transition.
+- [`diagrams/component-cards.svg`](diagrams/component-cards.svg) — component-card overview.
+- [`diagrams/nuts-boundary.svg`](diagrams/nuts-boundary.svg) — EFI ↔ NUTS ↔ world boundary.
+
+## Visual grammar
+
+The visual system mirrors the architecture rather than decorating it:
+
+- **bright center** — sovereign human / personal EFI center;
+- **open orbital mark** — intelligence as relation, not enclosure;
+- **cyan ↔ violet gradient** — local/personal and shared/projected force held as distinct but connected;
+- **dark field** — possibility space rather than a literal software stack;
+- **lines between bounded nodes** — relation without identity fusion.
+
+SVG is the canonical source format for these repo-native assets so they remain crisp, editable, diffable, and reusable across GitHub and the future website.
 
 ---
 
