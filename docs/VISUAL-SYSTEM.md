@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/brand/efi-visual-system.png" alt="EFI visual system" width="100%" />
+<img src="../assets/source/efi-visual-system.png" alt="EFI visual system" width="100%" />
 
 # EFI™ Visual System
 
@@ -50,7 +50,15 @@ The visual system should communicate four simultaneous properties:
 
 ## Primary motifs
 
-<img src="../assets/brand/efi-ui-kit.png" alt="EFI motif and UI kit" width="100%" />
+<div align="center">
+
+<img src="../assets/ui/dividers/divider-rail-primary.png" alt="EFI primary divider" width="72%" />
+
+<img src="../assets/ui/glyphs/glyph-orbit.png" alt="EFI field orbit glyph" width="22%" />
+
+<img src="../assets/ui/frames/frame-wide-bevel.png" alt="EFI bounded frame" width="52%" />
+
+</div>
 
 Use repeatedly:
 
@@ -78,7 +86,7 @@ Avoid:
 
 ### EFI master identity
 
-<img src="../assets/brand/efi-hero.png" alt="EFI hero identity" width="100%" />
+<img src="../assets/brand/efi-hero-wide.png" alt="EFI hero identity" width="100%" />
 
 Use for:
 
@@ -149,15 +157,17 @@ Prefer compact matrices and unmistakable labels:
 
 ## Public asset map
 
+[**Open the sliced UI Asset Map →**](../assets/UI-ASSET-MAP.md)
+
 | Asset | Purpose |
 |---|---|
-| `assets/brand/efi-hero.png` | repository / launch hero |
+| `assets/brand/efi-hero-wide.png` | repository / launch hero |
 | `assets/brand/efi-sigil.png` | sigil / identity mark |
 | `assets/brand/efi-lockup.png` | compact brand lockup |
 | `assets/brand/efi-field-computing.png` | Field Computing emblem |
 | `assets/brand/xxaion-labs.png` | Xxaion Labs organization lockup |
-| `assets/brand/efi-visual-system.png` | canonical style-board projection |
-| `assets/brand/efi-ui-kit.png` | motif / frame / divider reference |
+| `assets/source/efi-visual-system.png` | canonical style-board projection |
+| `assets/source/efi-ui-atlas.png` | motif / frame / divider reference |
 | `assets/diagrams/efi-architecture.svg` | architecture overview |
 | `assets/diagrams/field-transition.svg` | field-state transition |
 | `assets/diagrams/core-boundary.svg` | EFI ↔ CORE boundary |

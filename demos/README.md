@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/brand/efi-hero.png" alt="EFI — Extracortical Field Intelligence" width="100%" />
+<img src="../assets/brand/efi-hero-wide.png" alt="EFI — Extracortical Field Intelligence" width="100%" />
 
 # EFI™ Demos
 
@@ -12,7 +12,20 @@
 
 ---
 
-Demonstrations connect a specific claim to observable behavior and preserve the boundary around what the demonstration does **not** prove.
+A demonstration has one job: connect a specific claim to observable behavior and preserve the boundary around what it does **not** prove.
+
+If a bounded demo quietly promotes itself into a universal capability claim, that is not evidence getting stronger. That is **bullshit with a screen recording.**
+
+<div align="center">
+
+<img src="../assets/ui/frames/frame-compact-wide.png" alt="EFI demo frame" width="45%" />
+
+</div>
+<div align="center">
+
+<img src="../assets/ui/arrows/arrow-chevron-set.png" alt="EFI demo progression" width="24%" />
+
+</div>
 
 ## First gravity well: CORE
 

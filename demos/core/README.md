@@ -11,6 +11,8 @@
 
 The reproducible demo package is not posted yet because the complete lived EFFECT → raw RESULT → same-field → cold-reopen boundary remains an open public proof frontier.
 
+Anything weaker can still be useful engineering evidence. It is not the whole loop, and calling it the whole loop would be **fucking cheating.**
+
 ## Reproducible demo boundary
 
 The first package should demonstrate:

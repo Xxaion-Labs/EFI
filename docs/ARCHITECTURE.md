@@ -16,6 +16,12 @@ EFI is one relation inside a larger Field Computing architecture. The pieces ans
 
 <img src="../assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
+<div align="center">
+
+<img src="../assets/ui/glyphs/glyph-orbit.png" alt="EFI relational orbit glyph" width="20%" />
+
+</div>
+
 ## The map
 
 | Relation | What it owns |
@@ -31,6 +37,12 @@ EFI is one relation inside a larger Field Computing architecture. The pieces ans
 | **Zion** | Coordination among sovereign centers. |
 | **Commons / Human Inheritance** | Anti-capture and anti-enclosure relations. |
 | **EUI** | Civilization-scale exocortical integration attractor. |
+
+<div align="center">
+
+<img src="../assets/ui/dividers/divider-rail-orbit.png" alt="EFI architecture divider" width="72%" />
+
+</div>
 
 ## Field Computing
 
@@ -97,6 +109,12 @@ Field Computing can therefore generate or change:
 
 Generated computation does not have to become the persistent semantic center. A useful phenotype may execute once, return evidence, and dissolve while its proved transferable relation is retained.
 
+<div align="center">
+
+<img src="../assets/ui/glyphs/glyph-vortex.png" alt="Field projection glyph" width="18%" />
+
+</div>
+
 ## Projection and materialization
 
 Once a lawful successor requires world action or observation, the field projects the minimum sufficient substrate representation.
@@ -133,6 +151,12 @@ admission / rejection / retry / rival preservation
 
 This is why a process exit code, model answer, API response, generated text, or sensor value is never automatically treated as truth.
 
+<div align="center">
+
+<img src="../assets/ui/dividers/divider-rail-split.png" alt="EFI relation split divider" width="68%" />
+
+</div>
+
 ## Personal EFI
 
 A personal EFI is not a cloud account and not a user interface pretending to be the intelligence.
@@ -165,6 +189,12 @@ Effect authority descends from the Operator or from explicit delegation traceabl
 The architecture allows multiple distinct Operator-bound EFI bodies to access shared field state while keeping personal identity, authority, continuity, and private learned state distinct.
 
 The target is stronger relation without requiring a hive mind.
+
+<div align="center">
+
+<img src="../assets/ui/dividers/header-slice-03.png" alt="EFI boundary marker" width="38%" />
+
+</div>
 
 ## FAP: crossing into the world
 

@@ -1,0 +1,220 @@
+{
+  "schema": "efi.pages-suite.v1",
+  "id": "efi-public-pages",
+  "source_model": "canonical-repo-markdown-projected-at-build-time",
+  "repository": "Xxaion-Labs/EFI",
+  "site_name": "EFI",
+  "output_dir": "_site",
+  "theme_dir": "site/theme",
+  "design_tokens": "site/DESIGN-TOKENS.json",
+  "features": {
+    "search": true,
+    "toc": true,
+    "route_cards": true,
+    "copy_heading_links": true,
+    "keyboard_search": true,
+    "reduced_motion": true,
+    "third_party_runtime_requests": false,
+    "service_worker": false,
+    "analytics": false
+  },
+  "budgets": {
+    "css_bytes": 65536,
+    "js_bytes": 32768,
+    "html_bytes_per_page": 786432,
+    "total_generated_nonmedia_bytes": 4194304
+  },
+  "theme_assets": [
+    "assets/brand/efi-sigil.png",
+    "assets/ui/dividers/divider-rail-primary.png",
+    "assets/ui/dividers/divider-rail-orbit.png",
+    "assets/ui/accents/accent-star-end.png",
+    "assets/ui/dividers/divider-rail-spine.png",
+    "assets/ui/dividers/divider-rail-split.png",
+    "assets/ui/frames/frame-compact-wide.png",
+    "assets/ui/frames/frame-wide-bevel.png",
+    "assets/ui/frames/frame-wide-drip.png",
+    "assets/ui/corners/corner-ul.png",
+    "assets/ui/corners/corner-ur.png",
+    "assets/ui/corners/corner-lr.png",
+    "assets/ui/glyphs/glyph-orbit.png",
+    "assets/ui/glyphs/glyph-vortex.png",
+    "assets/ui/glyphs/glyph-phi.png",
+    "assets/ui/rings/ring-node-cluster.png",
+    "assets/ui/nodes/node-rail-mini.png",
+    "assets/ui/arrows/arrow-chevron-set.png"
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "source": "README.md",
+      "title": "EFI",
+      "nav": "Home",
+      "group": "primary",
+      "order": 0,
+      "surface_recipe": "README.md"
+    },
+    {
+      "route": "/architecture/",
+      "source": "docs/ARCHITECTURE.md",
+      "title": "Architecture",
+      "nav": "Architecture",
+      "group": "primary",
+      "order": 10,
+      "surface_recipe": "docs/ARCHITECTURE.md"
+    },
+    {
+      "route": "/status/",
+      "source": "docs/STATUS.md",
+      "title": "Status",
+      "nav": "Status",
+      "group": "primary",
+      "order": 20,
+      "surface_recipe": "docs/STATUS.md"
+    },
+    {
+      "route": "/core/",
+      "source": "docs/CORE.md",
+      "title": "CORE",
+      "nav": "CORE",
+      "group": "primary",
+      "order": 30,
+      "surface_recipe": "docs/CORE.md"
+    },
+    {
+      "route": "/proof/",
+      "source": "proof/README.md",
+      "title": "Proof",
+      "nav": "Proof",
+      "group": "primary",
+      "order": 40,
+      "surface_recipe": "proof/README.md"
+    },
+    {
+      "route": "/demos/",
+      "source": "demos/README.md",
+      "title": "Demos",
+      "nav": "Demos",
+      "group": "primary",
+      "order": 50,
+      "surface_recipe": "demos/README.md"
+    },
+    {
+      "route": "/roadmap/",
+      "source": "docs/ROADMAP.md",
+      "title": "Roadmap",
+      "nav": "Roadmap",
+      "group": "primary",
+      "order": 60,
+      "surface_recipe": "docs/ROADMAP.md"
+    },
+    {
+      "route": "/codex/",
+      "source": "docs/ASCENSION-CODEX.md",
+      "title": "Ascension Codex",
+      "nav": "Codex",
+      "group": "primary",
+      "order": 70,
+      "surface_recipe": "docs/ASCENSION-CODEX.md"
+    },
+    {
+      "route": "/filed-technical-envelope/",
+      "source": "docs/FILED-TECHNICAL-ENVELOPE.md",
+      "title": "Filed Technical Envelope",
+      "nav": "Filed Envelope",
+      "group": "reference",
+      "order": 100,
+      "surface_recipe": "docs/ARCHITECTURE.md"
+    },
+    {
+      "route": "/visual-system/",
+      "source": "docs/VISUAL-SYSTEM.md",
+      "title": "Visual System",
+      "nav": "Visual System",
+      "group": "reference",
+      "order": 110,
+      "surface_recipe": "assets/UI-ASSET-MAP.md"
+    },
+    {
+      "route": "/patents/",
+      "source": "PATENTS.md",
+      "title": "Patents",
+      "nav": "Patents",
+      "group": "reference",
+      "order": 120,
+      "surface_recipe": "proof/README.md"
+    },
+    {
+      "route": "/commercial-licensing/",
+      "source": "COMMERCIAL-LICENSING.md",
+      "title": "Commercial Licensing",
+      "nav": "Commercial Licensing",
+      "group": "reference",
+      "order": 130,
+      "surface_recipe": "proof/README.md"
+    },
+    {
+      "route": "/license/",
+      "source": "LICENSE.md",
+      "title": "License",
+      "nav": "License",
+      "group": "reference",
+      "order": 140,
+      "surface_recipe": "proof/README.md"
+    },
+    {
+      "route": "/support/",
+      "source": "SUPPORT.md",
+      "title": "Support",
+      "nav": "Support",
+      "group": "reference",
+      "order": 150,
+      "surface_recipe": "README.md"
+    },
+    {
+      "route": "/contributing/",
+      "source": "CONTRIBUTING.md",
+      "title": "Contributing",
+      "nav": "Contributing",
+      "group": "reference",
+      "order": 160,
+      "surface_recipe": "README.md"
+    },
+    {
+      "route": "/assets/",
+      "source": "assets/README.md",
+      "title": "Public Assets",
+      "nav": "Assets",
+      "group": "reference",
+      "order": 170,
+      "surface_recipe": "assets/UI-ASSET-MAP.md"
+    },
+    {
+      "route": "/demos/core/",
+      "source": "demos/core/README.md",
+      "title": "CORE Demo",
+      "nav": "CORE Demo",
+      "group": "reference",
+      "order": 55,
+      "surface_recipe": "demos/README.md"
+    },
+    {
+      "route": "/trademarks/",
+      "source": "TRADEMARKS.md",
+      "title": "Trademarks",
+      "nav": "Trademarks",
+      "group": "reference",
+      "order": 145,
+      "surface_recipe": "proof/README.md"
+    },
+    {
+      "route": "/assets/ui/",
+      "source": "assets/UI-ASSET-MAP.md",
+      "title": "UI Asset Map",
+      "nav": "UI Kit",
+      "group": "reference",
+      "order": 175,
+      "surface_recipe": "assets/UI-ASSET-MAP.md"
+    }
+  ]
+}

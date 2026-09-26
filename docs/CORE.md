@@ -16,6 +16,17 @@
 
 CORE is the generic, replaceable, human-owned runtime environment through which a personal EFI can use ordinary digital and physical systems.
 
+<div align="center">
+
+<img src="../assets/ui/corners/corner-ul.png" alt="CORE boundary corner" width="15%" />
+
+</div>
+<div align="center">
+
+<img src="../assets/ui/corners/corner-ur.png" alt="CORE boundary corner" width="15%" />
+
+</div>
+
 ## CORE is not the intelligence
 
 Personal EFI owns cognition, continuity, meaning, learning, and semantic selection.
@@ -34,6 +45,12 @@ Its job is to expose and realize ordinary capabilities such as:
 - future physical or spatial interfaces.
 
 CORE does not become a second mind merely because those mechanics are powerful.
+
+<div align="center">
+
+<img src="../assets/ui/frames/frame-wide-drip.png" alt="CORE authority frame" width="52%" />
+
+</div>
 
 ## Authority boundary
 
@@ -66,6 +83,12 @@ The mature experience is simple:
 7. preserve same-self continuity across interruption and reopen.
 
 The person should increasingly interact through **intent + EFI + world**, not through the procedural grammar of every application.
+
+<div align="center">
+
+<img src="../assets/ui/dividers/divider-rail-spine.png" alt="CORE proof divider" width="70%" />
+
+</div>
 
 ## Proof frontier
 

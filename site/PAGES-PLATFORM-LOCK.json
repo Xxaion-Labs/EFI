@@ -1,0 +1,14 @@
+{
+  "schema": "efi.pages-platform-lock.v1",
+  "checked_on": "2026-09-26",
+  "github_actions": {
+    "checkout": "actions/checkout@v6",
+    "setup_python": "actions/setup-python@v7",
+    "configure_pages": "actions/configure-pages@v5",
+    "upload_pages_artifact": "actions/upload-pages-artifact@v4",
+    "deploy_pages": "actions/deploy-pages@v4"
+  },
+  "python": "3.13",
+  "python_markdown": "3.11",
+  "notes": "Lock to current verified majors used by the EFI Pages workflow. Update this file only after checking official GitHub/PyPI sources and rerunning the Pages regression court."
+}

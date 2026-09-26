@@ -1,0 +1,496 @@
+{
+  "schema": "efi.atlas-map.v1",
+  "source": "assets/masters/efi-ui-atlas.png",
+  "source_size": [
+    1672,
+    941
+  ],
+  "trim_alpha": true,
+  "padding": 8,
+  "items": [
+    {
+      "id": "divider-rail-primary",
+      "family": "dividers",
+      "box": [
+        15,
+        15,
+        820,
+        103
+      ],
+      "role": "major section rail"
+    },
+    {
+      "id": "divider-rail-orbit",
+      "family": "dividers",
+      "box": [
+        15,
+        98,
+        820,
+        186
+      ],
+      "role": "secondary section rail"
+    },
+    {
+      "id": "divider-rail-split",
+      "family": "dividers",
+      "box": [
+        15,
+        182,
+        820,
+        273
+      ],
+      "role": "split-node divider"
+    },
+    {
+      "id": "divider-rail-spine",
+      "family": "dividers",
+      "box": [
+        15,
+        270,
+        820,
+        389
+      ],
+      "role": "heavy spine divider"
+    },
+    {
+      "id": "header-slice-01",
+      "family": "dividers",
+      "box": [
+        835,
+        20,
+        1205,
+        96
+      ],
+      "role": "compact header rail"
+    },
+    {
+      "id": "header-slice-02",
+      "family": "dividers",
+      "box": [
+        835,
+        94,
+        1205,
+        176
+      ],
+      "role": "compact header rail"
+    },
+    {
+      "id": "header-slice-03",
+      "family": "dividers",
+      "box": [
+        835,
+        174,
+        1205,
+        250
+      ],
+      "role": "compact header rail"
+    },
+    {
+      "id": "header-slice-04",
+      "family": "dividers",
+      "box": [
+        835,
+        248,
+        1205,
+        316
+      ],
+      "role": "compact alert rail"
+    },
+    {
+      "id": "header-slice-05",
+      "family": "dividers",
+      "box": [
+        835,
+        313,
+        1205,
+        392
+      ],
+      "role": "compact header rail"
+    },
+    {
+      "id": "corner-ul",
+      "family": "corners",
+      "box": [
+        1210,
+        18,
+        1432,
+        205
+      ],
+      "role": "upper-left corner bracket"
+    },
+    {
+      "id": "corner-ur",
+      "family": "corners",
+      "box": [
+        1428,
+        18,
+        1668,
+        205
+      ],
+      "role": "upper-right corner bracket"
+    },
+    {
+      "id": "corner-ll",
+      "family": "corners",
+      "box": [
+        1210,
+        190,
+        1435,
+        410
+      ],
+      "role": "lower-left corner bracket"
+    },
+    {
+      "id": "corner-lr",
+      "family": "corners",
+      "box": [
+        1425,
+        190,
+        1668,
+        410
+      ],
+      "role": "lower-right corner bracket"
+    },
+    {
+      "id": "glyph-phi",
+      "family": "glyphs",
+      "box": [
+        0,
+        395,
+        209,
+        620
+      ],
+      "role": "EFI phi/sigil glyph"
+    },
+    {
+      "id": "glyph-reaction",
+      "family": "glyphs",
+      "box": [
+        209,
+        395,
+        418,
+        620
+      ],
+      "role": "reaction/cross glyph"
+    },
+    {
+      "id": "glyph-orbit",
+      "family": "glyphs",
+      "box": [
+        418,
+        395,
+        627,
+        620
+      ],
+      "role": "field orbit glyph"
+    },
+    {
+      "id": "glyph-star",
+      "family": "glyphs",
+      "box": [
+        627,
+        395,
+        836,
+        620
+      ],
+      "role": "field star glyph"
+    },
+    {
+      "id": "glyph-vortex",
+      "family": "glyphs",
+      "box": [
+        836,
+        395,
+        1045,
+        620
+      ],
+      "role": "field vortex glyph"
+    },
+    {
+      "id": "glyph-atom",
+      "family": "glyphs",
+      "box": [
+        1045,
+        395,
+        1254,
+        620
+      ],
+      "role": "orbital atom glyph"
+    },
+    {
+      "id": "glyph-hex",
+      "family": "glyphs",
+      "box": [
+        1254,
+        395,
+        1463,
+        620
+      ],
+      "role": "hex boundary glyph"
+    },
+    {
+      "id": "glyph-triangle",
+      "family": "glyphs",
+      "box": [
+        1463,
+        395,
+        1672,
+        620
+      ],
+      "role": "triangle/star glyph"
+    },
+    {
+      "id": "frame-wide-drip",
+      "family": "frames",
+      "box": [
+        10,
+        615,
+        370,
+        802
+      ],
+      "role": "wide bounded callout frame"
+    },
+    {
+      "id": "frame-wide-bevel",
+      "family": "frames",
+      "box": [
+        365,
+        615,
+        710,
+        802
+      ],
+      "role": "wide beveled callout frame"
+    },
+    {
+      "id": "frame-wide-spine",
+      "family": "frames",
+      "box": [
+        700,
+        615,
+        1007,
+        802
+      ],
+      "role": "wide centered callout frame"
+    },
+    {
+      "id": "ring-node-cluster",
+      "family": "rings",
+      "box": [
+        995,
+        615,
+        1188,
+        802
+      ],
+      "role": "status/node ring"
+    },
+    {
+      "id": "frame-compact",
+      "family": "frames",
+      "box": [
+        1180,
+        615,
+        1415,
+        802
+      ],
+      "role": "compact bounded frame"
+    },
+    {
+      "id": "frame-compact-wide",
+      "family": "frames",
+      "box": [
+        1405,
+        615,
+        1672,
+        802
+      ],
+      "role": "compact wide bounded frame"
+    },
+    {
+      "id": "node-rail-mini",
+      "family": "nodes",
+      "box": [
+        10,
+        795,
+        350,
+        941
+      ],
+      "role": "small node rail"
+    },
+    {
+      "id": "accent-spark-set",
+      "family": "accents",
+      "box": [
+        345,
+        795,
+        525,
+        941
+      ],
+      "role": "spark/accent set"
+    },
+    {
+      "id": "node-color-set",
+      "family": "nodes",
+      "box": [
+        520,
+        795,
+        810,
+        941
+      ],
+      "role": "colored status nodes"
+    },
+    {
+      "id": "ring-arc-set",
+      "family": "rings",
+      "box": [
+        805,
+        795,
+        1245,
+        941
+      ],
+      "role": "ring/arc status set"
+    },
+    {
+      "id": "arrow-chevron-set",
+      "family": "arrows",
+      "box": [
+        1238,
+        795,
+        1428,
+        941
+      ],
+      "role": "progression chevrons"
+    },
+    {
+      "id": "arrow-slash-set",
+      "family": "arrows",
+      "box": [
+        1420,
+        795,
+        1548,
+        941
+      ],
+      "role": "slash progression marks"
+    },
+    {
+      "id": "accent-star-end",
+      "family": "accents",
+      "box": [
+        1538,
+        795,
+        1672,
+        941
+      ],
+      "role": "terminal sparkle accent"
+    },
+    {
+      "id": "accent-diamond-green",
+      "family": "accents",
+      "box": [
+        315,
+        795,
+        410,
+        941
+      ],
+      "role": "green diamond sparkle accent"
+    },
+    {
+      "id": "accent-diamond-magenta",
+      "family": "accents",
+      "box": [
+        405,
+        795,
+        500,
+        941
+      ],
+      "role": "magenta diamond sparkle accent"
+    },
+    {
+      "id": "node-green",
+      "family": "nodes",
+      "box": [
+        515,
+        795,
+        595,
+        941
+      ],
+      "role": "green status node"
+    },
+    {
+      "id": "node-orange",
+      "family": "nodes",
+      "box": [
+        592,
+        795,
+        675,
+        941
+      ],
+      "role": "orange status node"
+    },
+    {
+      "id": "node-violet",
+      "family": "nodes",
+      "box": [
+        672,
+        795,
+        755,
+        941
+      ],
+      "role": "violet status node"
+    },
+    {
+      "id": "ring-orange",
+      "family": "rings",
+      "box": [
+        750,
+        795,
+        840,
+        941
+      ],
+      "role": "orange open status ring"
+    },
+    {
+      "id": "ring-violet-green",
+      "family": "rings",
+      "box": [
+        835,
+        795,
+        930,
+        941
+      ],
+      "role": "violet/green open status ring"
+    },
+    {
+      "id": "ring-orange-green",
+      "family": "rings",
+      "box": [
+        925,
+        795,
+        1028,
+        941
+      ],
+      "role": "orange/green open status ring"
+    },
+    {
+      "id": "ring-green",
+      "family": "rings",
+      "box": [
+        1020,
+        795,
+        1122,
+        941
+      ],
+      "role": "green open status ring"
+    },
+    {
+      "id": "ring-magenta",
+      "family": "rings",
+      "box": [
+        1115,
+        795,
+        1230,
+        941
+      ],
+      "role": "magenta open status ring"
+    }
+  ]
+}
