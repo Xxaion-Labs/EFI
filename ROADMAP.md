@@ -16,7 +16,7 @@ The public roadmap describes **release milestones**, not the private build tree.
 ## NEXT — Proof-linked releases
 
 - publish bounded proof packages with claim, environment, input, observable result, falsifier, and proof boundary;
-- publish the first reproducible NUTS demonstration when the full demo boundary is green;
+- publish the first reproducible CORE demonstration when the full demo boundary is green;
 - release source/build artifacts only with explicit software and patent-license posture;
 - publish reusable failure classes only when they teach a transferable invariant;
 - add platform releases only when their public proof boundary is satisfied.

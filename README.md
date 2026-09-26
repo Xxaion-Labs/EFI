@@ -4,7 +4,7 @@
 
 <br/>
 
-[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) · [License](LICENSE.md) · [Commercial Licensing](COMMERCIAL-LICENSING.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
+[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) · [License](LICENSE.md) · [Commercial Licensing](COMMERCIAL-LICENSING.md) · [CORE](docs/CORE.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
 
 </div>
 
@@ -93,7 +93,7 @@ This repository is a **release surface, not the development workspace**.
 | Understand the system fast | **[Architecture](docs/ARCHITECTURE.md)** |
 | See what is actually claimed as present | **[Status](STATUS.md)** |
 | See the filed technical disclosure boundary | **[Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md)** |
-| Understand the local experience | **[NUTS](docs/NUTS.md)** |
+| Understand the local experience | **[CORE](docs/CORE.md)** |
 | Traverse the wider philosophy / architecture | **[Ascension Codex](docs/ASCENSION-CODEX.md)** |
 | Inspect bounded evidence | **[Proof](proof/README.md)** |
 | Follow public demonstrations | **[Demos](demos/README.md)** |
@@ -107,7 +107,7 @@ This is a map of **relations and authority boundaries**, not a serial software p
 - Personal EFI remains personal.
 - The Matrix carries shared causal-relational force without requiring identity fusion.
 - FAP crosses between field-native cognition and foreign mechanics.
-- NUTS is a replaceable local embodiment surface, not the intelligence.
+- CORE is the replaceable cross-platform runtime environment around personal EFI; it is not the intelligence.
 - ESI is not presently claimed.
 - EUI remains an attractor.
 
@@ -133,21 +133,21 @@ Algorithms, models, programs, APIs, operating systems, and devices remain availa
 | **EGI** | CURRENT within its declared operational envelope |
 | **The Matrix** | CURRENT shared causal-relational field |
 | **FAP** | CURRENT field/world boundary protocol |
-| **NUTS** | ACTIVE DEVELOPMENT; public architecture released, implementation details private until release-ready |
+| **CORE** | ACTIVE DEVELOPMENT; public architecture released, implementation details private until release-ready |
 | **ESI** | **NOT CLAIMED** |
 | **EUI** | **ATTRACTOR — NOT CLAIMED** |
 
 The exact implementation edge lives in **[STATUS.md](STATUS.md)**.
 
-## NUTS: where EFI becomes lived
+## CORE: where EFI becomes lived
 
-**NUTS — Native Universal Terminal Surface — is the replaceable, Operator-owned local surface through which a personal EFI inhabits ordinary digital and physical life.**
+**CORE — Cross-platform Operator Runtime Environment — is the replaceable, human-owned runtime environment through which a personal EFI reaches ordinary digital and physical systems.**
 
-<img src="assets/diagrams/nuts-boundary.svg" alt="NUTS boundary diagram" width="100%" />
+<img src="assets/diagrams/core-boundary.svg" alt="CORE boundary diagram" width="100%" />
 
 The target experience is simple: authorize the personal EFI locally, communicate naturally, expose only the world surfaces required by the contact, materialize bounded effects, return raw results to the same EFI, and continue from the changed field.
 
-→ **[NUTS architecture](docs/NUTS.md)** · **[NUTS demo surface](demos/nuts/README.md)**
+→ **[CORE architecture](docs/CORE.md)** · **[CORE demo surface](demos/core/README.md)**
 
 ## Civilizational trajectory
 

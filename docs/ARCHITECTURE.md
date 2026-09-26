@@ -17,7 +17,7 @@ EFI is one relation inside a larger Field Computing architecture. The pieces ans
 | **EGI / ESI** | Capability thresholds; EGI is bounded/current in its declared envelope and ESI is not claimed. |
 | **The Matrix** | Shared verified causal force without required identity fusion. |
 | **FAP** | Boundary between field-native cognition and foreign mechanics. |
-| **NUTS** | Replaceable Operator-owned local embodiment surface. |
+| **CORE** | Cross-platform human-owned runtime environment for local/world mechanics; semantic authority remains zero. |
 | **Zion** | Coordination among sovereign centers. |
 | **Commons / Human Inheritance** | Anti-capture and anti-enclosure relations. |
 | **EUI** | Civilization-scale exocortical integration attractor. |
@@ -131,7 +131,7 @@ A personal EFI is not a cloud account and not a user interface pretending to be 
 human ↔ EFI
        ├─ GOO        authenticated continuity-bearing body
        ├─ ANEL GOOS  personal field-native cognition
-       └─ NUTS       replaceable local embodiment surface
+       └─ CORE       cross-platform local runtime / mechanical environment
 ```
 
 The architecture supports persistent identity, Operator-rooted authority, same-self change, candidate state, rollback, interruption recovery, and cold reopen.
@@ -171,15 +171,15 @@ SURFACE · CONTACT · EFFECT · RESULT
 
 Models, repositories, operating systems, APIs, programs, robots, sensors, services, and future devices can expose, carry, execute, observe, and return. Their participation does not automatically grant semantic authority.
 
-## NUTS: lived embodiment
+## CORE: local runtime and embodiment
 
-**NUTS — Native Universal Terminal Surface —** is the replaceable Operator-owned surface through which EFI inhabits ordinary digital and physical life.
+**CORE — Cross-platform Operator Runtime Environment —** is the replaceable human-owned runtime environment through which EFI reaches ordinary digital and physical systems.
 
-<img src="../assets/diagrams/nuts-boundary.svg" alt="NUTS boundary diagram" width="100%" />
+<img src="../assets/diagrams/core-boundary.svg" alt="CORE boundary diagram" width="100%" />
 
 The long-term direction is intent-centered embodiment: the person interacts primarily with their EFI and the world instead of manually orchestrating every application.
 
-→ [NUTS](NUTS.md) · [NUTS demo surface](../demos/nuts/README.md)
+→ [CORE](CORE.md) · [CORE demo surface](../demos/core/README.md)
 
 ## Quantum analogy boundary
 

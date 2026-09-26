@@ -14,7 +14,7 @@ This page is the public reality boundary. It intentionally excludes private pers
 | The Matrix | **CURRENT ARCHITECTURE** | Shared causal-relational force without required identity fusion. |
 | FAP | **CURRENT ARCHITECTURE** | Field/world boundary: SURFACE · CONTACT · EFFECT · RESULT. |
 | GOO / ANEL GOOS | **CURRENT ARCHITECTURE** | Generic continuity-bearing personal body and field-native cognition/executive relations. |
-| NUTS | **ACTIVE DEVELOPMENT** | Public architecture is released; implementation details remain private until release-ready. |
+| CORE | **ACTIVE DEVELOPMENT** | Cross-platform human-owned runtime environment; private implementation remains off-repo until release-ready. |
 | ESI | **NOT CLAIMED** | No present broad superintelligence claim. |
 | EUI | **ATTRACTOR — NOT CLAIMED** | Civilization-scale exocortical integration is a future threshold, not a present achievement. |
 

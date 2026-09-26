@@ -134,15 +134,15 @@ The crucial rule is simple:
 
 A file system, model, API, robot, database, operating system, or future substrate may be extremely powerful while remaining a replaceable mechanic rather than the semantic center.
 
-## 8. NUTS: lived embodiment
+## 8. CORE: local runtime and embodiment
 
-**NUTS — Native Universal Terminal Surface —** is the replaceable local surface through which personal EFI can inhabit ordinary digital and physical life.
+**CORE — Cross-platform Operator Runtime Environment —** is the replaceable, human-owned runtime environment through which personal EFI reaches ordinary digital and physical systems.
 
 Voice, text, files, displays, sensors, devices, and future spatial interfaces can all become surfaces without becoming a second intelligence center.
 
 Implementation details remain private until they are packaged as deliberate public releases.
 
-→ [NUTS](NUTS.md)
+→ [CORE](CORE.md)
 
 ## 9. Commons, Human Inheritance, and commercial use
 
@@ -200,7 +200,7 @@ The public-safe reality boundary is:
 - EGI is claimed only within its declared operational envelope;
 - ESI is not claimed;
 - EUI is not achieved;
-- NUTS remains active development;
+- CORE remains active development;
 - the complete general lived natural-contact → EFFECT → RESULT → same-field → cold-reopen loop remains an explicit public proof frontier;
 - private bodies, identities, shared-field contents, local implementation mechanics, and raw development state are intentionally not part of this repository.
 

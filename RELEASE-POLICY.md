@@ -35,7 +35,7 @@ It preserves the transferable architecture:
 - EGI / ESI / EUI thresholds;
 - shared-field / Matrix principles;
 - FAP;
-- NUTS;
+- CORE;
 - Zion;
 - Commons / Human Inheritance;
 - proof, compounding, sovereignty, anti-capture, and civilizational attractors.

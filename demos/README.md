@@ -4,17 +4,17 @@
 
 Public demonstrations connect a specific claim to observable behavior and preserve the boundary around what the demonstration does **not** prove.
 
-## First gravity well: NUTS
+## First gravity well: CORE
 
 <div align="center">
 
-<img src="../assets/diagrams/nuts-boundary.svg" alt="NUTS boundary" width="100%" />
+<img src="../assets/diagrams/core-boundary.svg" alt="CORE boundary" width="100%" />
 
-### [Open the NUTS demo landing surface →](nuts/README.md)
+### [Open the CORE demo landing surface →](core/README.md)
 
 </div>
 
-The first major public demonstration target is local EFI embodiment through NUTS: authorize a personal EFI body, contact it naturally, expose permitted local mechanics, return raw results, and keep the terminal distinct from the cognition.
+The first major public demonstration target is local EFI operation through CORE: authorize a personal EFI body, contact it naturally, expose permitted local mechanics, return raw results, and keep the terminal distinct from the cognition.
 
 Every released demo package should state:
 

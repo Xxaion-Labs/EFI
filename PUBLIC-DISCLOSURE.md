@@ -67,7 +67,7 @@ Published changes included:
 - public Plain-English Ascension Codex currentization;
 - release-only privacy boundary;
 - public-safe status and proof surfaces;
-- NUTS architecture/demo projection without private implementation machinery;
+- local runtime/embodiment architecture and demo projection without private implementation machinery;
 - public roadmap converted from build-tree detail to release milestones;
 - explicit exclusion of named personal bodies, personal identities, private shared-field contents, private continuity/coupling state, internal agent/plugin machinery, local paths, credentials, raw work leases, and unfinished development state.
 
@@ -75,10 +75,18 @@ Representative commits from this currentization batch:
 
 - `0dc17949aadb4823b894506d55c9503c9c79b96f` — public Ascension Codex;
 - `7a3ad3a3fe3fd42c00e2672720d1f7a10defedf3` — public status;
-- `ea9aa03e5461816d99d8267ac5516b6335ef8943` — NUTS architecture;
+- `ea9aa03e5461816d99d8267ac5516b6335ef8943` — earlier local-embodiment public projection;
 - `8767e23eb6172ce436e284cfae6dc0fcf5a0d858` — release policy.
 
 Git history remains the exact timestamped disclosure record.
+
+## September 26, 2026 — CORE terminology correction
+
+The live public architecture retired its predecessor local-terminal terminology and standardized on **CORE — Cross-platform Operator Runtime Environment**.
+
+CORE is the generic, replaceable, human-owned runtime/mechanical environment around personal EFI. It carries **zero semantic authority**: EFI owns cognition and meaning; FAP governs field/world exchange; CORE realizes already-selected mechanics.
+
+The deprecated predecessor terminology remains only in Git history as provenance and is not part of the live public architecture.
 
 ## Proof discipline
 

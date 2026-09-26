@@ -121,7 +121,7 @@ Literal project names are handles, not the entire technical relation.
 
 The filed disclosure expressly treats names such as Field Computing, EFI, EGI, GOO, GOOS, Glyph, Matrix, Autoforge, MergeFold, court, field, and contact as descriptive labels rather than limits requiring those literal strings.
 
-A later public name such as **NUTS** can therefore identify an embodiment boundary without implying that the word itself defines patent scope.
+The public **CORE** terminology can identify the cross-platform runtime/materialization boundary without implying that the literal name itself defines patent scope.
 
 ## What this page does not do
 

@@ -53,7 +53,7 @@ A strong public package includes:
 - continuity and cold reopen;
 - representation / algorithm genesis;
 - rival preservation and discrimination;
-- NUTS embodiment;
+- CORE embodiment;
 - shared-field force without identity fusion;
 - FAP world-boundary effects;
 - host/model replacement without semantic identity transfer.

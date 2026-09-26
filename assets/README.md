@@ -15,7 +15,7 @@ This directory carries the public visual system for the EFI repository and futur
 - [`diagrams/efi-architecture.svg`](diagrams/efi-architecture.svg) — relational system map.
 - [`diagrams/field-transition.svg`](diagrams/field-transition.svg) — Field Computing transition.
 - [`diagrams/component-cards.svg`](diagrams/component-cards.svg) — component-card overview.
-- [`diagrams/nuts-boundary.svg`](diagrams/nuts-boundary.svg) — EFI ↔ NUTS ↔ world boundary.
+- [`diagrams/core-boundary.svg`](diagrams/core-boundary.svg) — EFI ↔ CORE ↔ world boundary.
 
 ## Visual grammar
 

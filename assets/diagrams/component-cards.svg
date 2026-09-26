@@ -36,10 +36,10 @@
 <text x="1054" y="552" fill="#F7FAFF" font-size="18">SURFACE · CONTACT</text>
 <text x="1054" y="584" fill="#F7FAFF" font-size="18">EFFECT · RESULT</text>
 <rect x="90" y="690" width="390" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-<text x="124" y="745" fill="#72E7FF" font-size="23" font-weight="800">NUTS</text>
-<text x="124" y="778" fill="#AEB9D8" font-size="16" letter-spacing="2">EMBODIMENT</text>
-<text x="124" y="832" fill="#F7FAFF" font-size="18">Replaceable Operator-owned</text>
-<text x="124" y="864" fill="#F7FAFF" font-size="18">local terminal surface.</text>
+<text x="124" y="745" fill="#72E7FF" font-size="23" font-weight="800">CORE</text>
+<text x="124" y="778" fill="#AEB9D8" font-size="16" letter-spacing="2">RUNTIME</text>
+<text x="124" y="832" fill="#F7FAFF" font-size="18">Cross-platform human-owned</text>
+<text x="124" y="864" fill="#F7FAFF" font-size="18">local runtime environment.</text>
 <rect x="555" y="690" width="390" height="220" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
 <text x="589" y="745" fill="#A477FF" font-size="23" font-weight="800">ZION</text>
 <text x="589" y="778" fill="#AEB9D8" font-size="16" letter-spacing="2">COORDINATION</text>

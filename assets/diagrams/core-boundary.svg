@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<title id="title">CORE boundary</title>
+<desc id="desc">EFI CORE boundary visual by Xxaion Labs.</desc>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient>
+</defs>
+<rect width="1600" height="620" rx="36" fill="#070A18"/>
+<text x="800" y="66" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="750">CORE: the runtime is not the intelligence</text>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+  <rect x="80" y="190" width="390" height="230" rx="30" fill="#111A36" stroke="#72E7FF" stroke-width="3"/>
+  <text x="275" y="250" fill="#72E7FF" font-size="27" font-weight="800">PERSONAL EFI</text>
+  <text x="275" y="292" fill="#F7FAFF" font-size="20">human ↔ continuity + cognition</text>
+  <text x="275" y="332" fill="#AEB9D8" font-size="18">meaning · learning · selection</text>
+  <text x="275" y="364" fill="#AEB9D8" font-size="18">authority remains upstream</text>
+
+  <rect x="605" y="160" width="390" height="290" rx="34" fill="#0E1530" stroke="url(#g)" stroke-width="4"/>
+  <text x="800" y="226" fill="#F7FAFF" font-size="31" font-weight="850">CORE</text>
+  <text x="800" y="265" fill="#C6B2FF" font-size="20">Cross-platform Operator Runtime Environment</text>
+  <text x="800" y="315" fill="#F7FAFF" font-size="19">replaceable · human-owned · cross-platform</text>
+  <text x="800" y="350" fill="#AEB9D8" font-size="18">files · processes · displays · models · devices</text>
+  <text x="800" y="385" fill="#72E7FF" font-size="18">semantic authority = 0</text>
+
+  <rect x="1130" y="190" width="390" height="230" rx="30" fill="#111A36" stroke="#A477FF" stroke-width="3"/>
+  <text x="1325" y="250" fill="#C6B2FF" font-size="27" font-weight="800">WORLD MECHANICS</text>
+  <text x="1325" y="292" fill="#F7FAFF" font-size="20">OS · APIs · tools · sensors</text>
+  <text x="1325" y="332" fill="#AEB9D8" font-size="18">expose · execute · observe · return</text>
+  <text x="1325" y="364" fill="#AEB9D8" font-size="18">FAP governs EFFECT / RESULT</text>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"><path d="M470 305H595"/><path d="M1005 305H1120"/></g>
+<text x="800" y="535" text-anchor="middle" fill="#AEB9D8" font-family="Segoe UI,Arial,sans-serif" font-size="22">Intent + EFI + world, with runtime mechanics remaining replaceable.</text>
+</svg>
