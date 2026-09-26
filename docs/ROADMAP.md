@@ -46,8 +46,8 @@
 
 ## Long horizon
 
-- Zion coordination surfaces;
-- Commons / Human Inheritance implementation;
+- Zion Commons coordination + stewardship surfaces;
+- Human Inheritance implementation inside Zion Commons;
 - recursive shared-field scaling;
 - measurable research toward the EUI attractor.
 
