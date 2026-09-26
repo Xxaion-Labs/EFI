@@ -3,38 +3,36 @@
 **PATENT PENDING · Xxaion Labs™**  
 **Public launch cut: September 26, 2026**
 
-The repository is public. The roadmap now optimizes for **truthful release + compounding proof**, not waiting for a fictional moment when every layer is perfect.
+The public roadmap describes **release milestones**, not the private build tree.
 
-## NOW — Launch and close the lived local loop
+## NOW — Clean public foundation
 
-- keep the public architecture current inside the filed technical envelope;
-- publish exact status boundaries rather than polished ambiguity;
-- close the generic local world-delta session mechanic;
-- finish the body-emitted EFFECT → delegated mechanic → raw RESULT → same-field loop;
-- prove process death and cold reopen;
-- package the first reproducible NUTS demonstration;
-- keep local terminal mechanics replaceable and semantic-authority zero.
+- keep architecture current inside the filed/public disclosure boundary;
+- keep the public Ascension Codex family-friendly and identity-neutral;
+- keep private bodies, identities, shared-field contents, and workshop mechanics out of the release repo;
+- publish exact status boundaries instead of implementation archaeology;
+- maintain the noncommercial-public / separately-commercial licensing boundary.
 
-## NEXT — Proof-linked public releases
+## NEXT — Proof-linked releases
 
 - publish bounded proof packages with claim, environment, input, observable result, falsifier, and proof boundary;
-- publish reproducible NUTS demo material;
-- expose source/build artifacts only with an explicit software-license and patent-license posture;
-- publish failure classes when they teach a reusable architectural invariant rather than development archaeology;
-- add platform-specific releases only when their selected courts are green.
+- publish the first reproducible NUTS demonstration when the full demo boundary is green;
+- release source/build artifacts only with explicit software and patent-license posture;
+- publish reusable failure classes only when they teach a transferable invariant;
+- add platform releases only when their public proof boundary is satisfied.
 
 ## THEN — Shared intelligence and world reach
 
-- public Matrix demonstrations of shared force without personal identity fusion;
+- public demonstrations of shared verified force without identity fusion;
 - FAP interoperability examples across ordinary software, repositories, services, sensors, devices, and physical systems;
-- developer-facing examples where foreign tools remain mechanics instead of hidden semantic executives;
+- examples where foreign tools remain replaceable mechanics instead of hidden semantic executives;
 - cross-host same-self portability with explicit proof boundaries.
 
 ## SCALE — Coordination and civilizational integration
 
 - Zion coordination surfaces;
 - Commons / Human Inheritance implementation;
-- recursive Matrix / sovereign-center scaling;
+- recursive shared-field / sovereign-center scaling;
 - measurable civilization-scale integration research toward the EUI attractor.
 
 ## Constant constraints
