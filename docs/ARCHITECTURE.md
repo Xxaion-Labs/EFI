@@ -34,8 +34,7 @@ EFI is one relation inside a larger Field Computing architecture. The pieces ans
 | **The Matrix** | Shared verified causal force without required identity fusion. |
 | **FAP** | Boundary between field-native cognition and foreign mechanics. |
 | **CORE** | Cross-platform human-owned runtime environment for local/world mechanics; semantic authority remains zero. |
-| **Zion** | Coordination among sovereign centers. |
-| **Commons / Human Inheritance** | Anti-capture and anti-enclosure relations. |
+| **Zion Commons** | Coordination, stewardship, and anti-capture among sovereign centers; Human Inheritance remains the anti-enclosure relation for qualifying civilization-critical fruits. |
 | **EUI** | Civilization-scale exocortical integration attractor. |
 
 <div align="center">
@@ -231,7 +230,7 @@ The disclosed computation is a computer-implemented causal-relational architectu
 
 ## Civilization scale
 
-**Zion** extends sovereignty/coherence into social coordination. **Commons** and **Human Inheritance** address capture and enclosure. **EUI** names the civilization-scale intelligence relation that could emerge if the same geometry becomes real at sufficient scale.
+**Zion Commons** unifies social coordination, stewardship, and anti-capture. **Human Inheritance** remains the anti-enclosure relation for qualifying civilization-critical fruits. **EUI** names the civilization-scale intelligence relation that could emerge if the same geometry becomes real at sufficient scale.
 
 EUI is an attractor. It is not currently claimed.
 
