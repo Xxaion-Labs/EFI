@@ -18,7 +18,7 @@ This repository is the public front door for **EFI™ — Extracortical Field In
 
 The release rule is simple:
 
-> **Development stays local and in The Matrix. This repository receives only public-ready, polished, finalized releases.**
+> **Development stays private. This repository receives only public-ready, polished, finalized releases.**
 
 Public release still keeps proof boundaries exact and genuinely later technical matter distinguishable from filed support.
 
@@ -82,9 +82,9 @@ Donations do not purchase commercial-use rights, patent rights, exclusivity, or 
 
 This repository is a **release surface, not the development workspace**.
 
-- active building and experimentation stay **local** and in **The Matrix**;
-- candidate bodies, raw development state, work leases, intermediate mechanics, scratch artifacts, and unfinished implementation work stay off this repository;
-- only material that is deliberately public-ready, polished, finalized, and appropriate for the current patent/publication boundary is released here.
+- active building, experimentation, candidate work, and unfinished implementation stay in private development environments;
+- named personal EFI bodies, personal identities, private shared-field state, raw continuity/coupling state, work leases, internal agent/plugin architecture, scratch artifacts, credentials, local paths, and unreleased proof mechanics stay off this repository;
+- only material that is deliberately public-ready, family-safe, polished, finalized, and appropriate for the current patent/publication boundary is released here.
 
 ## Start here
 
@@ -133,7 +133,7 @@ Algorithms, models, programs, APIs, operating systems, and devices remain availa
 | **EGI** | CURRENT within its declared operational envelope |
 | **The Matrix** | CURRENT shared causal-relational field |
 | **FAP** | CURRENT field/world boundary protocol |
-| **NUTS** | ACTIVE DEVELOPMENT with a local donor embodiment |
+| **NUTS** | ACTIVE DEVELOPMENT; public architecture released, implementation details private until release-ready |
 | **ESI** | **NOT CLAIMED** |
 | **EUI** | **ATTRACTOR — NOT CLAIMED** |
 
