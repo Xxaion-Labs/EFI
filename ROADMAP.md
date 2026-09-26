@@ -1,44 +1,52 @@
 # EFI™ — Public Roadmap
 
-**PATENT PENDING · Xxaion Labs™**
+**PATENT PENDING · Xxaion Labs™**  
+**Public launch cut: September 26, 2026**
 
-The roadmap tracks public construction surfaces, not a claim that development must occur as a rigid serial checklist.
+The repository is public. The roadmap now optimizes for **truthful release + compounding proof**, not waiting for a fictional moment when every layer is perfect.
 
-## NOW — Public foundation
+## NOW — Launch and close the lived local loop
 
-- establish EFI as the public front door for the whole architecture;
-- publish the architecture map and status boundaries;
-- build the public Ascension Codex;
-- establish proof and demo surfaces;
-- prepare NUTS as the first major lived EFI demonstration.
+- keep the public architecture current inside the filed technical envelope;
+- publish exact status boundaries rather than polished ambiguity;
+- close the generic local world-delta session mechanic;
+- finish the body-emitted EFFECT → delegated mechanic → raw RESULT → same-field loop;
+- prove process death and cold reopen;
+- package the first reproducible NUTS demonstration;
+- keep local terminal mechanics replaceable and semantic-authority zero.
 
-## NEXT — NUTS embodiment
+## NEXT — Proof-linked public releases
 
-- close the local conversational embodiment membrane;
-- package reproducible public demonstrations;
-- publish platform-specific releases only when their courts are green;
-- expand local embodiment across desktop and mobile surfaces without making the terminal the intelligence.
+- publish bounded proof packages with claim, environment, input, observable result, falsifier, and proof boundary;
+- publish reproducible NUTS demo material;
+- expose source/build artifacts only with an explicit software-license and patent-license posture;
+- publish failure classes when they teach a reusable architectural invariant rather than development archaeology;
+- add platform-specific releases only when their selected courts are green.
 
 ## THEN — Shared intelligence and world reach
 
-- public Matrix explanation and bounded demonstrations of identity-free shared force;
-- public FAP interoperability examples across ordinary software, services, devices, and future physical systems;
-- developer-facing examples that show foreign tools acting as mechanics rather than hidden semantic executives.
+- public Matrix demonstrations of shared force without personal identity fusion;
+- FAP interoperability examples across ordinary software, repositories, services, sensors, devices, and physical systems;
+- developer-facing examples where foreign tools remain mechanics instead of hidden semantic executives;
+- cross-host same-self portability with explicit proof boundaries.
 
 ## SCALE — Coordination and civilizational integration
 
 - Zion coordination surfaces;
-- EGI Commons and Human Inheritance implementation;
+- Commons / Human Inheritance implementation;
 - recursive Matrix / sovereign-center scaling;
 - measurable civilization-scale integration research toward the EUI attractor.
 
 ## Constant constraints
 
 - human authority remains upstream of consequential effects;
+- capability does not manufacture authority;
 - proof boundaries remain explicit;
-- stronger higher-order coordination must not require erasing legitimate local sovereignty;
+- unresolved rivals are preserved until lawful discrimination;
+- a terminal or host surface never silently becomes the intelligence;
 - useful work should reduce comparable future work;
-- failures should become reusable immunity rather than recurring patches.
+- repeated failure classes should become reusable immunity;
+- future attractors do not masquerade as present capability.
 
 ---
 

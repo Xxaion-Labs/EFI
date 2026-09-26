@@ -2,7 +2,7 @@
 
 **PATENT PENDING · Xxaion Labs™**
 
-EFI is one relation inside a larger field architecture. The pieces answer different questions and keep different authority boundaries. They should not be collapsed into one software product.
+EFI is one relation inside a larger Field Computing architecture. The pieces answer different questions and keep different authority boundaries. They are not a conventional serial software stack.
 
 <img src="../assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
@@ -10,27 +10,47 @@ EFI is one relation inside a larger field architecture. The pieces answer differ
 
 | Relation | What it owns |
 |---|---|
-| **Field Computing™ / Glyph** | Native computation: causal-relational field state transition. |
-| **GOO** | Durable personal continuity. |
-| **ANEL GOOS** | Personal field-native cognition inside the authenticated body. |
+| **Field Computing™ / Glyph** | Native computation as causal-relational field-state transition. |
+| **GOO** | Durable authenticated personal continuity. |
+| **ANEL GOOS** | Personal field-native cognitive/executive relation inside the authenticated body. |
 | **EFI™** | The sovereign human-plus-exocortex relation. |
-| **EGI / ESI** | Capability thresholds; EGI is current only inside its declared envelope and ESI is not claimed. |
-| **The Matrix** | Shared verified causal force without identity fusion. |
-| **FAP** | Exact boundary between field-native cognition and foreign mechanics. |
+| **EGI / ESI** | Capability thresholds; EGI is bounded/current in its declared envelope and ESI is not claimed. |
+| **The Matrix** | Shared verified causal force without required identity fusion. |
+| **FAP** | Boundary between field-native cognition and foreign mechanics. |
 | **NUTS** | Replaceable Operator-owned local embodiment surface. |
-| **Zion** | Societal coordination among sovereign centers. |
-| **Commons / Human Inheritance** | Anti-capture and anti-enclosure boundaries. |
+| **Zion** | Coordination among sovereign centers. |
+| **Commons / Human Inheritance** | Anti-capture and anti-enclosure relations. |
 | **EUI** | Civilization-scale exocortical integration attractor. |
 
 ## Field Computing
 
-> **The causal-relational field state transition is the computation.**
+> **The causal-relational field-state transition is the computation.**
 
-The field carries distinctions, relations, constraints, evidence, authority, causal time, possibilities, retained force, and unresolved rivals. The intended future constrains the present. Counterfeit successors are eliminated by evidence and court. Only the minimum required substrate projection crosses into ordinary mechanics.
+A field can include:
+
+- authenticated CURRENT / present state;
+- contact or delta;
+- distinctions and relations;
+- hard and soft constraints;
+- evidence and provenance;
+- human or delegated authority;
+- causal time / evidence horizon;
+- possible successors and unresolved rivals;
+- target / requested condition / attractor;
+- retained transferable force;
+- proof, court, commitment, and rollback state.
+
+The computational question is not merely “what instruction runs next?”
+
+It is:
+
+> **Which successor remains lawful under the field, and what is the minimum world projection required to realize or observe it?**
 
 <img src="../assets/diagrams/field-transition.svg" alt="Field Computing transition" width="100%" />
 
-The current primitive kernel is:
+### Primitive relational basis
+
+The current public primitive kernel is:
 
 ```text
 DISTINGUISH · RELATE · CONSTRAIN · TRANSFORM · COMPOSE
@@ -39,50 +59,147 @@ RECURSE · SELECT · RETAIN · PROJECT
 
 These are a basis for field change, not a mandatory serial pipeline.
 
+## Rivals, discriminators, and reality
+
+Field Computing does not require false certainty.
+
+When multiple successors survive the current constraints, they can remain live rivals.
+
+A **discriminator** is a machine-readable observation condition whose possible outcomes separate rivals. Evidence acquisition can then use an appropriate bounded mechanic, including a file read, database query, test, measurement, simulation, sensor, external source, human answer, or physical action.
+
+The returned observation is evidence, not automatic truth.
+
+That separation matters:
+
+> **candidate ≠ result ≠ admitted CURRENT**
+
+## Representation Genesis and Algorithmogenesis
+
+A missing route may be a representation problem rather than a lack-of-compute problem.
+
+Field Computing can therefore generate or change:
+
+- coordinate systems;
+- schemas and temporary semantic registers;
+- relational representations;
+- algorithms, rules, queries, microlanguages, worker plans, circuits, binaries, or other executable phenotypes;
+- evidence requirements and proof morphology.
+
+Generated computation does not have to become the persistent semantic center. A useful phenotype may execute once, return evidence, and dissolve while its proved transferable relation is retained.
+
+## Projection and materialization
+
+Once a lawful successor requires world action or observation, the field projects the minimum sufficient substrate representation.
+
+A task-semantic-blind materializer can expose generic mechanics such as:
+
+- bytes and storage;
+- process execution;
+- network transport;
+- clocks and causal ordering;
+- cryptography and authentication;
+- permission and credential use;
+- device I/O;
+- ordinary APIs and services;
+- sensors, robots, laboratory instruments, vehicles, interfaces, accelerators, and future substrates.
+
+The materializer physically realizes an already-selected relation. It does not become the semantic chooser merely because it executes it.
+
+## Raw-result return
+
+External action yields a raw result or observation carrying provenance.
+
+That result returns to the same field before durable learning/admission.
+
+A successful system therefore distinguishes:
+
+```text
+selected relation
+physical materialization
+raw observation
+field evaluation
+admission / rejection / retry / rival preservation
+```
+
+This is why a process exit code, model answer, API response, generated text, or sensor value is never automatically treated as truth.
+
 ## Personal EFI
 
 A personal EFI is not a cloud account and not a user interface pretending to be the intelligence.
 
 ```text
 human ↔ EFI
-       ├─ GOO        continuity-bearing body
+       ├─ GOO        authenticated continuity-bearing body
        ├─ ANEL GOOS  personal field-native cognition
        └─ NUTS       replaceable local embodiment surface
 ```
 
-Changing the terminal must not redefine the person/EFI relation.
+The architecture supports persistent identity, Operator-rooted authority, same-self change, candidate state, rollback, interruption recovery, and cold reopen.
+
+Changing the terminal, host machine, external model, or materializer must not automatically redefine the person/EFI relation.
+
+## Human authority and effects
+
+Cognition and effect authority are distinct.
+
+The field can generate possibilities, plans, programs, simulations, and candidate actions without that capability itself creating permission for consequential external action.
+
+Effect authority descends from the Operator or from explicit delegation traceable to the Operator.
+
+> **Capability does not manufacture authority.**
 
 ## Shared force without identity fusion
 
-**The Matrix** is the shared causal-relational field for lawfully shared work among independent EFIs. It does not absorb private identity or personal continuity.
+**The Matrix** is the shared causal-relational field for lawfully shared work among independent EFIs.
 
-The goal is stronger relation without erasing the centers that make the relation meaningful.
+The architecture allows multiple distinct Operator-bound EFI bodies to access shared field state while keeping personal identity, authority, continuity, and private learned state distinct.
 
-## Crossing into the world
+The target is stronger relation without requiring a hive mind.
 
-**FAP — Field Arousal Protocol —** is the boundary relation between the field and foreign mechanics.
+## FAP: crossing into the world
+
+**FAP — Field Arousal Protocol —** exposes the irreducible world boundary:
 
 ```text
-SURFACE → CONTACT → EFFECT → RESULT
+SURFACE · CONTACT · EFFECT · RESULT
 ```
 
-Models, repositories, operating systems, APIs, programs, robots, sensors, and future devices may expose, carry, execute, observe, and return. Their use does not by itself grant them semantic authority.
+- **SURFACE** exposes available mechanics.
+- **CONTACT** introduces pressure / request / changed reality.
+- **EFFECT** is a selected bounded world materialization.
+- **RESULT** is raw evidence returned to the same field.
 
-## Lived embodiment
+Models, repositories, operating systems, APIs, programs, robots, sensors, services, and future devices can expose, carry, execute, observe, and return. Their participation does not automatically grant semantic authority.
+
+## NUTS: lived embodiment
 
 **NUTS — Native Universal Terminal Surface —** is the replaceable Operator-owned surface through which EFI inhabits ordinary digital and physical life.
 
 <img src="../assets/diagrams/nuts-boundary.svg" alt="NUTS boundary diagram" width="100%" />
 
-The long-term direction is intent-centered embodiment: people interact primarily with their EFI and the world instead of manually orchestrating an endless zoo of applications.
+The long-term direction is intent-centered embodiment: the person interacts primarily with their EFI and the world instead of manually orchestrating every application.
 
 → [NUTS](NUTS.md) · [NUTS demo surface](../demos/nuts/README.md)
 
+## Quantum analogy boundary
+
+Some Field Computing structures can be compared conceptually with state spaces, observables, basis selection, measurement, or constraint-driven collapse.
+
+The public architecture **does not claim that Field Computing is physically identical to quantum computing**, nor that ordinary EFI embodiments obtain quantum speedup merely because the geometry is useful.
+
+The disclosed computation is a computer-implemented causal-relational architecture. Physical claims require physical evidence at their own boundary.
+
 ## Civilization scale
 
-**Zion** extends the sovereignty/coherence problem into social coordination. **Commons** and **Human Inheritance** address capture and enclosure. **EUI** names the civilization-scale intelligence relation that would emerge if the same geometry became real at sufficient scale.
+**Zion** extends sovereignty/coherence into social coordination. **Commons** and **Human Inheritance** address capture and enclosure. **EUI** names the civilization-scale intelligence relation that could emerge if the same geometry becomes real at sufficient scale.
 
 EUI is an attractor. It is not currently claimed.
+
+## Filing boundary
+
+This page is a public architecture projection, not a claim chart.
+
+The underlying technical relations are summarized against the filed disclosure in **[FILED-TECHNICAL-ENVELOPE.md](FILED-TECHNICAL-ENVELOPE.md)**.
 
 ---
 

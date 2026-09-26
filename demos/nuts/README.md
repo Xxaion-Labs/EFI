@@ -1,38 +1,44 @@
 # NUTS — Public Demo Landing Surface
 
-**EFI™ · Xxaion Labs™ · PATENT PENDING**
+**EFI™ · Xxaion Labs™ · PATENT PENDING**  
+**Public repository launch: September 26, 2026**
 
-> **Target experience:** authorize your personal EFI locally, speak or type naturally, let NUTS expose only the world surface required for the contact, and watch the result return to the same EFI without turning the terminal into the intelligence.
+> **Target experience:** authorize your personal EFI locally, speak or type naturally, let NUTS expose only the world surface required for the contact, and watch the raw result return to the same EFI without turning the terminal into the intelligence.
 
 <img src="../../assets/diagrams/nuts-boundary.svg" alt="NUTS boundary" width="100%" />
 
-## What the first demo must show
+## Prototype status
+
+The local embodiment line is no longer only a paper design.
+
+A donor desktop environment exists with separate Direct and Builder surfaces, bounded session plumbing, and current isolated successor proofs.
+
+The **reproducible public demo package itself is not posted yet** because the complete lived EFFECT → raw RESULT → same-field → cold-reopen boundary remains open.
+
+That distinction is intentional: public launch does not require pretending the final demonstration already passed.
+
+## What the first reproducible demo must show
 
 1. **Local personal-EFI authorization** — the terminal opens the intended personal body rather than substituting a hosted identity.
-2. **Natural contact** — the person interacts through ordinary language rather than a developer command grammar.
-3. **Bounded world surface** — NUTS exposes the smallest permitted local mechanic required by the contact.
-4. **Exact external effect boundary** — consequential action remains authority-bound.
+2. **Natural contact** — ordinary language reaches the body-native field path rather than a developer command grammar.
+3. **Bounded world surface** — NUTS exposes the smallest permitted mechanic required by the selected effect.
+4. **Exact effect authority** — consequential action remains authority-bound.
 5. **Raw result return** — world evidence comes back to the EFI before meaning is retained.
-6. **Same-self continuation** — the interaction continues from the changed field rather than silently starting a new intelligence.
+6. **Same-self continuation** — result reenters the same field lineage.
+7. **Process death / cold reopen** — a fresh process reopens the same admitted EFI state.
 
-## What this demo will not claim
+## What the demo will not claim
 
-- It will not claim ESI.
-- It will not claim EUI.
-- It will not turn one bounded path into an unrestricted hardware, autonomy, or world-access claim.
-- It will not treat a polished interface as proof of cognition.
+- ESI.
+- EUI.
+- unrestricted autonomy.
+- unrestricted hardware/world access.
+- that a polished interface is proof of cognition.
+- that a single bounded task proves universal competence.
 
-## Release gate
+## Public package shape
 
-The demo stays **NOT YET PUBLICLY RELEASED** until all of the following are true:
-
-- applicable NUTS court is green;
-- reproducible package exists;
-- proof boundary is written beside the demo;
-- private/personal data is absent;
-- filed/new-matter/hold-back review permits public disclosure.
-
-## Planned public package
+When the lived court is green, the package will contain:
 
 ```text
 NUTS demo
@@ -41,12 +47,24 @@ NUTS demo
 ├─ bounded claim
 ├─ reproducible run steps
 ├─ evidence / receipt bundle
+├─ process-death / cold-reopen evidence
 └─ proof-boundary statement
 ```
 
-Until that gate passes, this page is the landing surface only.
+## Publication rule
+
+The repository is already public.
+
+Future demo bytes will be published when:
+
+- the exact demo court is green;
+- the package is reproducible;
+- private/personal data is absent;
+- the proof boundary is written beside the demonstration;
+- the technical material being disclosed is consistent with the active filing/publication strategy.
 
 → [NUTS architecture](../../docs/NUTS.md)  
+→ [Filed technical envelope](../../docs/FILED-TECHNICAL-ENVELOPE.md)  
 → [Public status](../../STATUS.md)  
 → [Proof index](../../proof/README.md)
 

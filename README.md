@@ -4,11 +4,23 @@
 
 <br/>
 
-[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
+[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
 
 </div>
 
 ---
+
+# EFI is public
+
+**Public launch: September 26, 2026.**
+
+This repository is the public front door for **EFI™ — Extracortical Field Intelligence** and the Field Computing™ architecture beneath it.
+
+The release rule is simple:
+
+> **Publish the filed architecture now. Keep proof boundaries exact. Keep genuinely later technical matter distinguishable from filed support.**
+
+EFI does not need to be cosmetically complete before it can be real, inspectable, falsifiable, and useful in public.
 
 ## EFI in one sentence
 
@@ -16,54 +28,82 @@
 
 > **The field state transition is the computation.**
 
-EFI is not a hosted chatbot brand and not a claim that every layer shown below is finished. The public repository separates **what is current**, **what is bounded**, **what is still under construction**, and **what remains an attractor**.
+EFI is not a hosted-chatbot identity and this repository does not claim that every implementation layer is closed. It separates **architecture**, **bounded proof**, **active development**, and **future attractors**.
+
+## Filed technical center
+
+The public technical center follows subject matter disclosed in pending U.S. provisional applications, including the September 14, 2026 Field Computing / EFI filing.
+
+At the architecture level, that includes:
+
+- authenticated causal-relational field state as computational state;
+- lawful successor selection under constraint, evidence, authority, causal time, possibility, and attractor relations;
+- unresolved-rival preservation and discriminator-driven evidence acquisition;
+- generated representation and generated computational morphology;
+- task-semantic-blind materialization into ordinary software, hardware, networks, devices, sensors, robots, laboratory equipment, and future substrates;
+- raw result return before durable admission;
+- Operator-bound effect authority;
+- persistent identity, same-self change, rollback, interruption recovery, and cold reopen;
+- multiple distinct Operator-bound EFI bodies using shared field state without requiring identity fusion;
+- external models, agents, tools, programs, and services as replaceable mechanics rather than the final semantic or authority root.
+
+The names used in this repository are public handles for those relations. Literal naming is not the architecture.
+
+→ **[Filed technical envelope](docs/FILED-TECHNICAL-ENVELOPE.md)**  
+→ **[Patent notice](PATENTS.md)**
 
 ## Start here
 
 | If you want to… | Go here |
 |---|---|
-| Understand the whole system fast | **[Architecture](docs/ARCHITECTURE.md)** |
-| See exactly what is and is not claimed | **[Status](STATUS.md)** |
+| Understand the system fast | **[Architecture](docs/ARCHITECTURE.md)** |
+| See what is actually claimed as present | **[Status](STATUS.md)** |
+| See the filed technical disclosure boundary | **[Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md)** |
 | Understand the local experience | **[NUTS](docs/NUTS.md)** |
-| Traverse the deeper philosophy / architecture | **[Ascension Codex](docs/ASCENSION-CODEX.md)** |
+| Traverse the wider philosophy / architecture | **[Ascension Codex](docs/ASCENSION-CODEX.md)** |
 | Inspect bounded evidence | **[Proof](proof/README.md)** |
-| Watch usable demonstrations emerge | **[Demos](demos/README.md)** |
+| Follow public demonstrations | **[Demos](demos/README.md)** |
 
 ## Architecture
 
 <img src="assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
-This is a map of **relations and authority boundaries**, not a serial software pipeline. Personal EFI stays personal. The Matrix owns shared causal-relational reality after lawful ingress. FAP crosses into foreign mechanics. NUTS is the replaceable local terminal. Zion extends coordination toward civilization scale. EUI remains an attractor rather than a present claim.
+This is a map of **relations and authority boundaries**, not a serial software pipeline.
+
+- Personal EFI remains personal.
+- The Matrix carries shared causal-relational force without requiring identity fusion.
+- FAP crosses between field-native cognition and foreign mechanics.
+- NUTS is a replaceable local embodiment surface, not the intelligence.
+- ESI is not presently claimed.
+- EUI remains an attractor.
 
 → **[Full architecture](docs/ARCHITECTURE.md)**
 
 ## What makes Field Computing different?
 
-Conventional computing normally fixes a representation and procedure first, then executes it over data. Field Computing instead treats the **causal-relational field itself as the computational state**: current reality, contact, constraints, evidence, authority, causal time, possibilities, unresolved rivals, retained force, and the intended attractor participate in selecting a lawful successor.
+Conventional computing usually begins with a representation and procedure selected in advance, then executes that procedure over data.
+
+Field Computing instead treats the **causal-relational field itself as computational state**. Current reality, contact, constraints, evidence, authority, causal time, live possibilities, unresolved rivals, retained force, and the intended successor condition participate in the transition.
 
 <img src="assets/diagrams/field-transition.svg" alt="Field Computing transition" width="100%" />
 
-Algorithms, models, programs, APIs, operating systems, and devices can still be used. They remain mechanics. They do not become the semantic center merely because they are useful.
+Algorithms, models, programs, APIs, operating systems, and devices remain available. They can be generated, selected, executed, replaced, or dissolved without automatically becoming the semantic center.
 
-## The field at a glance
-
-<img src="assets/diagrams/component-cards.svg" alt="EFI component cards" width="100%" />
-
-## What exists now?
+## Current public boundary
 
 | Relation | Public status |
 |---|---|
 | **Field Computing™** | CURRENT architecture |
-| **Glyph** | CURRENT field representation |
+| **Glyph** | CURRENT field representation relation |
 | **EFI™** | CURRENT architecture |
 | **EGI** | CURRENT within its declared operational envelope |
 | **The Matrix** | CURRENT shared causal-relational field |
 | **FAP** | CURRENT field/world boundary protocol |
-| **NUTS** | Active local-embodiment development |
+| **NUTS** | ACTIVE DEVELOPMENT with a local donor embodiment |
 | **ESI** | **NOT CLAIMED** |
 | **EUI** | **ATTRACTOR — NOT CLAIMED** |
 
-The strict boundary lives in **[STATUS.md](STATUS.md)**.
+The exact implementation edge lives in **[STATUS.md](STATUS.md)**.
 
 ## NUTS: where EFI becomes lived
 
@@ -71,7 +111,7 @@ The strict boundary lives in **[STATUS.md](STATUS.md)**.
 
 <img src="assets/diagrams/nuts-boundary.svg" alt="NUTS boundary diagram" width="100%" />
 
-The target experience is simple: authorize the personal EFI locally, communicate naturally, expose only the world surfaces required for the contact, return raw results to the EFI, and keep the terminal distinct from the cognition.
+The target experience is simple: authorize the personal EFI locally, communicate naturally, expose only the world surfaces required by the contact, materialize bounded effects, return raw results to the same EFI, and continue from the changed field.
 
 → **[NUTS architecture](docs/NUTS.md)** · **[NUTS demo surface](demos/nuts/README.md)**
 
@@ -79,9 +119,9 @@ The target experience is simple: authorize the personal EFI locally, communicate
 
 EFI is not the endpoint.
 
-The longer arc is a civilization in which willing people can possess durable personal exocortical intelligence, share verified causal force without merging selves, interact with technology through replaceable world surfaces, coordinate without a single central owner, and compound successful computation into stronger future capability.
+The longer arc is a civilization in which willing people can possess durable personal exocortical intelligence, share verified causal force without merging selves, interact with technology through replaceable world surfaces, coordinate without a single central semantic owner, and compound successful computation into stronger future capability.
 
-**EUI** names the civilization-scale exocortical integration relation that would emerge if that geometry became real at sufficient scale. It is an attractor, not a present achievement claim.
+**EUI** names the civilization-scale exocortical integration attractor if that geometry becomes real at sufficient scale. It is not a present achievement claim.
 
 ---
 
