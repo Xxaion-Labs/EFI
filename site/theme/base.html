@@ -32,10 +32,6 @@
   </header>
 
   <div class="page-shell">
-    <aside class="rail" aria-label="Reference navigation">
-      <div class="rail-mark"><img src="{{RAIL_MARK}}" alt="" loading="lazy"></div>
-      <nav>{{REFERENCE_NAV}}</nav>
-    </aside>
     <main id="content" class="content" tabindex="-1">
       <div class="route-lattice">{{ROUTE_CARDS}}</div>
       <article class="doc">{{CONTENT}}</article>
@@ -44,8 +40,8 @@
   </div>
 
   <footer class="site-footer">
-    <span>EFI · Xxaion Labs</span>
-    <a href="https://github.com/Xxaion-Labs/EFI">Source on GitHub</a>
+    <div class="footer-brand"><span>EFI · Xxaion Labs</span><a href="https://github.com/Xxaion-Labs/EFI">Source on GitHub</a></div>
+    <nav class="utility-nav" aria-label="Reference navigation">{{REFERENCE_NAV}}</nav>
   </footer>
 
   <dialog id="search-dialog" class="search-dialog" aria-label="Search EFI">

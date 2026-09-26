@@ -25,8 +25,8 @@
     "radius_sm_px": 8,
     "radius_md_px": 14,
     "radius_lg_px": 22,
-    "content_max_px": 1220,
-    "reading_max_px": 920,
+    "content_max_px": 1440,
+    "reading_max_px": 1080,
     "border_px": 1
   },
   "motion": {

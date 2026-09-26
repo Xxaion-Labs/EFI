@@ -1,0 +1,332 @@
+{
+  "schema": "efi.visual-grammar.v1",
+  "authority": "single-source-of-visual-composition-truth",
+  "objective": "Turn EFI assets into a reusable semantic UI language across repository surfaces and the generated GitHub Pages projection. Assets express structure, hierarchy, relation, state, progression, and emphasis rather than acting as decorative stickers.",
+  "global_laws": [
+    "every_asset_must_have_a_job",
+    "frames_contain_content",
+    "no_random_asset_placement",
+    "controlled_variation_required",
+    "clarity_over_decoration",
+    "reuse_before_generation",
+    "semantic_role_selects_visual_role",
+    "github_pages_uses_full_system",
+    "github_readme_uses_reduced_system",
+    "top_navigation_is_primary",
+    "left_sidebar_is_forbidden"
+  ],
+  "surface_modes": {
+    "github_readme": {
+      "mode": "reduced",
+      "allow": [
+        "hero_images",
+        "markdown_safe_asset_blocks",
+        "simple_tables",
+        "high_signal_dividers",
+        "limited_identity_marks"
+      ],
+      "disallow": [
+        "complex_css_components",
+        "deep_layout_assembly",
+        "decorative_asset_spam"
+      ]
+    },
+    "github_pages": {
+      "mode": "full",
+      "allow": [
+        "semantic_frame_containers",
+        "marker_lists",
+        "frame_rotation",
+        "route_card_variants",
+        "full_css_layout",
+        "top_navigation",
+        "search"
+      ],
+      "disallow": [
+        "left_sidebar",
+        "random_rotation",
+        "whole_atlas_decoration"
+      ]
+    }
+  },
+  "asset_roles": {
+    "frames": {
+      "intro": [
+        "assets/ui/frames/frame-compact-wide.png",
+        "assets/ui/frames/frame-wide-spine.png"
+      ],
+      "technical": [
+        "assets/ui/frames/frame-wide-bevel.png",
+        "assets/ui/frames/frame-wide-spine.png",
+        "assets/ui/frames/frame-compact.png"
+      ],
+      "proof": [
+        "assets/ui/frames/frame-wide-drip.png",
+        "assets/ui/frames/frame-wide-bevel.png"
+      ],
+      "route": [
+        "assets/ui/frames/frame-compact-wide.png",
+        "assets/ui/frames/frame-compact.png",
+        "assets/ui/frames/frame-wide-bevel.png"
+      ],
+      "summary": [
+        "assets/ui/frames/frame-wide-spine.png",
+        "assets/ui/frames/frame-compact-wide.png"
+      ],
+      "callout": [
+        "assets/ui/frames/frame-wide-drip.png",
+        "assets/ui/frames/frame-wide-bevel.png",
+        "assets/ui/frames/frame-wide-spine.png"
+      ],
+      "figure": [
+        "assets/ui/frames/frame-wide-spine.png",
+        "assets/ui/frames/frame-wide-bevel.png"
+      ]
+    },
+    "markers": {
+      "standard": [
+        "assets/ui/rings/ring-green.png",
+        "assets/ui/rings/ring-violet-green.png",
+        "assets/ui/nodes/node-green.png"
+      ],
+      "emphasis": [
+        "assets/ui/accents/accent-star-end.png",
+        "assets/ui/glyphs/glyph-star.png",
+        "assets/ui/accents/accent-diamond-magenta.png"
+      ],
+      "sequence": [
+        "assets/ui/arrows/arrow-chevron-set.png",
+        "assets/ui/nodes/node-rail-mini.png",
+        "assets/ui/arrows/arrow-slash-set.png"
+      ],
+      "relation": [
+        "assets/ui/glyphs/glyph-orbit.png",
+        "assets/ui/glyphs/glyph-atom.png",
+        "assets/ui/rings/ring-node-cluster.png"
+      ],
+      "status": [
+        "assets/ui/nodes/node-green.png",
+        "assets/ui/glyphs/glyph-hex.png",
+        "assets/ui/rings/ring-orange-green.png"
+      ]
+    },
+    "dividers": {
+      "primary": [
+        "assets/ui/dividers/divider-rail-primary.png",
+        "assets/ui/dividers/divider-rail-spine.png"
+      ],
+      "secondary": [
+        "assets/ui/dividers/divider-rail-orbit.png",
+        "assets/ui/dividers/divider-rail-split.png"
+      ],
+      "accent": [
+        "assets/ui/dividers/header-slice-01.png",
+        "assets/ui/dividers/header-slice-03.png",
+        "assets/ui/dividers/header-slice-05.png"
+      ],
+      "alert": [
+        "assets/ui/dividers/header-slice-04.png",
+        "assets/ui/dividers/header-slice-02.png"
+      ]
+    }
+  },
+  "page_roles": {
+    "README.md": {
+      "frames": [
+        "intro",
+        "summary",
+        "route"
+      ],
+      "markers": [
+        "standard",
+        "emphasis"
+      ],
+      "dividers": [
+        "primary",
+        "accent"
+      ]
+    },
+    "docs/ARCHITECTURE.md": {
+      "frames": [
+        "technical",
+        "figure",
+        "summary"
+      ],
+      "markers": [
+        "relation",
+        "standard"
+      ],
+      "dividers": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "docs/STATUS.md": {
+      "frames": [
+        "proof",
+        "summary"
+      ],
+      "markers": [
+        "status",
+        "emphasis"
+      ],
+      "dividers": [
+        "secondary",
+        "alert"
+      ]
+    },
+    "proof/README.md": {
+      "frames": [
+        "proof",
+        "callout"
+      ],
+      "markers": [
+        "emphasis",
+        "standard"
+      ],
+      "dividers": [
+        "secondary",
+        "alert"
+      ]
+    },
+    "docs/ROADMAP.md": {
+      "frames": [
+        "summary",
+        "route",
+        "callout"
+      ],
+      "markers": [
+        "sequence",
+        "standard"
+      ],
+      "dividers": [
+        "primary",
+        "accent"
+      ]
+    },
+    "docs/CORE.md": {
+      "frames": [
+        "technical",
+        "figure",
+        "callout"
+      ],
+      "markers": [
+        "sequence",
+        "relation"
+      ],
+      "dividers": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "demos/README.md": {
+      "frames": [
+        "route",
+        "figure",
+        "summary"
+      ],
+      "markers": [
+        "standard",
+        "sequence"
+      ],
+      "dividers": [
+        "primary",
+        "accent"
+      ]
+    },
+    "docs/ASCENSION-CODEX.md": {
+      "frames": [
+        "intro",
+        "summary",
+        "callout"
+      ],
+      "markers": [
+        "emphasis",
+        "standard"
+      ],
+      "dividers": [
+        "accent",
+        "primary"
+      ]
+    },
+    "assets/UI-ASSET-MAP.md": {
+      "frames": [
+        "summary",
+        "technical"
+      ],
+      "markers": [
+        "standard",
+        "relation"
+      ],
+      "dividers": [
+        "primary",
+        "secondary"
+      ]
+    }
+  },
+  "layout": {
+    "top_nav": true,
+    "left_sidebar": false,
+    "reference_navigation": "footer_utility_links",
+    "content_width": "wide",
+    "route_cards": true,
+    "search": true
+  },
+  "rotation_rules": {
+    "strategy": "deterministic_semantic_rotation",
+    "max_adjacent_same_frame_asset": 1,
+    "max_adjacent_same_frame_role": 2,
+    "max_consecutive_same_divider_role": 3,
+    "max_large_identity_marks_per_page": 1,
+    "prefer_semantic_rotation": true,
+    "random_rotation_forbidden": true,
+    "deduplicate_asset_pool_before_rotation": true
+  },
+  "build_projection": {
+    "frame_block_tags": [
+      "table",
+      "blockquote",
+      "pre"
+    ],
+    "decorate_unordered_lists": true,
+    "decorate_ordered_lists": false,
+    "route_cards_use_frame_pool": true,
+    "frame_content_not_frame_placeholder": true,
+    "source_atlas_never_used_as_runtime_chrome": true
+  },
+  "component_inventory": [
+    "efi-panel-intro",
+    "efi-panel-tech",
+    "efi-panel-proof",
+    "efi-panel-summary",
+    "efi-panel-callout",
+    "efi-panel-figure",
+    "efi-panel-route",
+    "efi-route-card-a",
+    "efi-route-card-b",
+    "efi-route-card-c",
+    "efi-list-standard",
+    "efi-list-emphasis",
+    "efi-list-sequence",
+    "efi-list-status",
+    "efi-divider-a",
+    "efi-divider-b",
+    "efi-divider-c",
+    "efi-tag",
+    "efi-stat-chip",
+    "efi-section-emblem",
+    "efi-figure-frame"
+  ],
+  "validation": {
+    "fail_if": [
+      "left_sidebar_present_on_pages_site",
+      "top_navigation_missing",
+      "frame_used_as_orphan_decoration_when_content_should_be_contained",
+      "single_frame_asset_monotony",
+      "asset_usage_without_semantic_role",
+      "whole_atlas_used_as_runtime_chrome",
+      "readability_degraded",
+      "required_visual_asset_missing"
+    ]
+  }
+}

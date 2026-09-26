@@ -98,10 +98,48 @@ def extract_description(md):
 def text_only(s):
     s=TAG_RE.sub(' ',s); s=re.sub(r'[`*_>#|\[\]()!-]',' ',s); return re.sub(r'\s+',' ',s).strip()
 
+def unique(seq):
+    out=[]; seen=set()
+    for x in seq:
+        if x not in seen: seen.add(x); out.append(x)
+    return out
+
+def grammar_asset_pool(grammar,surface,kind):
+    roles=grammar.get('page_roles',{}).get(surface,{})
+    role_names=roles.get(kind,[])
+    bank=grammar.get('asset_roles',{}).get({'frames':'frames','markers':'markers','dividers':'dividers'}[kind],{})
+    return unique([asset for role in role_names for asset in bank.get(role,[])])
+
+def decorate_html(body,grammar,surface,base_path):
+    frame_pool=grammar_asset_pool(grammar,surface,'frames')
+    marker_pool=grammar_asset_pool(grammar,surface,'markers')
+    fi=0
+    def wrap(tag,text):
+        nonlocal fi
+        if not frame_pool: return text
+        pat=re.compile(rf'(<{tag}\b[^>]*>.*?</{tag}>)',re.I|re.S)
+        def repl(m):
+            nonlocal fi
+            asset=frame_pool[fi%len(frame_pool)]; fi+=1
+            url=join_url(base_path,asset).rstrip('/')
+            return f'<div class="efi-frame efi-frame--{tag}" data-efi-frame="{html.escape(Path(asset).stem,quote=True)}" style="--efi-frame:url({html.escape(url,quote=True)})"><div class="efi-frame__content">{m.group(1)}</div></div>'
+        return pat.sub(repl,text)
+    for tag in grammar.get('build_projection',{}).get('frame_block_tags',['table','blockquote','pre']):
+        body=wrap(tag,body)
+    if grammar.get('build_projection',{}).get('decorate_unordered_lists',True) and marker_pool:
+        mi=0
+        def list_repl(m):
+            nonlocal mi
+            asset=marker_pool[mi%len(marker_pool)]; mi+=1
+            url=join_url(base_path,asset).rstrip('/')
+            return f'<ul class="efi-list" data-efi-marker="{html.escape(Path(asset).stem,quote=True)}" style="--efi-marker:url({html.escape(url,quote=True)})">'
+        body=re.sub(r'<ul>',list_repl,body,flags=re.I)
+    return body
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('repo'); ap.add_argument('--out',default='_site'); ap.add_argument('--base-path',default=''); ap.add_argument('--base-url',default=''); ap.add_argument('--renderer',choices=['auto','simple','markdown'],default='auto')
     a=ap.parse_args(); repo=Path(a.repo).resolve(); out=(repo/a.out).resolve(); base_path=clean_base_path(a.base_path); base_url=(a.base_url or '').rstrip('/')
-    cfg=json.loads((repo/'site/PAGES.json').read_text(encoding='utf-8')); tokens=json.loads((repo/'site/DESIGN-TOKENS.json').read_text(encoding='utf-8'))
+    cfg=json.loads((repo/'site/PAGES.json').read_text(encoding='utf-8')); tokens=json.loads((repo/'site/DESIGN-TOKENS.json').read_text(encoding='utf-8')); grammar=json.loads((repo/cfg.get('visual_grammar','site/VISUAL-GRAMMAR.json')).read_text(encoding='utf-8'))
     template=(repo/'site/theme/base.html').read_text(encoding='utf-8'); css=(repo/'site/theme/site.css').read_text(encoding='utf-8').replace('{{TOKENS_CSS}}',compile_tokens(tokens)); js=(repo/'site/theme/site.js').read_text(encoding='utf-8')
     if out.exists(): shutil.rmtree(out)
     (out/'theme').mkdir(parents=True); (out/'theme/site.css').write_text(css,encoding='utf-8'); (out/'theme/site.js').write_text(js,encoding='utf-8'); (out/'.nojekyll').write_text('',encoding='utf-8')
@@ -112,12 +150,19 @@ def main():
         if not src.exists() or not src.is_file(): return False
         dst=out/rel; dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(src,dst); copied.add(rel); return True
     for asset in cfg.get('theme_assets',[]): copy_local(asset)
+    def collect_assets(node):
+        if isinstance(node,str) and node.startswith('assets/'): return [node]
+        if isinstance(node,list): return [y for x in node for y in collect_assets(x)]
+        if isinstance(node,dict): return [y for x in node.values() for y in collect_assets(x)]
+        return []
+    for asset in unique(collect_assets(grammar.get('asset_roles',{}))): copy_local(asset)
     favicon=join_url(base_path,'assets/brand/efi-sigil.png').rstrip('/')
-    rail=join_url(base_path,'assets/ui/dividers/divider-rail-orbit.png').rstrip('/') if (repo/'assets/ui/dividers/divider-rail-orbit.png').exists() else favicon
     endmark=join_url(base_path,'assets/ui/accents/accent-star-end.png').rstrip('/') if (repo/'assets/ui/accents/accent-star-end.png').exists() else favicon
     primary=''.join(f'<a href="{join_url(base_path,r["route"])}" data-route="{html.escape(r["route"])}">{html.escape(r["nav"])}</a>' for r in routes if r['group']=='primary')
     reference=''.join(f'<a href="{join_url(base_path,r["route"])}" data-route="{html.escape(r["route"])}">{html.escape(r["nav"])}</a>' for r in routes if r['group']=='reference')
-    cards=''.join(f'<a class="route-card" href="{join_url(base_path,r["route"])}">{html.escape(r["nav"])}</a>' for r in routes if r['group']=='primary' and r['route']!='/')
+    route_frames=unique(grammar.get('asset_roles',{}).get('frames',{}).get('route',[]))
+    card_routes=[r for r in routes if r['group']=='primary' and r['route']!='/']
+    cards=''.join(f'<a class="route-card" data-efi-frame="{html.escape(Path(route_frames[i%len(route_frames)]).stem,quote=True) if route_frames else "none"}" style="--efi-frame:url({join_url(base_path,route_frames[i%len(route_frames)]).rstrip("/") if route_frames else ""})" href="{join_url(base_path,r["route"])}">{html.escape(r["nav"])}</a>' for i,r in enumerate(card_routes))
 
     manifest_routes=[]; search=[]
     for r in routes:
@@ -160,24 +205,26 @@ def main():
             else: return m.group(0)
             return m.group('prefix')+new+m.group('suffix')
         md2=HTML_SRC_RE.sub(htmlref,md2)
-        # GitHub commonly nests Markdown inside centering/table HTML. Python-Markdown
-        # requires an explicit markdown attribute or it preserves that text literally.
-        md2=md2.replace('<div align="center">','<div align="center" markdown="1">')
-        md2=md2.replace('<td width="42%" align="center">','<td width="42%" align="center" markdown="1">')
-        md2=md2.replace('<td width="58%">','<td width="58%" markdown="1">')
+        # GitHub-authored source commonly uses raw HTML containers around Markdown.
+        # Python-Markdown only parses Markdown inside block HTML when the container
+        # opts in. Add that opt-in mechanically so the Pages projection preserves
+        # the canonical repo surface instead of leaking literal Markdown syntax.
+        md2=re.sub(r'<div\s+align=["\']center["\']>', '<div align="center" markdown="1">', md2, flags=re.I)
+        md2=re.sub(r'<td(?P<attrs>\s+[^>]*)>', lambda m: '<td'+m.group('attrs')+' markdown="1">' if 'markdown=' not in m.group(0).lower() else m.group(0), md2, flags=re.I)
         renderer=a.renderer
         if renderer=='auto': renderer='markdown' if _markdown else 'simple'
         if renderer=='markdown':
             if not _markdown: raise SystemExit('MARKDOWN_DEPENDENCY_MISSING install site/requirements-pages.txt or use --renderer simple')
             body=_markdown.markdown(md2,extensions=['extra','tables','fenced_code','sane_lists','toc'],output_format='html5')
         else: body=simple_markdown(md2)
-        if r['route']=='/' and '<h1' not in body.lower():
-            body='<h1 class="sr-only">EFI</h1>'+body
+        body=decorate_html(body,grammar,r['surface_recipe'],base_path)
+        if not re.search(r'<h1\b',body,re.I):
+            body=f'<h1 class="sr-only">{html.escape(r["title"])}</h1>'+body
         desc=extract_description(md); route_url=join_url(base_path,r['route']); canonical=(base_url+('/' if r['route']=='/' else r['route'])) if base_url else route_url
         og=(base_url if base_url else base_path)+('/assets/brand/efi-hero-wide.png' if (repo/'assets/brand/efi-hero-wide.png').exists() else '/assets/brand/efi-sigil.png')
         copy_local('assets/brand/efi-hero-wide.png') if (repo/'assets/brand/efi-hero-wide.png').exists() else None
         page=template
-        vals={'TITLE':html.escape(r['title']),'DESCRIPTION':html.escape(desc,quote=True),'CANONICAL_URL':html.escape(canonical,quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':html.escape(r['route'],quote=True),'SURFACE':html.escape(r['surface_recipe'],quote=True),'PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'ROUTE_CARDS':cards if r['route']=='/' else '', 'CONTENT':body,'RAIL_MARK':html.escape(rail,quote=True),'END_MARK':html.escape(endmark,quote=True),'JSON_LD':json.dumps({'@context':'https://schema.org','@type':'TechArticle','headline':r['title'],'url':canonical,'isPartOf':{'@type':'WebSite','name':'EFI','url':base_url or route_url}},separators=(',',':'))}
+        vals={'TITLE':html.escape(r['title']),'DESCRIPTION':html.escape(desc,quote=True),'CANONICAL_URL':html.escape(canonical,quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':html.escape(r['route'],quote=True),'SURFACE':html.escape(r['surface_recipe'],quote=True),'PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'ROUTE_CARDS':cards if r['route']=='/' else '', 'CONTENT':body,'END_MARK':html.escape(endmark,quote=True),'JSON_LD':json.dumps({'@context':'https://schema.org','@type':'TechArticle','headline':r['title'],'url':canonical,'isPartOf':{'@type':'WebSite','name':'EFI','url':base_url or route_url}},separators=(',',':'))}
         for k,v in vals.items(): page=page.replace('{{'+k+'}}',v)
         page=page.replace('<html lang="en">',f'<html lang="en" data-base-path="{html.escape(base_path,quote=True)}">')
         dest=out/'index.html' if r['route']=='/' else out/r['route'].strip('/')/'index.html'; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_text(page,encoding='utf-8')
@@ -189,7 +236,7 @@ def main():
     (out/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+sitemap+'</urlset>',encoding='utf-8')
     (out/'robots.txt').write_text('User-agent: *\nAllow: /\n'+(('Sitemap: '+base_url+'/sitemap.xml\n') if base_url else ''),encoding='utf-8')
     notfound=template
-    vals={'TITLE':'Not Found','DESCRIPTION':'EFI route not found.','CANONICAL_URL':html.escape(base_url+'/404.html' if base_url else ((base_path or '')+'/404.html'),quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':'/404.html','SURFACE':'404','PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'ROUTE_CARDS':'','CONTENT':'<h1>404</h1><p>That route fell out of the field. <a href="'+join_url(base_path,'/')+'">Return to EFI.</a></p>','RAIL_MARK':html.escape(rail,quote=True),'END_MARK':html.escape(endmark,quote=True),'JSON_LD':'{}'}
+    vals={'TITLE':'Not Found','DESCRIPTION':'EFI route not found.','CANONICAL_URL':html.escape(base_url+'/404.html' if base_url else ((base_path or '')+'/404.html'),quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':'/404.html','SURFACE':'404','PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'ROUTE_CARDS':'','CONTENT':'<h1>404</h1><p>That route fell out of the field. <a href="'+join_url(base_path,'/')+'">Return to EFI.</a></p>','END_MARK':html.escape(endmark,quote=True),'JSON_LD':'{}'}
     for k,v in vals.items(): notfound=notfound.replace('{{'+k+'}}',v)
     notfound=notfound.replace('<html lang="en">',f'<html lang="en" data-base-path="{html.escape(base_path,quote=True)}">'); (out/'404.html').write_text(notfound,encoding='utf-8')
     outputs={p.relative_to(out).as_posix():sha(p) for p in out.rglob('*') if p.is_file() and p.name!='build-manifest.json'}
