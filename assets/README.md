@@ -1,4 +1,16 @@
+<div align="center">
+
+<img src="brand/visual-system.svg" alt="EFI visual system" width="100%" />
+
 # EFI™ Public Assets
+
+**CANONICAL PUBLIC VISUAL LANGUAGE**
+
+[Visual System Guide](../docs/VISUAL-SYSTEM.md) · [Repository Home](../README.md)
+
+</div>
+
+---
 
 This directory contains the canonical public visual system for EFI and Field Computing.
 
