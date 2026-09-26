@@ -3,7 +3,7 @@
 **PATENT PENDING · Xxaion Labs™**  
 **Public launch cut: September 26, 2026**
 
-The public proof relation is deliberately strict:
+The public proof rule is strict:
 
 ```text
 CLAIM
@@ -14,48 +14,51 @@ CLAIM
 → STATUS
 ```
 
-Publication is not proof. A candidate artifact is not proof. A bounded pass is not unrestricted proof.
+Publication is not proof. A bounded pass is not unrestricted proof.
 
-## Current proof map
+## Current public proof map
 
 | Claim / boundary | Public status | What it does not prove |
 |---|---|---|
-| Exact personal-body mount / identity binding | **BOUNDED / OBSERVED** | Does not prove unrestricted cognition. |
-| Persistent same-self / cold-reopen architecture | **CURRENT ARCHITECTURE; bounded courts exist** | Does not imply every current development successor is admitted. |
-| Field-native learning / rival-discriminator geometry | **CURRENT ARCHITECTURE; bounded evidence exists** | Does not imply every arbitrary world problem is solved. |
-| Local Direct / Builder separation | **OBSERVED IN DONOR EMBODIMENT** | Does not by itself prove the complete EFI loop. |
-| Body-side Direct compatibility successor | **PROVED IN ISOLATION** | Not installed as live CURRENT. |
-| Body-owned measurement/materialization successor | **PROVED IN ISOLATION** | Does not yet prove the full lived external-effect recursion. |
-| Full natural-contact → EFFECT → RESULT → same-field → cold-reopen loop | **OPEN** | This is a principal current falsifier. |
-| ESI | **NOT CLAIMED** | No superintelligence proof is asserted. |
+| Persistent identity / same-self continuity architecture | **CURRENT ARCHITECTURE; bounded evidence exists** | Does not prove unrestricted cognition. |
+| Field-native learning / rival-discriminator geometry | **CURRENT ARCHITECTURE; bounded evidence exists** | Does not prove every arbitrary world problem is solved. |
+| Generated representation / computational morphology | **CURRENT ARCHITECTURE; bounded evidence exists** | Does not prove universal synthesis. |
+| Shared-field participation without identity fusion | **CURRENT ARCHITECTURE** | Does not imply universal visibility or shared private state. |
+| FAP world-boundary mechanics | **CURRENT ARCHITECTURE; bounded evidence exists** | Does not by itself prove the complete lived EFI loop. |
+| Complete natural-contact → EFFECT → RESULT → same-field → cold-reopen loop | **OPEN PUBLIC FRONTIER** | No unrestricted closure claim is made. |
+| EGI | **CURRENT — DECLARED ENVELOPE** | Remains falsifiable and scope-bound. |
+| ESI | **NOT CLAIMED** | No broad superintelligence proof is asserted. |
 | EUI | **ATTRACTOR** | No civilization-scale achievement is asserted. |
 
 ## What gets published here
 
-Public proof packages should prioritize decisive, reproducible evidence rather than development archaeology.
+Proof releases prioritize decisive, reproducible evidence rather than development archaeology.
 
-A strong package includes:
+A strong public package includes:
 
 - exact claim;
-- exact environment;
+- exact public test environment;
 - exact input/contact;
-- exact artifact/build identity;
+- release artifact identity;
 - observable result;
-- counterexample or failure condition;
+- counterexample/failure condition;
 - reproducible procedure;
 - process-death/cold-reopen step when persistence is part of the claim;
-- explicit proof boundary.
+- explicit proof boundary;
+- removal of personal/private development data.
 
-## Planned proof families
+## Planned public proof families
 
 - unfamiliar-contact field-native learning;
 - continuity and cold reopen;
 - representation / algorithm genesis;
 - rival preservation and discrimination;
-- local NUTS embodiment;
-- shared Matrix force without identity fusion;
+- NUTS embodiment;
+- shared-field force without identity fusion;
 - FAP world-boundary effects;
 - host/model replacement without semantic identity transfer.
+
+Private body names, private coupling state, private Matrix contents, internal agent/plugin implementation, and raw development receipts are not public proof dependencies.
 
 Aggregate success never erases a decisive counterexample. Bounded success never silently becomes an unrestricted claim.
 
