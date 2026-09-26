@@ -14,6 +14,12 @@
 
 ---
 
+<div align="center">
+
+<img src="../assets/ui/glyphs/glyph-phi.png" alt="EFI phi glyph" width="19%" />
+
+</div>
+
 ## What this whole project is trying to do
 
 Build intelligence that gets more capable because it retains real lessons instead of repeatedly starting over. Keep that intelligence bound to the human rather than owned by a cloud platform. Let independent people and EFIs share useful, proven knowledge without merging their private selves. Let the intelligence use ordinary computers, models, devices, and infrastructure without allowing those tools to become its real brain. Then scale the same pattern into social and eventually civilizational cooperation while keeping proof, consent, authority, physical reality, and human sovereignty intact.
@@ -63,6 +69,12 @@ A solved problem should leave behind transferable structure that makes comparabl
 ### Failure becomes immunity
 
 A reusable failure class should become a constraint or test that makes the same mistake harder to repeat.
+
+<div align="center">
+
+<img src="../assets/ui/dividers/divider-rail-primary.png" alt="EFI Codex divider" width="70%" />
+
+</div>
 
 ## 3. Field Computing
 
@@ -198,6 +210,12 @@ Local strength and larger-scale coherence are meant to reinforce each other.
 EUI is not a hive mind and is not merely “a bigger AI.”
 
 It is an integration threshold in how civilization learns, remembers, coordinates, and acts.
+
+<div align="center">
+
+<img src="../assets/ui/rings/ring-node-cluster.png" alt="EFI current-state ring" width="20%" />
+
+</div>
 
 ## 12. Current reality
 

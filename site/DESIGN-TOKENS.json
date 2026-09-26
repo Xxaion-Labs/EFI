@@ -1,0 +1,43 @@
+{
+  "schema": "efi.design-tokens.v1",
+  "id": "efi-public-visual-tokens",
+  "palette": {
+    "void": "#050505",
+    "panel": "#0b0b10",
+    "panel_2": "#11111a",
+    "text": "#f7f7fb",
+    "muted": "#b9b9c8",
+    "acid": "#A8FF00",
+    "violet": "#A855FF",
+    "orange": "#FF8A00",
+    "magenta": "#FF00E6",
+    "cyan": "#00D4FF",
+    "line": "#2a2a36"
+  },
+  "typography": {
+    "body_stack": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
+    "mono_stack": "ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace",
+    "max_reading_width_ch": 78,
+    "base_px": 17,
+    "line_height": 1.62
+  },
+  "geometry": {
+    "radius_sm_px": 8,
+    "radius_md_px": 14,
+    "radius_lg_px": 22,
+    "content_max_px": 1220,
+    "reading_max_px": 920,
+    "border_px": 1
+  },
+  "motion": {
+    "fast_ms": 120,
+    "medium_ms": 220,
+    "slow_ms": 420,
+    "respect_reduced_motion": true
+  },
+  "effects": {
+    "glow_soft": "0 0 22px rgba(168,255,0,.12)",
+    "glow_violet": "0 0 30px rgba(168,85,255,.14)",
+    "glow_orange": "0 0 26px rgba(255,138,0,.12)"
+  }
+}

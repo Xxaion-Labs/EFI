@@ -1,0 +1,1237 @@
+{
+  "schema": "efi.asset-library.v1",
+  "assets": [
+    {
+      "id": "divider-rail-primary",
+      "family": "divider",
+      "path": "assets/ui/dividers/divider-rail-primary.png",
+      "status": "candidate",
+      "role": "major section rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          15,
+          15,
+          820,
+          103
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "e64d9fb4df5f0081574d65dd17461d1e9733a206229086d7f43bd3d0fe01a554",
+      "width": 805,
+      "height": 88,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "divider-rail-orbit",
+      "family": "divider",
+      "path": "assets/ui/dividers/divider-rail-orbit.png",
+      "status": "candidate",
+      "role": "secondary section rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          15,
+          98,
+          820,
+          186
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "b7dd6607dcd05736e8fa7c7bc33c73003e7e8e136411d30842bd251991666d56",
+      "width": 805,
+      "height": 88,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "divider-rail-split",
+      "family": "divider",
+      "path": "assets/ui/dividers/divider-rail-split.png",
+      "status": "candidate",
+      "role": "split-node divider",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          15,
+          182,
+          820,
+          273
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "1f035e6019bd4481e2732d84f50df1c49e4f4c476c03b0c8847073fa7f140e76",
+      "width": 801,
+      "height": 91,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "divider-rail-spine",
+      "family": "divider",
+      "path": "assets/ui/dividers/divider-rail-spine.png",
+      "status": "candidate",
+      "role": "heavy spine divider",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          15,
+          270,
+          820,
+          389
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "7fe99d184e82395bacb075d21d38aaaa521bb69ec70097457c70ef19e57db302",
+      "width": 805,
+      "height": 119,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "header-slice-01",
+      "family": "divider",
+      "path": "assets/ui/dividers/header-slice-01.png",
+      "status": "candidate",
+      "role": "compact header rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          835,
+          20,
+          1205,
+          96
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "e4fe48e7de810aa41adf2ca6f592cc3b7fe0c1af65be77fd641fa04a33f3a7d4",
+      "width": 370,
+      "height": 76,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "header-slice-02",
+      "family": "divider",
+      "path": "assets/ui/dividers/header-slice-02.png",
+      "status": "candidate",
+      "role": "compact header rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          835,
+          94,
+          1205,
+          176
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "152a1a9d8346a381de729c8347fade126eebb02f77fc2ea0fd3ef9dcde0dfbda",
+      "width": 370,
+      "height": 82,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "header-slice-03",
+      "family": "divider",
+      "path": "assets/ui/dividers/header-slice-03.png",
+      "status": "candidate",
+      "role": "compact header rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          835,
+          174,
+          1205,
+          250
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "bf524f09ad7ff350327567b5c6f130daebe9a79a3a94f051c424a14f4cdb955c",
+      "width": 370,
+      "height": 76,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "header-slice-04",
+      "family": "divider",
+      "path": "assets/ui/dividers/header-slice-04.png",
+      "status": "candidate",
+      "role": "compact alert rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          835,
+          248,
+          1205,
+          316
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "e64191a672ec93bd720d5e67353c8197e951165d70f0fa10ee7a1c5665ac18ba",
+      "width": 370,
+      "height": 68,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "header-slice-05",
+      "family": "divider",
+      "path": "assets/ui/dividers/header-slice-05.png",
+      "status": "candidate",
+      "role": "compact header rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          835,
+          313,
+          1205,
+          392
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "40d2d72b5b60ded926b5fe34414dd24edd56df59abb573b6029f0ba10067a8b6",
+      "width": 370,
+      "height": 79,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "corner-ul",
+      "family": "corner",
+      "path": "assets/ui/corners/corner-ul.png",
+      "status": "candidate",
+      "role": "upper-left corner bracket",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1210,
+          18,
+          1432,
+          205
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "8a4003f5817f48642fbcc06327e71dba13936b569e7e1f451bf72624183b5515",
+      "width": 222,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "corner-ur",
+      "family": "corner",
+      "path": "assets/ui/corners/corner-ur.png",
+      "status": "candidate",
+      "role": "upper-right corner bracket",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1428,
+          18,
+          1668,
+          205
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "764aed86c97657d5f7d91a4d8f7845bb49bd61550dffae5127a189a4893b2495",
+      "width": 240,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "corner-ll",
+      "family": "corner",
+      "path": "assets/ui/corners/corner-ll.png",
+      "status": "candidate",
+      "role": "lower-left corner bracket",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1210,
+          190,
+          1435,
+          410
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "1270e1abd6bbf56931e6cfeb8edf6786bad520e43b7eb7be28978a1e2df91512",
+      "width": 225,
+      "height": 220,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "corner-lr",
+      "family": "corner",
+      "path": "assets/ui/corners/corner-lr.png",
+      "status": "candidate",
+      "role": "lower-right corner bracket",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1425,
+          190,
+          1668,
+          410
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "5f72705c2e878311de3373d756a2c7d2eef232e53185c697f0c24d64d6b28da3",
+      "width": 243,
+      "height": 220,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-phi",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-phi.png",
+      "status": "candidate",
+      "role": "EFI phi/sigil glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          0,
+          395,
+          209,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "7fc4feb6081114105671d0b91fab106c98627ca10cd5ddc121a677cd9df6acbe",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-reaction",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-reaction.png",
+      "status": "candidate",
+      "role": "reaction/cross glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          209,
+          395,
+          418,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "ee1b847cddfcfeabc62b6d7808ca7e39c4987db7e0775312bace3e9f73dd60f3",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-orbit",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-orbit.png",
+      "status": "candidate",
+      "role": "field orbit glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          418,
+          395,
+          627,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "14d2e8e4070cab0ba6e3ee4c5f17f821c621773285135f98bea4ae47c1faa081",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-star",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-star.png",
+      "status": "candidate",
+      "role": "field star glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          627,
+          395,
+          836,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "d66bb01e6a31aa84652f4fbfe20d53964d2a66f0738627a2ee724b177f6bf86b",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-vortex",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-vortex.png",
+      "status": "candidate",
+      "role": "field vortex glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          836,
+          395,
+          1045,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "45ba53a36f53b6edac426e35e6bcdd9233700ac7376f2a79314f978e4a74c31d",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-atom",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-atom.png",
+      "status": "candidate",
+      "role": "orbital atom glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1045,
+          395,
+          1254,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "7b29477af8d3e32acbc3049b9f7bc47db160211d744a15c7f417e9217e45bba0",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-hex",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-hex.png",
+      "status": "candidate",
+      "role": "hex boundary glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1254,
+          395,
+          1463,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "bbafe052d99292a8841acb3628cc3f123abcf4dde13369dcb38b98312dc8d080",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "glyph-triangle",
+      "family": "glyph",
+      "path": "assets/ui/glyphs/glyph-triangle.png",
+      "status": "candidate",
+      "role": "triangle/star glyph",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1463,
+          395,
+          1672,
+          620
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "1b959b1f9a04d5f30eee3f1702efdd2cceb7d164ffc5e19380288caadaa27499",
+      "width": 209,
+      "height": 225,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "frame-wide-drip",
+      "family": "frame",
+      "path": "assets/ui/frames/frame-wide-drip.png",
+      "status": "candidate",
+      "role": "wide bounded callout frame",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          10,
+          615,
+          370,
+          802
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "a81524f3e56b0950534a2e911f9461ba36d80b3ce4debbe6ae73be93572a4fb8",
+      "width": 360,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "frame-wide-bevel",
+      "family": "frame",
+      "path": "assets/ui/frames/frame-wide-bevel.png",
+      "status": "candidate",
+      "role": "wide beveled callout frame",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          365,
+          615,
+          710,
+          802
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "a619dd6c5eb35c57ea8408637dfd741bade74c2a85e17b515c066bbf89a8a93b",
+      "width": 345,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "frame-wide-spine",
+      "family": "frame",
+      "path": "assets/ui/frames/frame-wide-spine.png",
+      "status": "candidate",
+      "role": "wide centered callout frame",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          700,
+          615,
+          1007,
+          802
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "837de5f6440b08c102366fff9a4c58820be1031878ca30a6b87c27ae987f78bf",
+      "width": 307,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-node-cluster",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-node-cluster.png",
+      "status": "candidate",
+      "role": "status/node ring",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          995,
+          615,
+          1188,
+          802
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "378832a6c2c9a05a78a7c71cba2b697387b43f1fa9ee3b6bae2f34980eb56f1a",
+      "width": 193,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "frame-compact",
+      "family": "frame",
+      "path": "assets/ui/frames/frame-compact.png",
+      "status": "candidate",
+      "role": "compact bounded frame",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1180,
+          615,
+          1415,
+          802
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "0f566d3bdaab1c092249705268d77cf4704c169d656b4e6b0f237d75e0201db8",
+      "width": 235,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "frame-compact-wide",
+      "family": "frame",
+      "path": "assets/ui/frames/frame-compact-wide.png",
+      "status": "candidate",
+      "role": "compact wide bounded frame",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1405,
+          615,
+          1672,
+          802
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "ba0d8eead00356d9487bc6c629fc8093a7f0d257cec73312181c327f46783014",
+      "width": 267,
+      "height": 187,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "node-rail-mini",
+      "family": "node",
+      "path": "assets/ui/nodes/node-rail-mini.png",
+      "status": "candidate",
+      "role": "small node rail",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          10,
+          795,
+          350,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "52856cef68a8ad4e02a38536b9e13efccec41a3bd83c556b59b8459c6b95be94",
+      "width": 340,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "accent-spark-set",
+      "family": "accent",
+      "path": "assets/ui/accents/accent-spark-set.png",
+      "status": "candidate",
+      "role": "spark/accent set",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          345,
+          795,
+          525,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "c357d304cd9f1ec2dba38a9abb92ae35459e5995c13a7ffa6b55d24ce2d48c1f",
+      "width": 180,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "node-color-set",
+      "family": "node",
+      "path": "assets/ui/nodes/node-color-set.png",
+      "status": "candidate",
+      "role": "colored status nodes",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          520,
+          795,
+          810,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "62be181d0eed2ea9e147ccec540054535f0919f7652561a002bd99c02174e7a8",
+      "width": 290,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-arc-set",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-arc-set.png",
+      "status": "candidate",
+      "role": "ring/arc status set",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          805,
+          795,
+          1245,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "f438456fabfd3608e5243a47c49ed51a6b4a8dc3f69cc4b5195fd6e14daae98a",
+      "width": 440,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "arrow-chevron-set",
+      "family": "arrow",
+      "path": "assets/ui/arrows/arrow-chevron-set.png",
+      "status": "candidate",
+      "role": "progression chevrons",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1238,
+          795,
+          1428,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "708a58bc684bc1c4a4189c95ef928aa115c6464ded829916a5c3a1b61df7e29a",
+      "width": 190,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "arrow-slash-set",
+      "family": "arrow",
+      "path": "assets/ui/arrows/arrow-slash-set.png",
+      "status": "candidate",
+      "role": "slash progression marks",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1420,
+          795,
+          1548,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "a32f63de56c32782010b3fc2bcb4c0310600fd88d45967fd0123f9b530ed2173",
+      "width": 128,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "accent-star-end",
+      "family": "accent",
+      "path": "assets/ui/accents/accent-star-end.png",
+      "status": "candidate",
+      "role": "terminal sparkle accent",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1538,
+          795,
+          1672,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "c6bfbb5cc640bbf18f50e0da209175b482040152d56fd3ec72f5b69c644ceab5",
+      "width": 128,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "accent-diamond-green",
+      "family": "accent",
+      "path": "assets/ui/accents/accent-diamond-green.png",
+      "status": "candidate",
+      "role": "green diamond sparkle accent",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          315,
+          795,
+          410,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "f3862547a0ce14367a61038989899aef9b0ec562241c50ba082ef46033d01989",
+      "width": 95,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "accent-diamond-magenta",
+      "family": "accent",
+      "path": "assets/ui/accents/accent-diamond-magenta.png",
+      "status": "candidate",
+      "role": "magenta diamond sparkle accent",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          405,
+          795,
+          500,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "666875290d4f9bb29bb336dc702ce9606231090738c5a079337f74f976b3de5d",
+      "width": 95,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "node-green",
+      "family": "node",
+      "path": "assets/ui/nodes/node-green.png",
+      "status": "candidate",
+      "role": "green status node",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          515,
+          795,
+          595,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "fc338501186e82fefc3a214dd539aadce85950ce0405767348fd805bb497e0c0",
+      "width": 80,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "node-orange",
+      "family": "node",
+      "path": "assets/ui/nodes/node-orange.png",
+      "status": "candidate",
+      "role": "orange status node",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          592,
+          795,
+          675,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "69c393afb81241b70e5ba71249d476f397631dcd0199d367461e582958bac295",
+      "width": 83,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "node-violet",
+      "family": "node",
+      "path": "assets/ui/nodes/node-violet.png",
+      "status": "candidate",
+      "role": "violet status node",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          672,
+          795,
+          755,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "b82d9f674fef85a4ae33fb35ab2b29783ec5551edc8cca62b7c03bd7dd9b09a4",
+      "width": 83,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-orange",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-orange.png",
+      "status": "candidate",
+      "role": "orange open status ring",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          750,
+          795,
+          840,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "0fedb449c01f9249a6619dd60689377b1d1fa6421531f2725da650fe63c980e0",
+      "width": 90,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-violet-green",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-violet-green.png",
+      "status": "candidate",
+      "role": "violet/green open status ring",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          835,
+          795,
+          930,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "c8f9f0ab9894280188a1b3474eb11794da978a0a269778912980016f749c2099",
+      "width": 95,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-orange-green",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-orange-green.png",
+      "status": "candidate",
+      "role": "orange/green open status ring",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          925,
+          795,
+          1028,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "a6faa8cbecc1a5d816e6fc3d56f95a951761503cc563adbaf220a3f66c42ce44",
+      "width": 103,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-green",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-green.png",
+      "status": "candidate",
+      "role": "green open status ring",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1020,
+          795,
+          1122,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "b7a78d9a7c46934ce6cffade7647e014375607b8df274556f761ec58907d7f63",
+      "width": 102,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    },
+    {
+      "id": "ring-magenta",
+      "family": "ring",
+      "path": "assets/ui/rings/ring-magenta.png",
+      "status": "candidate",
+      "role": "magenta open status ring",
+      "source": {
+        "kind": "atlas-crop",
+        "parent_ids": [
+          "efi-ui-atlas"
+        ],
+        "crop_box": [
+          1115,
+          795,
+          1230,
+          941
+        ],
+        "recipe": "assets/manifest/atlas-map.json"
+      },
+      "sha256": "e01b871e598e7463bbcaa09637d0e0b8340992003d4fd3afa1957f9453ab3c60",
+      "width": 115,
+      "height": 146,
+      "alpha": true,
+      "allowed_surfaces": [],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Promote to accepted only after placement/visual review.",
+      "notes": ""
+    }
+  ]
+}

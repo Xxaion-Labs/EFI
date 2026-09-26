@@ -1,0 +1,168 @@
+{
+  "schema": "efi.asset-library.v1",
+  "assets": [
+    {
+      "id": "efi-hero-wide",
+      "family": "brand",
+      "path": "assets/brand/efi-hero-wide.png",
+      "status": "accepted",
+      "role": "Primary wide EFI hero identity",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "8da6dbdaf53f05bd051e9cc84ee19db0ca744a235d3d9428399caed3e866d8df",
+      "width": 1916,
+      "height": 821,
+      "alpha": false,
+      "allowed_surfaces": [
+        "README.md",
+        "demos/README.md"
+      ],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    },
+    {
+      "id": "efi-sigil",
+      "family": "brand",
+      "path": "assets/brand/efi-sigil.png",
+      "status": "accepted",
+      "role": "Canonical EFI sigil / identity seal",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "d3964a151ba371b597f02087a6eb46d0ab3226381891ca4c13a6c61114cb556e",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "allowed_surfaces": [
+        "README.md",
+        "docs/ASCENSION-CODEX.md",
+        "docs/STATUS.md"
+      ],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    },
+    {
+      "id": "efi-lockup",
+      "family": "brand",
+      "path": "assets/brand/efi-lockup.png",
+      "status": "accepted",
+      "role": "EFI lockup with Extracortical Field Intelligence wordmark",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "0786a7b1a8cfaa88ea77f39bfc5e5fd6c4bb6e832cacf76cc5e6ff58c668fdd5",
+      "width": 1672,
+      "height": 941,
+      "alpha": true,
+      "allowed_surfaces": [
+        "README.md",
+        "docs/ARCHITECTURE.md"
+      ],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    },
+    {
+      "id": "xxaion-labs",
+      "family": "brand",
+      "path": "assets/brand/xxaion-labs.png",
+      "status": "accepted",
+      "role": "Xxaion Labs organization identity",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "a51276140651e355377fbb843826714bf185f740e9aab5bd5d4a85e9fc7d00f2",
+      "width": 1672,
+      "height": 941,
+      "alpha": true,
+      "allowed_surfaces": [
+        "README.md",
+        "assets/UI-ASSET-MAP.md"
+      ],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    },
+    {
+      "id": "efi-field-computing",
+      "family": "brand",
+      "path": "assets/brand/efi-field-computing.png",
+      "status": "accepted",
+      "role": "Field Computing identity emblem",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "7e6b8223ca348463d26a4fd94e7277fe4714b9dda3ae0acd6aa95ad4e7323ca6",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "allowed_surfaces": [
+        "README.md",
+        "docs/ARCHITECTURE.md"
+      ],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    },
+    {
+      "id": "efi-ui-atlas",
+      "family": "source",
+      "path": "assets/source/efi-ui-atlas.png",
+      "status": "source",
+      "role": "Master UI primitive atlas. Slice; do not use as ordinary page decoration.",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "9d1aacde11f53d7cd00a8bfe194f0e7ea8599ddbeeb4ef94b131bd6374bc5c1b",
+      "width": 1672,
+      "height": 941,
+      "alpha": true,
+      "allowed_surfaces": [
+        "assets/UI-ASSET-MAP.md"
+      ],
+      "forbidden_surfaces": [
+        "README.md",
+        "docs/ARCHITECTURE.md",
+        "docs/STATUS.md",
+        "proof/README.md",
+        "docs/ROADMAP.md",
+        "docs/CORE.md",
+        "demos/README.md",
+        "docs/ASCENSION-CODEX.md"
+      ],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    },
+    {
+      "id": "efi-visual-system",
+      "family": "source",
+      "path": "assets/source/efi-visual-system.png",
+      "status": "source",
+      "role": "Canonical visual-system board and palette reference",
+      "source": {
+        "kind": "master",
+        "parent_ids": []
+      },
+      "sha256": "a6975b6c8df76d5d8b0a45322e592618258db19d58af4229b7535d585d8aea6a",
+      "width": 1448,
+      "height": 1086,
+      "alpha": false,
+      "allowed_surfaces": [
+        "assets/UI-ASSET-MAP.md",
+        "docs/VISUAL-SYSTEM.md"
+      ],
+      "forbidden_surfaces": [],
+      "reuse_policy": "Preserve canonical proportions; do not restyle without explicit Operator instruction.",
+      "notes": "Bundled canonical master."
+    }
+  ]
+}

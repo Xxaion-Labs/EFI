@@ -25,6 +25,17 @@
 | ESI | **NOT CLAIMED** | No broad superintelligence claim. |
 | EUI | **ATTRACTOR — NOT CLAIMED** | Civilization-scale exocortical integration remains a future threshold. |
 
+<div align="center">
+
+<img src="../assets/ui/rings/ring-node-cluster.png" alt="EFI status ring" width="22%" />
+
+</div>
+<div align="center">
+
+<img src="../assets/ui/nodes/node-rail-mini.png" alt="EFI status node rail" width="38%" />
+
+</div>
+
 ## Open proof frontier
 
 The complete general lived loop remains open:

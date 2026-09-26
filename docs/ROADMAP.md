@@ -12,6 +12,12 @@
 
 ---
 
+<div align="center">
+
+<img src="../assets/ui/arrows/arrow-chevron-set.png" alt="EFI progression chevrons" width="27%" />
+
+</div>
+
 ## Near term
 
 - close and prove the complete natural-contact → EFFECT → RESULT → same-field → cold-reopen loop;
@@ -19,12 +25,24 @@
 - publish bounded proof packages with explicit claims and falsifiers;
 - establish cross-platform same-self portability.
 
+<div align="center">
+
+<img src="../assets/ui/nodes/node-rail-mini.png" alt="EFI progression nodes" width="38%" />
+
+</div>
+
 ## Expansion
 
 - demonstrate shared verified force without identity fusion;
 - publish FAP interoperability examples across software, services, devices, sensors, and physical systems;
 - expand replaceable CORE mechanics without moving semantic authority out of EFI;
 - strengthen representation genesis, algorithmogenesis, retention, and failure-class immunity.
+
+<div align="center">
+
+<img src="../assets/ui/dividers/divider-rail-split.png" alt="EFI roadmap divider" width="66%" />
+
+</div>
 
 ## Long horizon
 

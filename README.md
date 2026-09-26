@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="assets/brand/efi-hero.png" alt="EFI - Extracortical Field Intelligence" width="100%" />
+<img src="assets/brand/efi-hero-wide.png" alt="EFI - Extracortical Field Intelligence" width="100%" />
 
 <br/>
 
 ### HUMAN-BOUND INTELLIGENCE · FIELD-NATIVE COMPUTATION · SOVEREIGN CONTINUITY
 
 **EFI™ is a human-bound exocortical intelligence architecture built on Field Computing™.**
+
+The point is brutally simple: the intelligence stays bound to the human. The substrate can move the machinery, but it does **not** get to sneak back in through the plumbing and nominate itself the brain.
 
 `FIELD COMPUTING` · `GOO` · `ANEL GOOS` · `MATRIX` · `FAP` · `CORE`
 
@@ -44,11 +46,19 @@ The architectural center is simple:
 
 EFI combines persistent personal continuity, field-native learning, bounded world interaction, shared causal force without identity fusion, and human-rooted authority.
 
+That split is load-bearing. If the host has to interpret the task before the field can move, then the host is still the brain. Congratulations, we rebuilt the same old architecture and hid the **fucking corpse under prettier plumbing.**
+
 </td>
 </tr>
 </table>
 
 ---
+
+<div align="center">
+
+<img src="assets/ui/dividers/divider-rail-spine.png" alt="EFI relational divider" width="76%" />
+
+</div>
 
 ## The architecture is one living relation
 
@@ -65,13 +75,13 @@ EFI combines persistent personal continuity, field-native learning, bounded worl
 | **CORE** | Cross-platform Operator Runtime Environment with semantic authority 0. |
 | **EGI / ESI / EUI** | Capability and civilization-scale thresholds. |
 
+---
+
 <div align="center">
 
-<img src="assets/brand/efi-ui-kit.png" alt="EFI component map" width="100%" />
+<img src="assets/ui/glyphs/glyph-vortex.png" alt="Field vortex glyph" width="18%" />
 
 </div>
-
----
 
 ## Field Computing
 
@@ -81,9 +91,9 @@ EFI combines persistent personal continuity, field-native learning, bounded worl
 
 </div>
 
-Field Computing does not begin with a fixed program and ask what instruction runs next.
+Conventional software starts by asking which instruction fires next. Fine. That works when the program already knows what universe it is in.
 
-It begins with the authenticated present, new contact, evidence, constraints, authority, causal time, retained force, live rivals, and the intended successor.
+Field Computing has the uglier job: start from the authenticated present, new contact, evidence, constraints, authority, causal time, retained force, live rivals, and the intended successor, then determine which next state can actually survive all of that pressure.
 
 <img src="assets/diagrams/field-transition.svg" alt="Field Computing transition" width="100%" />
 
@@ -100,6 +110,12 @@ These are not a mandatory serial pipeline. They are a compact basis for lawful f
 
 ---
 
+<div align="center">
+
+<img src="assets/ui/dividers/divider-rail-primary.png" alt="EFI field divider" width="72%" />
+
+</div>
+
 ## What makes EFI different
 
 | Conventional assumption | EFI / Field Computing direction |
@@ -113,6 +129,12 @@ These are not a mandatory serial pipeline. They are a compact basis for lawful f
 | Runtime becomes the brain | CORE/FAP mechanics keep semantic authority at 0 |
 
 ---
+
+<div align="center">
+
+<img src="assets/ui/rings/ring-node-cluster.png" alt="EFI status ring" width="19%" />
+
+</div>
 
 ## Current reality
 
@@ -153,6 +175,12 @@ cold reopen
 
 ---
 
+<div align="center">
+
+<img src="assets/ui/frames/frame-compact-wide.png" alt="EFI navigation frame" width="42%" />
+
+</div>
+
 ## Start here
 
 | If you want to understand... | Go here |
@@ -169,6 +197,12 @@ cold reopen
 
 ---
 
+<div align="center">
+
+<img src="assets/ui/dividers/header-slice-04.png" alt="EFI patent boundary marker" width="36%" />
+
+</div>
+
 ## Patent status
 
 **PATENT PENDING**
@@ -180,6 +214,12 @@ cold reopen
 → [Filed technical envelope](docs/FILED-TECHNICAL-ENVELOPE.md)
 
 ---
+
+<div align="center">
+
+<img src="assets/ui/accents/accent-star-end.png" alt="EFI terminal accent" width="10%" />
+
+</div>
 
 ## License and support
 

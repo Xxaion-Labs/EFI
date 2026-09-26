@@ -1,0 +1,76 @@
+name: EFI Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'proof/**'
+      - 'demos/**'
+      - 'assets/**'
+      - 'site/**'
+      - 'scripts/build_pages.py'
+      - 'scripts/validate_pages.py'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: site/requirements-pages.txt
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install renderer
+        run: python -m pip install --disable-pip-version-check -r site/requirements-pages.txt
+      - name: Build EFI Pages
+        run: >-
+          python scripts/build_pages.py .
+          --out _site
+          --base-path "${{ steps.pages.outputs.base_path }}"
+          --base-url "${{ steps.pages.outputs.base_url }}"
+      - name: Validate EFI Pages
+        run: python scripts/validate_pages.py . --site _site
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Smoke check
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          for i in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            if curl -fsSL --max-time 20 "$SITE_URL" > /dev/null; then exit 0; fi
+            sleep 5
+          done
+          exit 1

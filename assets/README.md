@@ -1,47 +1,53 @@
 <div align="center">
 
-<img src="brand/efi-visual-system.png" alt="EFI visual system" width="100%" />
+<img src="source/efi-visual-system.png" alt="EFI visual system" width="100%" />
 
 # EFI™ Public Assets
 
-**CANONICAL PUBLIC VISUAL LANGUAGE**
+**THIS IS THE PARTS BIN. THE ATLAS IS SOURCE. THE PIECES ARE THE LANGUAGE.**
 
-[Visual System Guide](../docs/VISUAL-SYSTEM.md) · [Repository Home](../README.md)
+[Visual System Guide](../docs/VISUAL-SYSTEM.md) · [UI Asset Map](UI-ASSET-MAP.md) · [Repository Home](../README.md)
 
 </div>
 
 ---
 
-This directory contains the canonical public visual system for EFI and Field Computing.
+## Asset physics
 
-## Visual language
+The repo does not use artwork like stickers somebody found in a downloads folder. Every asset has a job.
 
-- **Void black:** `#050505`
-- **Acid green:** `#A8FF00`
-- **Electric violet:** `#A855FF`
-- **Molten orange:** `#FF8A00`
-- **Hot magenta:** `#FF00E6`
-- **Cyan blue:** `#00D4FF`
+- brand/ carries finished identity.
+- source/ carries canonical source sheets and atlases.
+- ui/ carries reusable primitives cut from the atlas.
+- generated/ is reserved for accepted derivatives with lineage.
+- manifest/ records the hashes, roles, ancestry, and reuse rules.
 
-Primary motifs: luminous field rings, sigils, orbital nodes, cracked metal, plasma glass, iridescent drip, field-wave interference, instrument-line dividers, and high-contrast negative space.
+The full UI atlas belongs in **one place**: the asset catalog. Everywhere else, use the damn component that actually means something.
 
 ## Brand
 
-- [EFI hero](brand/efi-hero.png)
+- [EFI hero](brand/efi-hero-wide.png)
 - [EFI field sigil](brand/efi-sigil.png)
 - [EFI lockup](brand/efi-lockup.png)
-- [Visual system](brand/efi-visual-system.png)
-- [UI / motif kit](brand/efi-ui-kit.png)
 - [Field Computing emblem](brand/efi-field-computing.png)
 - [Xxaion Labs lockup](brand/xxaion-labs.png)
 
-## Diagrams
+## Source sheets
+
+- [Visual system board](source/efi-visual-system.png)
+- [UI source atlas](source/efi-ui-atlas.png)
+
+## Reusable UI library
+
+The atlas is sliced into dividers, frames, corners, glyphs, rings, nodes, arrows, and accents.
+
+→ **[Open the complete UI Asset Map](UI-ASSET-MAP.md)**
+
+## Technical diagrams
 
 - [EFI architecture](diagrams/efi-architecture.svg)
 - [Field transition](diagrams/field-transition.svg)
 - [CORE boundary](diagrams/core-boundary.svg)
-
-The supplied PNG masters are the canonical public brand artwork. SVG is reserved for technical diagrams and geometry that benefits from a diffable vector source.
 
 ---
 
