@@ -4,6 +4,16 @@
 
 This is an operational publication rule, not a legal claim chart.
 
+## Development / release separation
+
+**The EFI repository is release-only.**
+
+All active construction, experimentation, iteration, candidate work, and unfinished implementation work stays local and/or in **The Matrix**. The public EFI repository receives only deliberately selected release artifacts that are public-ready, polished, finalized, and consistent with the active patent/publication boundary.
+
+Do not use the public EFI repository as the working development tree. In particular, do not publish raw candidate bodies, private continuity state, work leases, intermediate build mechanics, scratch artifacts, unfinished implementation code, or development-only receipts merely because they exist.
+
+This separation does not prevent publication of bounded proof packages, reproducible demos, finalized source releases, architecture documents, or other completed public artifacts once intentionally released.
+
 ## Release classes
 
 | Class | Meaning | Public action |
