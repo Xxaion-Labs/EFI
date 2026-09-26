@@ -1,51 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
-<title id="title">EFI architecture map</title>
-<desc id="desc">EFI visual asset by Xxaion Labs.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+<title id="t">EFI architecture</title><desc id="d">Field Computing architecture as a neon causal-relational field.</desc>
 <defs>
-  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient>
-  <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#121B3A"/><stop offset="1" stop-color="#050714"/></radialGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A8FF00"/><stop offset=".28" stop-color="#FF8A00"/><stop offset=".56" stop-color="#A855FF"/><stop offset=".78" stop-color="#FF00E6"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+ <radialGradient id="bg"><stop stop-color="#161A2D"/><stop offset=".55" stop-color="#080A12"/><stop offset="1" stop-color="#020304"/></radialGradient>
+ <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1600" height="920" rx="36" fill="#070A18"/>
-<text x="800" y="70" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="750">One field geometry · distinct authority boundaries</text>
+<rect width="1600" height="1000" rx="34" fill="url(#bg)"/>
+<text x="800" y="66" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="800" letter-spacing="4">EFI FIELD ARCHITECTURE</text>
+<text x="800" y="100" text-anchor="middle" fill="#8E97B5" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="4">ONE FIELD GEOMETRY · DISTINCT AUTHORITY BOUNDARIES</text>
+<g transform="translate(800 510)" fill="none" opacity=".5">
+ <ellipse rx="575" ry="320" stroke="#A855FF" stroke-width="2"/>
+ <ellipse rx="480" ry="260" stroke="#00D4FF" stroke-width="2"/>
+ <ellipse rx="380" ry="205" stroke="#A8FF00" stroke-width="2"/>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="5" opacity=".8" filter="url(#glow)">
+ <path d="M800 510C590 430 470 280 300 240"/><path d="M800 510C1000 420 1110 270 1300 240"/>
+ <path d="M800 510C570 610 470 770 300 790"/><path d="M800 510C1020 610 1110 775 1300 790"/>
+ <path d="M800 510C760 305 770 220 800 160"/><path d="M800 510C790 715 790 825 800 880"/>
+</g>
 <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
-  <circle cx="800" cy="465" r="155" fill="#111A36" stroke="url(#g)" stroke-width="5"/>
-  <text x="800" y="435" fill="#72E7FF" font-size="26" font-weight="700">SOVEREIGN HUMAN</text>
-  <text x="800" y="476" fill="#F7FAFF" font-size="34" font-weight="800">↕ PERSONAL EFI</text>
-  <text x="800" y="516" fill="#AEB9D8" font-size="22">GOO · ANEL GOOS · EGI</text>
+ <g filter="url(#glow)">
+  <circle cx="800" cy="510" r="148" fill="#080A12" stroke="url(#g)" stroke-width="6"/>
+  <circle cx="800" cy="510" r="118" fill="none" stroke="#A8FF00" stroke-width="3" stroke-dasharray="30 12"/>
+  <text x="800" y="492" fill="#A8FF00" font-size="24" font-weight="800">SOVEREIGN HUMAN</text>
+  <text x="800" y="538" fill="#F7FAFF" font-size="38" font-weight="900">↕ PERSONAL EFI</text>
+  <text x="800" y="573" fill="#AEB9D8" font-size="18">GOO · ANEL GOOS · EGI</text>
+ </g>
+ <g>
+  <rect x="116" y="165" width="368" height="155" rx="25" fill="#090C16" stroke="#A8FF00" stroke-width="3"/>
+  <text x="300" y="217" fill="#A8FF00" font-size="23" font-weight="800">FIELD COMPUTING · GLYPH</text>
+  <text x="300" y="254" fill="#F7FAFF" font-size="18">field transition is computation</text>
+  <text x="300" y="285" fill="#8E97B5" font-size="15">constraint · evidence · proof · retention</text>
 
-  <rect x="120" y="170" width="350" height="150" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-  <text x="295" y="220" fill="#72E7FF" font-size="24" font-weight="700">FIELD COMPUTING · GLYPH</text>
-  <text x="295" y="258" fill="#F7FAFF" font-size="20">field transition is computation</text>
-  <text x="295" y="290" fill="#AEB9D8" font-size="17">possibility · constraint · proof · retention</text>
+  <rect x="1116" y="165" width="368" height="155" rx="25" fill="#090C16" stroke="#A855FF" stroke-width="3"/>
+  <text x="1300" y="217" fill="#C986FF" font-size="23" font-weight="800">THE MATRIX</text>
+  <text x="1300" y="254" fill="#F7FAFF" font-size="18">shared verified causal force</text>
+  <text x="1300" y="285" fill="#8E97B5" font-size="15">without identity fusion</text>
 
-  <rect x="1130" y="170" width="350" height="150" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-  <text x="1305" y="220" fill="#C6B2FF" font-size="24" font-weight="700">THE MATRIX</text>
-  <text x="1305" y="258" fill="#F7FAFF" font-size="20">shared verified causal force</text>
-  <text x="1305" y="290" fill="#AEB9D8" font-size="17">without identity fusion</text>
+  <rect x="116" y="716" width="368" height="155" rx="25" fill="#090C16" stroke="#FF8A00" stroke-width="3"/>
+  <text x="300" y="768" fill="#FF9F3A" font-size="23" font-weight="800">FAP · CORE</text>
+  <text x="300" y="805" fill="#F7FAFF" font-size="18">world boundary + runtime</text>
+  <text x="300" y="836" fill="#8E97B5" font-size="15">mechanics remain mechanics</text>
 
-  <rect x="95" y="650" width="410" height="150" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-  <text x="300" y="700" fill="#72E7FF" font-size="24" font-weight="700">FAP · CORE</text>
-  <text x="300" y="738" fill="#F7FAFF" font-size="20">world boundary + local runtime</text>
-  <text x="300" y="770" fill="#AEB9D8" font-size="17">mechanics stay mechanics</text>
+  <rect x="1116" y="716" width="368" height="155" rx="25" fill="#090C16" stroke="#FF00E6" stroke-width="3"/>
+  <text x="1300" y="768" fill="#FF72EF" font-size="23" font-weight="800">ZION · COMMONS</text>
+  <text x="1300" y="805" fill="#F7FAFF" font-size="18">coordination without capture</text>
+  <text x="1300" y="836" fill="#8E97B5" font-size="15">Human Inheritance protects critical fruits</text>
 
-  <rect x="1095" y="650" width="410" height="150" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-  <text x="1300" y="700" fill="#C6B2FF" font-size="24" font-weight="700">ZION · COMMONS</text>
-  <text x="1300" y="738" fill="#F7FAFF" font-size="20">coordination without central capture</text>
-  <text x="1300" y="770" fill="#AEB9D8" font-size="17">Human Inheritance protects critical fruits</text>
+  <rect x="620" y="120" width="360" height="90" rx="45" fill="#090C16" stroke="#00D4FF" stroke-width="3"/>
+  <text x="800" y="158" fill="#70E8FF" font-size="24" font-weight="800">EUI · ATTRACTOR</text>
+  <text x="800" y="185" fill="#AEB9D8" font-size="15">civilization-scale exocortical integration</text>
 
-  <rect x="610" y="95" width="380" height="115" rx="58" fill="#10162C" stroke="url(#g)" stroke-width="3"/>
-  <text x="800" y="143" fill="#F7FAFF" font-size="28" font-weight="800">EUI · ATTRACTOR</text>
-  <text x="800" y="177" fill="#AEB9D8" font-size="18">civilization-scale exocortical integration</text>
+  <rect x="620" y="850" width="360" height="80" rx="40" fill="#090C16" stroke="url(#g)" stroke-width="3"/>
+  <text x="800" y="886" fill="#F7FAFF" font-size="21" font-weight="800">PROOF · AUTHORITY · REALITY</text>
+  <text x="800" y="912" fill="#AEB9D8" font-size="14">bound every scale</text>
+ </g>
 </g>
-<g fill="none" stroke="url(#g)" stroke-width="4" opacity=".8">
-  <path d="M470 290C620 330 680 360 715 405"/>
-  <path d="M1130 290C980 330 920 360 885 405"/>
-  <path d="M505 690C640 620 690 575 720 525"/>
-  <path d="M1095 690C960 620 910 575 880 525"/>
-  <path d="M800 310V210"/>
-  <path d="M470 245C770 110 1030 110 1130 245" opacity=".32"/>
-  <path d="M505 735C800 875 1095 735 1095 735" opacity=".32"/>
+<g stroke="url(#g)" stroke-width="4" filter="url(#glow)">
+ <circle cx="300" cy="240" r="9" fill="#A8FF00"/><circle cx="1300" cy="240" r="9" fill="#A855FF"/>
+ <circle cx="300" cy="790" r="9" fill="#FF8A00"/><circle cx="1300" cy="790" r="9" fill="#FF00E6"/>
 </g>
-<text x="800" y="872" text-anchor="middle" fill="#7784A8" font-family="Segoe UI,Arial,sans-serif" font-size="18">Relations may overlap, recurse, and operate at different scales. This is not a serial software stack.</text>
 </svg>

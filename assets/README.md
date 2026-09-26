@@ -1,33 +1,34 @@
 # EFI™ Public Assets
 
-**PATENT PENDING · Xxaion Labs™**
+This directory contains the canonical public visual system for EFI and Field Computing.
 
-This directory carries the public visual system for the EFI repository and future website surfaces.
+## Visual language
+
+- **Void black:** `#050505`
+- **Acid green:** `#A8FF00`
+- **Electric violet:** `#A855FF`
+- **Molten orange:** `#FF8A00`
+- **Hot magenta:** `#FF00E6`
+- **Cyan blue:** `#00D4FF`
+
+Primary motifs: luminous field rings, sigils, orbital nodes, cracked metal, plasma glass, iridescent drip, field-wave interference, instrument-line dividers, and high-contrast negative space.
 
 ## Brand
 
-- [`brand/efi-mark.svg`](brand/efi-mark.svg) — standalone field mark.
-- [`brand/efi-lockup.svg`](brand/efi-lockup.svg) — EFI name + descriptor lockup.
-- [`brand/efi-hero.svg`](brand/efi-hero.svg) — repository / website hero.
+- [EFI hero](brand/efi-hero.svg)
+- [EFI mark](brand/efi-mark.svg)
+- [EFI lockup](brand/efi-lockup.svg)
+- [Visual system](brand/visual-system.svg)
+- [UI / motif kit](brand/ui-kit.svg)
 
 ## Diagrams
 
-- [`diagrams/efi-architecture.svg`](diagrams/efi-architecture.svg) — relational system map.
-- [`diagrams/field-transition.svg`](diagrams/field-transition.svg) — Field Computing transition.
-- [`diagrams/component-cards.svg`](diagrams/component-cards.svg) — component-card overview.
-- [`diagrams/core-boundary.svg`](diagrams/core-boundary.svg) — EFI ↔ CORE ↔ world boundary.
+- [EFI architecture](diagrams/efi-architecture.svg)
+- [Field transition](diagrams/field-transition.svg)
+- [CORE boundary](diagrams/core-boundary.svg)
+- [Component cards](diagrams/component-cards.svg)
 
-## Visual grammar
-
-The visual system mirrors the architecture rather than decorating it:
-
-- **bright center** — sovereign human / personal EFI center;
-- **open orbital mark** — intelligence as relation, not enclosure;
-- **cyan ↔ violet gradient** — local/personal and shared/projected force held as distinct but connected;
-- **dark field** — possibility space rather than a literal software stack;
-- **lines between bounded nodes** — relation without identity fusion.
-
-SVG is the canonical source format for these repo-native assets so they remain crisp, editable, diffable, and reusable across GitHub and the future website.
+SVG remains the canonical repository-native format so the public identity stays crisp, editable, diffable, and reusable.
 
 ---
 

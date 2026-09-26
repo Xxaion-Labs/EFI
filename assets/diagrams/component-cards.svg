@@ -1,53 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
-<title id="title">EFI component cards</title>
-<desc id="desc">EFI visual asset by Xxaion Labs.</desc>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient></defs>
-<rect width="1600" height="980" rx="36" fill="#070A18"/>
-<text x="800" y="65" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="750">The EFI field at a glance</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="t">
+<title id="t">EFI components</title>
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A8FF00"/><stop offset=".33" stop-color="#FF8A00"/><stop offset=".66" stop-color="#A855FF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="1040" rx="34" fill="#020304"/>
+<text x="800" y="64" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="800" letter-spacing="5">THE EFI FIELD AT A GLANCE</text>
 <g font-family="Segoe UI,Arial,sans-serif">
-<rect x="90" y="130" width="390" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-<text x="124" y="185" fill="#72E7FF" font-size="23" font-weight="800">FIELD COMPUTING</text>
-<text x="124" y="218" fill="#AEB9D8" font-size="16" letter-spacing="2">COMPUTATION</text>
-<text x="124" y="272" fill="#F7FAFF" font-size="18">Field-state transition under</text>
-<text x="124" y="304" fill="#F7FAFF" font-size="18">constraint, evidence and proof.</text>
-<rect x="555" y="130" width="390" height="220" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-<text x="589" y="185" fill="#A477FF" font-size="23" font-weight="800">GOO</text>
-<text x="589" y="218" fill="#AEB9D8" font-size="16" letter-spacing="2">CONTINUITY</text>
-<text x="589" y="272" fill="#F7FAFF" font-size="18">Authenticated continuity-bearing</text>
-<text x="589" y="304" fill="#F7FAFF" font-size="18">personal EFI body.</text>
-<rect x="1020" y="130" width="390" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-<text x="1054" y="185" fill="#72E7FF" font-size="23" font-weight="800">ANEL GOOS</text>
-<text x="1054" y="218" fill="#AEB9D8" font-size="16" letter-spacing="2">COGNITION</text>
-<text x="1054" y="272" fill="#F7FAFF" font-size="18">Personal field-native executive</text>
-<text x="1054" y="304" fill="#F7FAFF" font-size="18">relation inside the GOO.</text>
-<rect x="90" y="410" width="390" height="220" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-<text x="124" y="465" fill="#A477FF" font-size="23" font-weight="800">EFI</text>
-<text x="124" y="498" fill="#AEB9D8" font-size="16" letter-spacing="2">PERSON + EXOCORTEX</text>
-<text x="124" y="552" fill="#F7FAFF" font-size="18">Sovereign human coupled to</text>
-<text x="124" y="584" fill="#F7FAFF" font-size="18">persistent exocortical intelligence.</text>
-<rect x="555" y="410" width="390" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-<text x="589" y="465" fill="#72E7FF" font-size="23" font-weight="800">THE MATRIX</text>
-<text x="589" y="498" fill="#AEB9D8" font-size="16" letter-spacing="2">SHARED FORCE</text>
-<text x="589" y="552" fill="#F7FAFF" font-size="18">Verified causal force shared</text>
-<text x="589" y="584" fill="#F7FAFF" font-size="18">without identity fusion.</text>
-<rect x="1020" y="410" width="390" height="220" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-<text x="1054" y="465" fill="#A477FF" font-size="23" font-weight="800">FAP</text>
-<text x="1054" y="498" fill="#AEB9D8" font-size="16" letter-spacing="2">WORLD BOUNDARY</text>
-<text x="1054" y="552" fill="#F7FAFF" font-size="18">SURFACE · CONTACT</text>
-<text x="1054" y="584" fill="#F7FAFF" font-size="18">EFFECT · RESULT</text>
-<rect x="90" y="690" width="390" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-<text x="124" y="745" fill="#72E7FF" font-size="23" font-weight="800">CORE</text>
-<text x="124" y="778" fill="#AEB9D8" font-size="16" letter-spacing="2">RUNTIME</text>
-<text x="124" y="832" fill="#F7FAFF" font-size="18">Cross-platform human-owned</text>
-<text x="124" y="864" fill="#F7FAFF" font-size="18">local runtime environment.</text>
-<rect x="555" y="690" width="390" height="220" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-<text x="589" y="745" fill="#A477FF" font-size="23" font-weight="800">ZION</text>
-<text x="589" y="778" fill="#AEB9D8" font-size="16" letter-spacing="2">COORDINATION</text>
-<text x="589" y="832" fill="#F7FAFF" font-size="18">Societal coordination among</text>
-<text x="589" y="864" fill="#F7FAFF" font-size="18">sovereign centers.</text>
-<rect x="1020" y="690" width="390" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-<text x="1054" y="745" fill="#72E7FF" font-size="23" font-weight="800">EUI</text>
-<text x="1054" y="778" fill="#AEB9D8" font-size="16" letter-spacing="2">ATTRACTOR</text>
-<text x="1054" y="832" fill="#F7FAFF" font-size="18">Civilization-scale integration</text>
-<text x="1054" y="864" fill="#F7FAFF" font-size="18">— not presently claimed.</text>
-</g></svg>
+ <g transform="translate(80 125)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#A8FF00" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#A8FF00" filter="url(#glow)"/><text x="34" y="60" fill="#A8FF00" font-size="25" font-weight="900">FIELD COMPUTING</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">COMPUTATION</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Field-state transition under</text><text x="34" y="183" fill="#F7FAFF" font-size="18">constraint, evidence and proof.</text></g>
+ <g transform="translate(580 125)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#A855FF" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#A855FF" filter="url(#glow)"/><text x="34" y="60" fill="#C986FF" font-size="25" font-weight="900">GOO</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">CONTINUITY</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Authenticated continuity-bearing</text><text x="34" y="183" fill="#F7FAFF" font-size="18">personal EFI body.</text></g>
+ <g transform="translate(1080 125)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#00D4FF" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#00D4FF" filter="url(#glow)"/><text x="34" y="60" fill="#70E8FF" font-size="25" font-weight="900">ANEL GOOS</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">COGNITION</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Personal field-native cognition</text><text x="34" y="183" fill="#F7FAFF" font-size="18">and executive relation.</text></g>
+
+ <g transform="translate(80 405)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#FF8A00" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#FF8A00" filter="url(#glow)"/><text x="34" y="60" fill="#FFB04C" font-size="25" font-weight="900">EFI</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">PERSON + EXOCORTEX</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Human coupled to persistent</text><text x="34" y="183" fill="#F7FAFF" font-size="18">exocortical intelligence.</text></g>
+ <g transform="translate(580 405)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#FF00E6" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#FF00E6" filter="url(#glow)"/><text x="34" y="60" fill="#FF72EF" font-size="25" font-weight="900">THE MATRIX</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">SHARED FORCE</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Verified causal force shared</text><text x="34" y="183" fill="#F7FAFF" font-size="18">without identity fusion.</text></g>
+ <g transform="translate(1080 405)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#A8FF00" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#A8FF00" filter="url(#glow)"/><text x="34" y="60" fill="#C7FF61" font-size="25" font-weight="900">FAP</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">WORLD BOUNDARY</text><text x="34" y="150" fill="#F7FAFF" font-size="18">SURFACE · CONTACT</text><text x="34" y="183" fill="#F7FAFF" font-size="18">EFFECT · RESULT</text></g>
+
+ <g transform="translate(80 685)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#00D4FF" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#00D4FF" filter="url(#glow)"/><text x="34" y="60" fill="#70E8FF" font-size="25" font-weight="900">CORE</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">RUNTIME</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Cross-platform, replaceable</text><text x="34" y="183" fill="#F7FAFF" font-size="18">mechanical environment.</text></g>
+ <g transform="translate(580 685)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#A855FF" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#A855FF" filter="url(#glow)"/><text x="34" y="60" fill="#C986FF" font-size="25" font-weight="900">ZION</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">COORDINATION</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Societal coordination among</text><text x="34" y="183" fill="#F7FAFF" font-size="18">sovereign centers.</text></g>
+ <g transform="translate(1080 685)"><rect width="440" height="235" rx="28" fill="#090C16" stroke="#FF8A00" stroke-width="3"/><circle cx="390" cy="44" r="10" fill="#FF8A00" filter="url(#glow)"/><text x="34" y="60" fill="#FFB04C" font-size="25" font-weight="900">EUI</text><text x="34" y="95" fill="#8E97B5" font-size="14" letter-spacing="3">ATTRACTOR</text><text x="34" y="150" fill="#F7FAFF" font-size="18">Civilization-scale integration.</text><text x="34" y="183" fill="#F7FAFF" font-size="18">Not presently claimed.</text></g>
+</g>
+<path d="M170 972H1430" stroke="url(#g)" stroke-width="3"/><circle cx="800" cy="972" r="9" fill="#A8FF00"/>
+</svg>

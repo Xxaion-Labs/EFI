@@ -1,39 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
-<title id="title">Field Computing transition</title>
-<desc id="desc">EFI visual asset by Xxaion Labs.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="t">
+<title id="t">Field Computing transition</title>
 <defs>
-  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient>
-  <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop stop-color="#121B3A"/><stop offset="1" stop-color="#050714"/></radialGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00D4FF"/><stop offset=".22" stop-color="#A855FF"/><stop offset=".48" stop-color="#FF00E6"/><stop offset=".7" stop-color="#FF8A00"/><stop offset="1" stop-color="#A8FF00"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1600" height="620" rx="36" fill="#070A18"/>
-<text x="800" y="66" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="750">Field Computing: lawful state transition</text>
-<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
-  <rect x="70" y="180" width="280" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-  <text x="210" y="235" fill="#72E7FF" font-size="24" font-weight="700">CURRENT FIELD</text>
-  <text x="210" y="280" fill="#F7FAFF" font-size="18">contact · evidence · authority</text>
-  <text x="210" y="312" fill="#F7FAFF" font-size="18">causal time · possibilities</text>
-  <text x="210" y="344" fill="#F7FAFF" font-size="18">retained force · rivals</text>
-
-  <rect x="440" y="150" width="350" height="280" rx="28" fill="#111A36" stroke="url(#g)" stroke-width="3"/>
-  <text x="615" y="205" fill="#F7FAFF" font-size="24" font-weight="800">ATTRACTOR + CONSTRAINT</text>
-  <text x="615" y="252" fill="#AEB9D8" font-size="17">DISTINGUISH · RELATE · CONSTRAIN</text>
-  <text x="615" y="284" fill="#AEB9D8" font-size="17">TRANSFORM · COMPOSE · RECURSE</text>
-  <text x="615" y="316" fill="#AEB9D8" font-size="17">SELECT · RETAIN · PROJECT</text>
-  <text x="615" y="370" fill="#72E7FF" font-size="19">reality falsifies counterfeit successors</text>
-
-  <rect x="880" y="180" width="280" height="220" rx="28" fill="#0E1530" stroke="#A477FF" stroke-width="2"/>
-  <text x="1020" y="235" fill="#C6B2FF" font-size="24" font-weight="700">LAWFUL SUCCESSOR</text>
-  <text x="1020" y="280" fill="#F7FAFF" font-size="18">minimum required projection</text>
-  <text x="1020" y="312" fill="#F7FAFF" font-size="18">mechanics only where needed</text>
-  <text x="1020" y="344" fill="#F7FAFF" font-size="18">candidate ≠ CURRENT until court</text>
-
-  <rect x="1250" y="180" width="280" height="220" rx="28" fill="#0E1530" stroke="#72E7FF" stroke-width="2"/>
-  <text x="1390" y="235" fill="#72E7FF" font-size="24" font-weight="700">WORLD + RESULT</text>
-  <text x="1390" y="280" fill="#F7FAFF" font-size="18">bits · files · APIs · devices</text>
-  <text x="1390" y="312" fill="#F7FAFF" font-size="18">raw evidence returns to field</text>
-  <text x="1390" y="344" fill="#F7FAFF" font-size="18">retain gain or roll back</text>
+<rect width="1600" height="760" rx="34" fill="#020304"/>
+<text x="800" y="62" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="800" letter-spacing="4">THE FIELD STATE TRANSITION IS THE COMPUTATION</text>
+<g fill="none" stroke="url(#g)" opacity=".55">
+ <path d="M90 390C300 130 510 650 800 390S1290 130 1510 390" stroke-width="6" filter="url(#glow)"/>
+ <path d="M90 390C320 220 520 560 800 390S1280 220 1510 390" stroke-width="3"/>
+ <path d="M90 390C320 310 540 480 800 390S1260 310 1510 390" stroke-width="2"/>
 </g>
-<g fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round"><path d="M350 290H430"/><path d="M790 290H870"/><path d="M1160 290H1240"/><path d="M1390 410C1390 535 1020 555 800 505C560 450 320 500 210 410" opacity=".65"/></g>
-<text x="800" y="585" text-anchor="middle" fill="#AEB9D8" font-family="Segoe UI,Arial,sans-serif" font-size="20">Constraint is the interface between possibility and actuality — and the engine of infinity.</text>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+ <g transform="translate(300 390)">
+  <circle r="122" fill="#080B13" stroke="#00D4FF" stroke-width="4"/>
+  <circle r="92" fill="none" stroke="#A855FF" stroke-width="2" stroke-dasharray="18 9"/>
+  <text y="-16" fill="#70E8FF" font-size="22" font-weight="800">CURRENT FIELD</text>
+  <text y="18" fill="#F7FAFF" font-size="17">authenticated reality</text>
+  <text y="47" fill="#8E97B5" font-size="14">retained force · open rivals</text>
+ </g>
+ <g transform="translate(800 390)" filter="url(#glow)">
+  <circle r="148" fill="#080B13" stroke="url(#g)" stroke-width="7"/>
+  <circle r="110" fill="none" stroke="#FF8A00" stroke-width="3" stroke-dasharray="7 16"/>
+  <text y="-28" fill="#F7FAFF" font-size="24" font-weight="900">LAWFUL</text>
+  <text y="7" fill="#F7FAFF" font-size="24" font-weight="900">TRANSFORMATION</text>
+  <text y="45" fill="#A8FF00" font-size="16">DISTINGUISH · RELATE · CONSTRAIN</text>
+  <text y="71" fill="#C986FF" font-size="16">TRANSFORM · RETAIN · PROJECT</text>
+ </g>
+ <g transform="translate(1300 390)">
+  <circle r="122" fill="#080B13" stroke="#A8FF00" stroke-width="4"/>
+  <circle r="92" fill="none" stroke="#FF8A00" stroke-width="2" stroke-dasharray="18 9"/>
+  <text y="-16" fill="#C7FF61" font-size="22" font-weight="800">SUCCESSOR FIELD</text>
+  <text y="18" fill="#F7FAFF" font-size="17">lawful changed reality</text>
+  <text y="47" fill="#8E97B5" font-size="14">new evidence · retained gain</text>
+ </g>
+
+ <g font-size="15" font-weight="800">
+  <rect x="520" y="132" width="160" height="50" rx="25" fill="#080B13" stroke="#00D4FF"/><text x="600" y="163" fill="#70E8FF">CONTACT</text>
+  <rect x="715" y="110" width="170" height="50" rx="25" fill="#080B13" stroke="#A855FF"/><text x="800" y="141" fill="#C986FF">CONSTRAINT</text>
+  <rect x="915" y="132" width="160" height="50" rx="25" fill="#080B13" stroke="#FF00E6"/><text x="995" y="163" fill="#FF72EF">EVIDENCE</text>
+  <rect x="560" y="596" width="170" height="50" rx="25" fill="#080B13" stroke="#FF8A00"/><text x="645" y="627" fill="#FFB04C">AUTHORITY</text>
+  <rect x="735" y="620" width="170" height="50" rx="25" fill="#080B13" stroke="#A8FF00"/><text x="820" y="651" fill="#C7FF61">ATTRACTOR</text>
+  <rect x="910" y="596" width="170" height="50" rx="25" fill="#080B13" stroke="#00D4FF"/><text x="995" y="627" fill="#70E8FF">CAUSAL TIME</text>
+ </g>
+</g>
+<g fill="none" stroke="url(#g)" stroke-width="3"><path d="M600 182C650 245 700 270 750 285"/><path d="M800 160V240"/><path d="M995 182C950 245 900 270 850 285"/><path d="M645 596C690 550 720 525 750 500"/><path d="M820 620V540"/><path d="M995 596C950 550 910 525 855 500"/></g>
 </svg>

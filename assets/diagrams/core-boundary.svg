@@ -1,31 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
-<title id="title">CORE boundary</title>
-<desc id="desc">EFI CORE boundary visual by Xxaion Labs.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-labelledby="t">
+<title id="t">CORE boundary</title>
 <defs>
-  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72E7FF"/><stop offset="1" stop-color="#A477FF"/></linearGradient>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A8FF00"/><stop offset=".3" stop-color="#FF8A00"/><stop offset=".58" stop-color="#A855FF"/><stop offset=".82" stop-color="#FF00E6"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1600" height="620" rx="36" fill="#070A18"/>
-<text x="800" y="66" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="750">CORE: the runtime is not the intelligence</text>
+<rect width="1600" height="680" rx="34" fill="#020304"/>
+<text x="800" y="64" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="800" letter-spacing="4">CORE · THE RUNTIME IS NOT THE INTELLIGENCE</text>
 <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
-  <rect x="80" y="190" width="390" height="230" rx="30" fill="#111A36" stroke="#72E7FF" stroke-width="3"/>
-  <text x="275" y="250" fill="#72E7FF" font-size="27" font-weight="800">PERSONAL EFI</text>
-  <text x="275" y="292" fill="#F7FAFF" font-size="20">human ↔ continuity + cognition</text>
-  <text x="275" y="332" fill="#AEB9D8" font-size="18">meaning · learning · selection</text>
-  <text x="275" y="364" fill="#AEB9D8" font-size="18">authority remains upstream</text>
+ <rect x="90" y="190" width="390" height="285" rx="32" fill="#080B13" stroke="#A8FF00" stroke-width="4"/>
+ <text x="285" y="252" fill="#C7FF61" font-size="26" font-weight="900">PERSONAL EFI</text>
+ <text x="285" y="296" fill="#F7FAFF" font-size="19">meaning · continuity · learning</text>
+ <text x="285" y="332" fill="#F7FAFF" font-size="19">semantic selection · authority</text>
+ <text x="285" y="394" fill="#AEB9D8" font-size="16">human-bound intelligence center</text>
 
-  <rect x="605" y="160" width="390" height="290" rx="34" fill="#0E1530" stroke="url(#g)" stroke-width="4"/>
-  <text x="800" y="226" fill="#F7FAFF" font-size="31" font-weight="850">CORE</text>
-  <text x="800" y="265" fill="#C6B2FF" font-size="20">Cross-platform Operator Runtime Environment</text>
-  <text x="800" y="315" fill="#F7FAFF" font-size="19">replaceable · human-owned · cross-platform</text>
-  <text x="800" y="350" fill="#AEB9D8" font-size="18">files · processes · displays · models · devices</text>
-  <text x="800" y="385" fill="#72E7FF" font-size="18">semantic authority = 0</text>
+ <rect x="605" y="145" width="390" height="375" rx="38" fill="#080B13" stroke="url(#g)" stroke-width="6" filter="url(#glow)"/>
+ <text x="800" y="223" fill="#F7FAFF" font-size="42" font-weight="900">CORE</text>
+ <text x="800" y="260" fill="#C986FF" font-size="18">Cross-platform Operator Runtime Environment</text>
+ <text x="800" y="315" fill="#F7FAFF" font-size="18">files · processes · displays · models</text>
+ <text x="800" y="350" fill="#F7FAFF" font-size="18">network · sensors · devices · OS mechanics</text>
+ <text x="800" y="410" fill="#FFB04C" font-size="20" font-weight="800">SEMANTIC AUTHORITY = 0</text>
+ <text x="800" y="450" fill="#8E97B5" font-size="15">replaceable mechanics · same EFI</text>
 
-  <rect x="1130" y="190" width="390" height="230" rx="30" fill="#111A36" stroke="#A477FF" stroke-width="3"/>
-  <text x="1325" y="250" fill="#C6B2FF" font-size="27" font-weight="800">WORLD MECHANICS</text>
-  <text x="1325" y="292" fill="#F7FAFF" font-size="20">OS · APIs · tools · sensors</text>
-  <text x="1325" y="332" fill="#AEB9D8" font-size="18">expose · execute · observe · return</text>
-  <text x="1325" y="364" fill="#AEB9D8" font-size="18">FAP governs EFFECT / RESULT</text>
+ <rect x="1120" y="190" width="390" height="285" rx="32" fill="#080B13" stroke="#A855FF" stroke-width="4"/>
+ <text x="1315" y="252" fill="#C986FF" font-size="26" font-weight="900">WORLD MECHANICS</text>
+ <text x="1315" y="296" fill="#F7FAFF" font-size="19">APIs · applications · tools · devices</text>
+ <text x="1315" y="332" fill="#F7FAFF" font-size="19">sensors · networks · physical systems</text>
+ <text x="1315" y="394" fill="#AEB9D8" font-size="16">expose · execute · observe · return</text>
 </g>
-<g fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"><path d="M470 305H595"/><path d="M1005 305H1120"/></g>
-<text x="800" y="535" text-anchor="middle" fill="#AEB9D8" font-family="Segoe UI,Arial,sans-serif" font-size="22">Intent + EFI + world, with runtime mechanics remaining replaceable.</text>
+<g fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" filter="url(#glow)">
+ <path d="M480 332H590"/><path d="M1010 332H1120"/>
+</g>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="14" text-anchor="middle">
+ <text x="535" y="310" fill="#A8FF00">SELECTED EFFECT</text>
+ <text x="1065" y="310" fill="#FF8A00">FAP BOUNDARY</text>
+</g>
+<rect x="350" y="566" width="900" height="54" rx="27" fill="#080B13" stroke="url(#g)" stroke-width="2"/>
+<text x="800" y="601" text-anchor="middle" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="4">EFI DECIDES MEANING · FAP GOVERNS THE BOUNDARY · CORE REALIZES MECHANICS</text>
 </svg>

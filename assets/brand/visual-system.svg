@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="t">
+<title id="t">EFI visual system</title>
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A8FF00"/><stop offset=".26" stop-color="#FF8A00"/><stop offset=".52" stop-color="#FF00E6"/><stop offset=".75" stop-color="#A855FF"/><stop offset="1" stop-color="#00D4FF"/></linearGradient>
+ <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="1000" fill="#020304"/>
+<text x="64" y="72" fill="#A8FF00" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="900" letter-spacing="8">EFI</text>
+<text x="176" y="72" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="30" letter-spacing="11">VISUAL SYSTEM</text>
+<path d="M64 98H1536" stroke="url(#g)" stroke-width="2"/>
+<text x="64" y="152" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="4">PALETTE</text>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="14">
+ <rect x="64" y="180" width="150" height="120" fill="#A8FF00"/><text x="64" y="326" fill="#A8FF00">#A8FF00 · ACID GREEN</text>
+ <rect x="244" y="180" width="150" height="120" fill="#A855FF"/><text x="244" y="326" fill="#A855FF">#A855FF · ELECTRIC VIOLET</text>
+ <rect x="424" y="180" width="150" height="120" fill="#FF8A00"/><text x="424" y="326" fill="#FF8A00">#FF8A00 · MOLTEN ORANGE</text>
+ <rect x="604" y="180" width="150" height="120" fill="#FF00E6"/><text x="604" y="326" fill="#FF00E6">#FF00E6 · HOT MAGENTA</text>
+ <rect x="784" y="180" width="150" height="120" fill="#00D4FF"/><text x="784" y="326" fill="#00D4FF">#00D4FF · CYAN BLUE</text>
+ <rect x="964" y="180" width="150" height="120" fill="#050505" stroke="#343844"/><text x="964" y="326" fill="#AEB9D8">#050505 · VOID BLACK</text>
+</g>
+<text x="64" y="395" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="4">MOTIFS</text>
+<g transform="translate(64 430)" fill="none">
+ <circle cx="120" cy="120" r="90" stroke="#A8FF00" stroke-width="10" stroke-dasharray="55 12" filter="url(#glow)"/>
+ <path d="M120 45v150M75 65Q120 90 165 65M75 175Q120 150 165 175M75 65Q35 120 75 175M165 65Q205 120 165 175" stroke="#A8FF00" stroke-width="10"/>
+ <circle cx="360" cy="120" r="88" stroke="#A855FF" stroke-width="9"/><path d="M300 60l120 120M420 60L300 180" stroke="#FF00E6" stroke-width="9" filter="url(#glow)"/>
+ <circle cx="600" cy="120" r="90" stroke="#FF8A00" stroke-width="6"/><circle cx="600" cy="120" r="22" fill="#A855FF" stroke="#F7FAFF" stroke-width="3"/><g stroke="#A8FF00" stroke-width="3"><path d="M510 120H690M600 30V210M536 56l128 128M664 56L536 184"/></g>
+ <rect x="760" y="44" width="320" height="150" rx="22" stroke="url(#g)" stroke-width="5"/><path d="M780 70v38m0-4c0 22 20 22 20 0V88M1030 65v52" stroke="#FF8A00" stroke-width="7"/>
+ <path d="M1140 75H1470M1140 120H1470M1140 165H1470" stroke="url(#g)" stroke-width="5"/><circle cx="1240" cy="120" r="12" fill="#A8FF00"/><circle cx="1390" cy="75" r="12" fill="#A855FF"/>
+</g>
+<text x="64" y="700" fill="#F7FAFF" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="4">TEXTURE LANGUAGE</text>
+<g font-family="Segoe UI,Arial,sans-serif">
+ <rect x="64" y="735" width="330" height="180" rx="22" fill="#0A1507" stroke="#A8FF00" stroke-width="3"/><path d="M80 880l65-125 60 90 52-100 90 136" fill="none" stroke="#A8FF00" stroke-width="5" filter="url(#glow)"/><text x="80" y="945" fill="#A8FF00" font-size="15" letter-spacing="3">PLASMA GLASS</text>
+ <rect x="430" y="735" width="330" height="180" rx="22" fill="#101116" stroke="#FF8A00" stroke-width="3"/><path d="M450 760l65 55 40-50 72 70 50-63 60 90M465 885l55-82 75 73 70-105" fill="none" stroke="url(#g)" stroke-width="5"/><text x="446" y="945" fill="#FFB04C" font-size="15" letter-spacing="3">CRACKED METAL</text>
+ <rect x="796" y="735" width="330" height="180" rx="22" fill="#100818" stroke="#A855FF" stroke-width="3"/><path d="M830 760v82m0-10c0 35 24 35 24 0v-29M915 760v112M1010 760v67m0-5c0 28 20 28 20 0v-30" stroke="#FF00E6" stroke-width="9" filter="url(#glow)"/><text x="812" y="945" fill="#C986FF" font-size="15" letter-spacing="3">IRIDESCENT DRIP</text>
+ <rect x="1162" y="735" width="374" height="180" rx="22" fill="#07111C" stroke="#00D4FF" stroke-width="3"/><path d="M1180 825C1240 750 1310 900 1370 825S1480 750 1520 825" fill="none" stroke="url(#g)" stroke-width="8" filter="url(#glow)"/><text x="1178" y="945" fill="#70E8FF" font-size="15" letter-spacing="3">FIELD-WAVE PATTERN</text>
+</g>
+</svg>
