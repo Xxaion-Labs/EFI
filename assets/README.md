@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="brand/visual-system.svg" alt="EFI visual system" width="100%" />
+<img src="brand/efi-visual-system.png" alt="EFI visual system" width="100%" />
 
 # EFI™ Public Assets
 
@@ -27,20 +27,21 @@ Primary motifs: luminous field rings, sigils, orbital nodes, cracked metal, plas
 
 ## Brand
 
-- [EFI hero](brand/efi-hero.svg)
-- [EFI mark](brand/efi-mark.svg)
-- [EFI lockup](brand/efi-lockup.svg)
-- [Visual system](brand/visual-system.svg)
-- [UI / motif kit](brand/ui-kit.svg)
+- [EFI hero](brand/efi-hero.png)
+- [EFI field sigil](brand/efi-sigil.png)
+- [EFI lockup](brand/efi-lockup.png)
+- [Visual system](brand/efi-visual-system.png)
+- [UI / motif kit](brand/efi-ui-kit.png)
+- [Field Computing emblem](brand/efi-field-computing.png)
+- [Xxaion Labs lockup](brand/xxaion-labs.png)
 
 ## Diagrams
 
 - [EFI architecture](diagrams/efi-architecture.svg)
 - [Field transition](diagrams/field-transition.svg)
 - [CORE boundary](diagrams/core-boundary.svg)
-- [Component cards](diagrams/component-cards.svg)
 
-SVG remains the canonical repository-native format so the public identity stays crisp, editable, diffable, and reusable.
+The supplied PNG masters are the canonical public brand artwork. SVG is reserved for technical diagrams and geometry that benefits from a diffable vector source.
 
 ---
 

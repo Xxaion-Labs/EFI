@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/brand/efi-lockup.svg" alt="EFI — Extracortical Field Intelligence" width="82%" />
+<img src="../assets/brand/efi-lockup.png" alt="EFI — Extracortical Field Intelligence" width="82%" />
 
 # Architecture
 

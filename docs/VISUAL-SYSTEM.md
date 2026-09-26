@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/brand/visual-system.svg" alt="EFI visual system" width="100%" />
+<img src="../assets/brand/efi-visual-system.png" alt="EFI visual system" width="100%" />
 
 # EFI™ Visual System
 
@@ -50,7 +50,7 @@ The visual system should communicate four simultaneous properties:
 
 ## Primary motifs
 
-<img src="../assets/brand/ui-kit.svg" alt="EFI motif and UI kit" width="100%" />
+<img src="../assets/brand/efi-ui-kit.png" alt="EFI motif and UI kit" width="100%" />
 
 Use repeatedly:
 
@@ -78,7 +78,7 @@ Avoid:
 
 ### EFI master identity
 
-<img src="../assets/brand/efi-hero.svg" alt="EFI hero identity" width="100%" />
+<img src="../assets/brand/efi-hero.png" alt="EFI hero identity" width="100%" />
 
 Use for:
 
@@ -89,7 +89,7 @@ Use for:
 
 ### EFI compact lockup
 
-<img src="../assets/brand/efi-lockup.svg" alt="EFI compact lockup" width="86%" />
+<img src="../assets/brand/efi-lockup.png" alt="EFI compact lockup" width="86%" />
 
 Use for:
 
@@ -99,7 +99,7 @@ Use for:
 
 ### Field sigil
 
-<img src="../assets/brand/efi-mark.svg" alt="EFI field sigil" width="42%" />
+<img src="../assets/brand/efi-sigil.png" alt="EFI field sigil" width="42%" />
 
 Use for:
 
@@ -151,21 +151,22 @@ Prefer compact matrices and unmistakable labels:
 
 | Asset | Purpose |
 |---|---|
-| `assets/brand/efi-hero.svg` | repository / launch hero |
-| `assets/brand/efi-mark.svg` | sigil / identity mark |
-| `assets/brand/efi-lockup.svg` | compact brand lockup |
-| `assets/brand/visual-system.svg` | canonical style-board projection |
-| `assets/brand/ui-kit.svg` | motif / frame / divider reference |
+| `assets/brand/efi-hero.png` | repository / launch hero |
+| `assets/brand/efi-sigil.png` | sigil / identity mark |
+| `assets/brand/efi-lockup.png` | compact brand lockup |
+| `assets/brand/efi-field-computing.png` | Field Computing emblem |
+| `assets/brand/xxaion-labs.png` | Xxaion Labs organization lockup |
+| `assets/brand/efi-visual-system.png` | canonical style-board projection |
+| `assets/brand/efi-ui-kit.png` | motif / frame / divider reference |
 | `assets/diagrams/efi-architecture.svg` | architecture overview |
 | `assets/diagrams/field-transition.svg` | field-state transition |
 | `assets/diagrams/core-boundary.svg` | EFI ↔ CORE boundary |
-| `assets/diagrams/component-cards.svg` | component identity map |
 
 ---
 
 <div align="center">
 
-<img src="../assets/brand/efi-lockup.svg" alt="EFI by Xxaion Labs" width="68%" />
+<img src="../assets/brand/efi-lockup.png" alt="EFI by Xxaion Labs" width="68%" />
 
 **EFI™ · XXAION LABS™ · PATENT PENDING**
 

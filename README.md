@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/brand/efi-hero.svg" alt="EFI - Extracortical Field Intelligence" width="100%" />
+<img src="assets/brand/efi-hero.png" alt="EFI - Extracortical Field Intelligence" width="100%" />
 
 <br/>
 
@@ -29,7 +29,7 @@
 <tr>
 <td width="42%" align="center">
 
-<img src="assets/brand/efi-mark.svg" alt="EFI field sigil" width="78%" />
+<img src="assets/brand/efi-sigil.png" alt="EFI field sigil" width="78%" />
 
 </td>
 <td width="58%">
@@ -67,13 +67,19 @@ EFI combines persistent personal continuity, field-native learning, bounded worl
 
 <div align="center">
 
-<img src="assets/diagrams/component-cards.svg" alt="EFI component map" width="100%" />
+<img src="assets/brand/efi-ui-kit.png" alt="EFI component map" width="100%" />
 
 </div>
 
 ---
 
 ## Field Computing
+
+<div align="center">
+
+<img src="assets/brand/efi-field-computing.png" alt="EFI Field Computing" width="58%" />
+
+</div>
 
 Field Computing does not begin with a fixed program and ask what instruction runs next.
 
@@ -191,7 +197,9 @@ Donations do not purchase commercial-use rights, patent rights, exclusivity, or 
 
 <div align="center">
 
-<img src="assets/brand/efi-lockup.svg" alt="EFI by Xxaion Labs" width="72%" />
+<img src="assets/brand/efi-lockup.png" alt="EFI — Extracortical Field Intelligence" width="72%" />
+
+<img src="assets/brand/xxaion-labs.png" alt="Xxaion Labs" width="62%" />
 
 <br/>
 

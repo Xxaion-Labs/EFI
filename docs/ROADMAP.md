@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/brand/efi-mark.svg" alt="EFI field sigil" width="22%" />
+<img src="../assets/brand/efi-sigil.png" alt="EFI field sigil" width="22%" />
 
 # EFI™ Roadmap
 

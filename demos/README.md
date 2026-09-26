@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/brand/efi-hero.svg" alt="EFI — Extracortical Field Intelligence" width="100%" />
+<img src="../assets/brand/efi-hero.png" alt="EFI — Extracortical Field Intelligence" width="100%" />
 
 # EFI™ Demos
 
