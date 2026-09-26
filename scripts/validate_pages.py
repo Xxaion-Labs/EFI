@@ -28,6 +28,8 @@ def main():
         grammar=json.loads(grammar_path.read_text(encoding='utf-8'))
         if grammar.get('layout',{}).get('left_sidebar') is not False: errors.append('LEFT_SIDEBAR_GRAMMAR_FORBIDDEN')
         if grammar.get('layout',{}).get('top_nav') is not True: errors.append('TOP_NAV_GRAMMAR_REQUIRED')
+        if grammar.get('layout',{}).get('route_cards') is not False: errors.append('DUPLICATE_PRIMARY_ROUTE_LATTICE_GRAMMAR_FORBIDDEN')
+        if cfg.get('features',{}).get('route_cards') is not False: errors.append('DUPLICATE_PRIMARY_ROUTE_LATTICE_CONFIG_FORBIDDEN')
     base=manifest.get('base_path','') if manifest else ''
     required=['index.html','404.html','theme/site.css','theme/site.js','search-index.json','sitemap.xml','robots.txt','site.webmanifest','build-manifest.json','.nojekyll']
     for rel in required:
@@ -47,6 +49,7 @@ def main():
         raw=p.read_text(encoding='utf-8',errors='replace')
         if 'class="rail"' in raw or '<aside class="rail"' in raw: errors.append('LEFT_SIDEBAR_PRESENT '+p.relative_to(site).as_posix())
         if 'id="site-nav"' not in raw: errors.append('TOP_NAV_MISSING '+p.relative_to(site).as_posix())
+        if 'route-lattice' in raw or 'class="route-card"' in raw: errors.append('DUPLICATE_PRIMARY_ROUTE_LATTICE_PRESENT '+p.relative_to(site).as_posix())
         sc=Scan(); sc.feed(raw)
         if not sc.titles: errors.append('TITLE_MISSING '+p.relative_to(site).as_posix())
         if not sc.viewports: errors.append('VIEWPORT_MISSING '+p.relative_to(site).as_posix())

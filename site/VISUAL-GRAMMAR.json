@@ -13,7 +13,8 @@
     "github_pages_uses_full_system",
     "github_readme_uses_reduced_system",
     "top_navigation_is_primary",
-    "left_sidebar_is_forbidden"
+    "left_sidebar_is_forbidden",
+    "single_primary_navigation_plane"
   ],
   "surface_modes": {
     "github_readme": {
@@ -45,7 +46,8 @@
       "disallow": [
         "left_sidebar",
         "random_rotation",
-        "whole_atlas_decoration"
+        "whole_atlas_decoration",
+        "duplicate_primary_route_lattice"
       ]
     }
   },
@@ -269,7 +271,7 @@
     "left_sidebar": false,
     "reference_navigation": "footer_utility_links",
     "content_width": "wide",
-    "route_cards": true,
+    "route_cards": false,
     "search": true
   },
   "rotation_rules": {
@@ -290,7 +292,7 @@
     ],
     "decorate_unordered_lists": true,
     "decorate_ordered_lists": false,
-    "route_cards_use_frame_pool": true,
+    "route_cards_use_frame_pool": false,
     "frame_content_not_frame_placeholder": true,
     "source_atlas_never_used_as_runtime_chrome": true
   },
@@ -326,7 +328,8 @@
       "asset_usage_without_semantic_role",
       "whole_atlas_used_as_runtime_chrome",
       "readability_degraded",
-      "required_visual_asset_missing"
+      "required_visual_asset_missing",
+      "duplicate_primary_navigation_surface_present"
     ]
   }
 }

@@ -10,7 +10,7 @@
   "features": {
     "search": true,
     "toc": true,
-    "route_cards": true,
+    "route_cards": false,
     "copy_heading_links": true,
     "keyboard_search": true,
     "reduced_motion": true,
