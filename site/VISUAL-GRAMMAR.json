@@ -14,7 +14,9 @@
     "github_readme_uses_reduced_system",
     "top_navigation_is_primary",
     "left_sidebar_is_forbidden",
-    "single_primary_navigation_plane"
+    "single_primary_navigation_plane",
+    "frame_slots_are_preserved",
+    "box_frame_assets_are_runtime_disabled"
   ],
   "surface_modes": {
     "github_readme": {
@@ -296,7 +298,10 @@
     "frame_content_not_frame_placeholder": true,
     "source_atlas_never_used_as_runtime_chrome": true,
     "home_intro_markdown_panel": true,
-    "home_intro_background_frame": false
+    "home_intro_background_frame": false,
+    "frame_asset_rendering": false,
+    "frame_slot_metadata_preserved": true,
+    "box_ui_runtime_enabled": false
   },
   "component_inventory": [
     "efi-panel-intro",
@@ -333,7 +338,9 @@
       "readability_degraded",
       "required_visual_asset_missing",
       "duplicate_primary_navigation_surface_present",
-      "home_intro_background_frame_forbidden"
+      "home_intro_background_frame_forbidden",
+      "runtime_box_frame_asset_rendered",
+      "runtime_box_frame_css_present"
     ]
   }
 }

@@ -20,7 +20,8 @@
     "top_nav": true,
     "reference_sidebar": false,
     "semantic_frame_system": true,
-    "semantic_list_markers": true
+    "semantic_list_markers": true,
+    "frame_asset_rendering": false
   },
   "budgets": {
     "css_bytes": 65536,

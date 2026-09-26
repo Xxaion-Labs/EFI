@@ -4,12 +4,9 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
 /* EFI visual grammar: frames contain content; markers carry meaning; variation is deterministic. */
-.efi-frame{--efi-frame:none;position:relative;isolation:isolate;margin:clamp(1.25rem,2.5vw,2rem) 0;padding:clamp(1.05rem,2.4vw,1.65rem);background:rgba(5,5,8,.62)}
-.efi-frame::before{content:"";position:absolute;inset:-.35rem;z-index:-1;pointer-events:none;background-image:var(--efi-frame);background-position:center;background-repeat:no-repeat;background-size:100% 100%;filter:drop-shadow(0 0 14px rgba(168,255,0,.10));opacity:.92}
-.efi-frame__content{position:relative;z-index:1;min-width:0}
-.efi-frame table,.efi-frame blockquote,.efi-frame pre{margin:0;background-color:rgba(5,5,8,.72)}
-.efi-frame blockquote{border-left:0;padding:clamp(.65rem,1.5vw,1rem)}
-.efi-frame pre{box-shadow:none}
+.efi-frame{position:relative;margin:clamp(1.25rem,2.5vw,2rem) 0;padding:0;background:transparent}
+.efi-frame__content{position:relative;min-width:0}
+.efi-frame table,.efi-frame blockquote,.efi-frame pre{margin:0}
 .efi-list{--efi-marker:none;list-style:none!important;padding-left:0!important}
 .efi-list>li{position:relative;padding-left:1.75em;margin:.36em 0}
 .efi-list>li::before{content:"";position:absolute;left:.08em;top:.36em;width:.95em;height:.95em;background-image:var(--efi-marker);background-position:center;background-repeat:no-repeat;background-size:contain;filter:drop-shadow(0 0 7px rgba(168,255,0,.24))}
@@ -17,7 +14,7 @@
 
 
 
-@media(max-width:560px){.site-header{gap:.45rem;padding:.6rem .75rem}.brand{min-width:0}.page-shell{padding:1.25rem 1rem 4rem}.efi-frame{padding:.9rem}.efi-list>li{padding-left:1.55em}.doc>div[align="center"]{max-width:100%;overflow:hidden}.doc>div[align="center"] img{max-width:100%;height:auto}.site-footer{padding:1rem}.utility-nav a{padding:.34rem .45rem}}
+@media(max-width:560px){.site-header{gap:.45rem;padding:.6rem .75rem}.brand{min-width:0}.page-shell{padding:1.25rem 1rem 4rem}.efi-list>li{padding-left:1.55em}.doc>div[align="center"]{max-width:100%;overflow:hidden}.doc>div[align="center"] img{max-width:100%;height:auto}.site-footer{padding:1rem}.utility-nav a{padding:.34rem .45rem}}
 
 /* Home split-intro: canonical Markdown, explicit hierarchy, no raw syntax leakage. */
 .efi-hero-split{position:relative;display:grid;grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr);align-items:center;gap:clamp(1.4rem,3vw,3rem);margin:clamp(2rem,4vw,4rem) 0;padding:clamp(1.2rem,2vw,2rem) 0;background:transparent}
