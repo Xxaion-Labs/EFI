@@ -20,8 +20,7 @@
 @media(max-width:560px){.site-header{gap:.45rem;padding:.6rem .75rem}.brand{min-width:0}.page-shell{padding:1.25rem 1rem 4rem}.efi-frame{padding:.9rem}.efi-list>li{padding-left:1.55em}.doc>div[align="center"]{max-width:100%;overflow:hidden}.doc>div[align="center"] img{max-width:100%;height:auto}.site-footer{padding:1rem}.utility-nav a{padding:.34rem .45rem}}
 
 /* Home split-intro: canonical Markdown, explicit hierarchy, no raw syntax leakage. */
-.efi-hero-split{--efi-hero-frame:none;position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr);align-items:center;gap:clamp(1.4rem,3vw,3rem);margin:clamp(2rem,4vw,4rem) 0;padding:clamp(1.6rem,3vw,3rem);background:rgba(5,5,8,.66)}
-.efi-hero-split::before{content:"";position:absolute;inset:-.45rem;z-index:-1;pointer-events:none;background-image:var(--efi-hero-frame);background-position:center;background-repeat:no-repeat;background-size:100% 100%;filter:drop-shadow(0 0 18px rgba(168,255,0,.10));opacity:.88}
+.efi-hero-split{position:relative;display:grid;grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr);align-items:center;gap:clamp(1.4rem,3vw,3rem);margin:clamp(2rem,4vw,4rem) 0;padding:clamp(1.2rem,2vw,2rem) 0;background:transparent}
 .efi-hero-mark{display:flex;align-items:center;justify-content:center;min-width:0}
 .efi-hero-mark img{width:min(82%,430px);height:auto;filter:drop-shadow(0 0 24px rgba(168,255,0,.20))}
 .efi-hero-copy{min-width:0;text-align:left}

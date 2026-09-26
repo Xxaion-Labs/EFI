@@ -295,7 +295,8 @@
     "route_cards_use_frame_pool": false,
     "frame_content_not_frame_placeholder": true,
     "source_atlas_never_used_as_runtime_chrome": true,
-    "home_intro_markdown_panel": true
+    "home_intro_markdown_panel": true,
+    "home_intro_background_frame": false
   },
   "component_inventory": [
     "efi-panel-intro",
@@ -331,7 +332,8 @@
       "whole_atlas_used_as_runtime_chrome",
       "readability_degraded",
       "required_visual_asset_missing",
-      "duplicate_primary_navigation_surface_present"
+      "duplicate_primary_navigation_surface_present",
+      "home_intro_background_frame_forbidden"
     ]
   }
 }

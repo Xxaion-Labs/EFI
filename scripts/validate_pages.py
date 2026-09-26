@@ -35,6 +35,8 @@ def main():
     for rel in required:
         if not (site/rel).exists(): errors.append('SITE_MISSING '+rel)
     if (site/'service-worker.js').exists(): errors.append('SERVICE_WORKER_FORBIDDEN freshness law')
+    site_css=(site/'theme/site.css').read_text(encoding='utf-8',errors='replace') if (site/'theme/site.css').exists() else ''
+    if '--efi-hero-frame' in site_css or '.efi-hero-split::before' in site_css: errors.append('HOME_INTRO_BACKGROUND_FRAME_CSS_FORBIDDEN')
     total_nonmedia=0
     for p in site.rglob('*'):
         if not p.is_file(): continue
@@ -53,6 +55,7 @@ def main():
         if p.relative_to(site).as_posix()=='index.html':
             if '## EFI in one sentence' in raw or '**A persistent personal intelligence' in raw: errors.append('HOME_INTRO_RAW_MARKDOWN_LEAK')
             if 'class="efi-hero-split"' not in raw: errors.append('HOME_INTRO_COMPONENT_MISSING')
+            if 'class="efi-hero-split" data-efi-frame=' in raw or '--efi-hero-frame' in raw: errors.append('HOME_INTRO_BACKGROUND_FRAME_FORBIDDEN')
         sc=Scan(); sc.feed(raw)
         if not sc.titles: errors.append('TITLE_MISSING '+p.relative_to(site).as_posix())
         if not sc.viewports: errors.append('VIEWPORT_MISSING '+p.relative_to(site).as_posix())

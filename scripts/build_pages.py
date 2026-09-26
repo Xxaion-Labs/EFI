@@ -159,15 +159,11 @@ def render_home_intro(hero, renderer, grammar, base_path):
         copy_html=_markdown.markdown(hero['body'],extensions=['extra','tables','fenced_code','sane_lists','toc'],output_format='html5')
     else:
         copy_html=simple_markdown(hero['body'])
-    intro_frames=grammar.get('asset_roles',{}).get('frames',{}).get('intro',[])
-    frame=intro_frames[-1] if intro_frames else 'assets/ui/frames/frame-wide-spine.png'
-    frame_url=join_url(base_path,frame).rstrip('/')
     return (
-        f'<section class="efi-hero-split" data-efi-frame="{html.escape(Path(frame).stem,quote=True)}" '
-        f'style="--efi-hero-frame:url({html.escape(frame_url,quote=True)})">'
+        '<section class="efi-hero-split">'
         f'<div class="efi-hero-mark">{hero["mark"]}</div>'
         f'<div class="efi-hero-copy"><div class="efi-hero-copy__markdown">{copy_html}</div></div>'
-        f'</section>'
+        '</section>'
     )
 
 def main():
