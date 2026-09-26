@@ -136,6 +136,40 @@ def decorate_html(body,grammar,surface,base_path):
         body=re.sub(r'<ul>',list_repl,body,flags=re.I)
     return body
 
+def extract_home_intro(md2, route):
+    """Lift the canonical README split-intro out of raw HTML before page Markdown render."""
+    if route!='/': return md2,None
+    pat=re.compile(
+        r'<table>\s*<tr>\s*'
+        r'<td\s+width=["\']42%["\']\s+align=["\']center["\']>\s*(?P<mark>.*?)\s*</td>\s*'
+        r'<td\s+width=["\']58%["\']>\s*(?P<body>## EFI in one sentence.*?)\s*</td>\s*'
+        r'</tr>\s*</table>',
+        re.I|re.S
+    )
+    m=pat.search(md2)
+    if not m: raise SystemExit('HOME_INTRO_PROJECTION_MISSING')
+    token='EFI_HOME_SPLIT_INTRO_TOKEN'
+    out=md2[:m.start()]+token+md2[m.end():]
+    return out,{'mark':m.group('mark').strip(),'body':m.group('body').strip(),'token':token}
+
+def render_home_intro(hero, renderer, grammar, base_path):
+    if not hero: return None
+    if renderer=='markdown':
+        if not _markdown: raise SystemExit('MARKDOWN_DEPENDENCY_MISSING install site/requirements-pages.txt or use --renderer simple')
+        copy_html=_markdown.markdown(hero['body'],extensions=['extra','tables','fenced_code','sane_lists','toc'],output_format='html5')
+    else:
+        copy_html=simple_markdown(hero['body'])
+    intro_frames=grammar.get('asset_roles',{}).get('frames',{}).get('intro',[])
+    frame=intro_frames[-1] if intro_frames else 'assets/ui/frames/frame-wide-spine.png'
+    frame_url=join_url(base_path,frame).rstrip('/')
+    return (
+        f'<section class="efi-hero-split" data-efi-frame="{html.escape(Path(frame).stem,quote=True)}" '
+        f'style="--efi-hero-frame:url({html.escape(frame_url,quote=True)})">'
+        f'<div class="efi-hero-mark">{hero["mark"]}</div>'
+        f'<div class="efi-hero-copy"><div class="efi-hero-copy__markdown">{copy_html}</div></div>'
+        f'</section>'
+    )
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('repo'); ap.add_argument('--out',default='_site'); ap.add_argument('--base-path',default=''); ap.add_argument('--base-url',default=''); ap.add_argument('--renderer',choices=['auto','simple','markdown'],default='auto')
     a=ap.parse_args(); repo=Path(a.repo).resolve(); out=(repo/a.out).resolve(); base_path=clean_base_path(a.base_path); base_url=(a.base_url or '').rstrip('/')
@@ -201,6 +235,7 @@ def main():
             else: return m.group(0)
             return m.group('prefix')+new+m.group('suffix')
         md2=HTML_SRC_RE.sub(htmlref,md2)
+        md2,home_intro=extract_home_intro(md2,r['route'])
         # GitHub-authored source commonly uses raw HTML containers around Markdown.
         # Python-Markdown only parses Markdown inside block HTML when the container
         # opts in. Add that opt-in mechanically so the Pages projection preserves
@@ -214,6 +249,9 @@ def main():
             body=_markdown.markdown(md2,extensions=['extra','tables','fenced_code','sane_lists','toc'],output_format='html5')
         else: body=simple_markdown(md2)
         body=decorate_html(body,grammar,r['surface_recipe'],base_path)
+        if home_intro:
+            hero_html=render_home_intro(home_intro,renderer,grammar,base_path)
+            body=body.replace('<p>'+home_intro['token']+'</p>',hero_html).replace(home_intro['token'],hero_html)
         if not re.search(r'<h1\b',body,re.I):
             body=f'<h1 class="sr-only">{html.escape(r["title"])}</h1>'+body
         desc=extract_description(md); route_url=join_url(base_path,r['route']); canonical=(base_url+('/' if r['route']=='/' else r['route'])) if base_url else route_url

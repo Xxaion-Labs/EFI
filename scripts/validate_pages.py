@@ -50,6 +50,9 @@ def main():
         if 'class="rail"' in raw or '<aside class="rail"' in raw: errors.append('LEFT_SIDEBAR_PRESENT '+p.relative_to(site).as_posix())
         if 'id="site-nav"' not in raw: errors.append('TOP_NAV_MISSING '+p.relative_to(site).as_posix())
         if 'route-lattice' in raw or 'class="route-card"' in raw: errors.append('DUPLICATE_PRIMARY_ROUTE_LATTICE_PRESENT '+p.relative_to(site).as_posix())
+        if p.relative_to(site).as_posix()=='index.html':
+            if '## EFI in one sentence' in raw or '**A persistent personal intelligence' in raw: errors.append('HOME_INTRO_RAW_MARKDOWN_LEAK')
+            if 'class="efi-hero-split"' not in raw: errors.append('HOME_INTRO_COMPONENT_MISSING')
         sc=Scan(); sc.feed(raw)
         if not sc.titles: errors.append('TITLE_MISSING '+p.relative_to(site).as_posix())
         if not sc.viewports: errors.append('VIEWPORT_MISSING '+p.relative_to(site).as_posix())
