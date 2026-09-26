@@ -294,7 +294,8 @@
     "decorate_ordered_lists": false,
     "route_cards_use_frame_pool": false,
     "frame_content_not_frame_placeholder": true,
-    "source_atlas_never_used_as_runtime_chrome": true
+    "source_atlas_never_used_as_runtime_chrome": true,
+    "home_intro_markdown_panel": true
   },
   "component_inventory": [
     "efi-panel-intro",
@@ -317,7 +318,8 @@
     "efi-tag",
     "efi-stat-chip",
     "efi-section-emblem",
-    "efi-figure-frame"
+    "efi-figure-frame",
+    "efi-hero-split"
   ],
   "validation": {
     "fail_if": [

@@ -18,3 +18,19 @@
 
 
 @media(max-width:560px){.site-header{gap:.45rem;padding:.6rem .75rem}.brand{min-width:0}.page-shell{padding:1.25rem 1rem 4rem}.efi-frame{padding:.9rem}.efi-list>li{padding-left:1.55em}.doc>div[align="center"]{max-width:100%;overflow:hidden}.doc>div[align="center"] img{max-width:100%;height:auto}.site-footer{padding:1rem}.utility-nav a{padding:.34rem .45rem}}
+
+/* Home split-intro: canonical Markdown, explicit hierarchy, no raw syntax leakage. */
+.efi-hero-split{--efi-hero-frame:none;position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr);align-items:center;gap:clamp(1.4rem,3vw,3rem);margin:clamp(2rem,4vw,4rem) 0;padding:clamp(1.6rem,3vw,3rem);background:rgba(5,5,8,.66)}
+.efi-hero-split::before{content:"";position:absolute;inset:-.45rem;z-index:-1;pointer-events:none;background-image:var(--efi-hero-frame);background-position:center;background-repeat:no-repeat;background-size:100% 100%;filter:drop-shadow(0 0 18px rgba(168,255,0,.10));opacity:.88}
+.efi-hero-mark{display:flex;align-items:center;justify-content:center;min-width:0}
+.efi-hero-mark img{width:min(82%,430px);height:auto;filter:drop-shadow(0 0 24px rgba(168,255,0,.20))}
+.efi-hero-copy{min-width:0;text-align:left}
+.efi-hero-copy__markdown{max-width:62ch;margin-inline:auto}
+.efi-hero-copy__markdown h2{margin:0 0 .85rem;padding:0;border:0;font-size:.8rem;line-height:1.2;letter-spacing:.17em;text-transform:uppercase;color:var(--acid)}
+.efi-hero-copy__markdown blockquote{margin:0 0 1.35rem;padding:0;border:0;background:none;font-size:clamp(1.32rem,2vw,1.92rem);line-height:1.31;letter-spacing:-.018em;color:#fff}
+.efi-hero-copy__markdown blockquote p{margin:0;color:#fff}
+.efi-hero-copy__markdown>blockquote+p{margin:.15rem 0 .38rem;color:var(--muted);font-size:.78rem;font-weight:850;letter-spacing:.13em;text-transform:uppercase}
+.efi-hero-copy__markdown h3{margin:.2rem 0 1.1rem;font-size:clamp(1.12rem,1.55vw,1.5rem);line-height:1.28;color:#fff}
+.efi-hero-copy__markdown>p{margin:.78rem 0;color:#d9d9e2;font-size:clamp(.98rem,1.08vw,1.06rem);line-height:1.68}
+.efi-hero-copy__markdown>p:last-child{margin-bottom:0}
+@media(max-width:760px){.efi-hero-split{grid-template-columns:1fr;gap:.6rem;margin:2rem 0;padding:1.15rem}.efi-hero-mark{padding-bottom:.25rem}.efi-hero-mark img{width:min(60%,300px)}.efi-hero-copy__markdown{max-width:100%}.efi-hero-copy__markdown h2{font-size:.72rem}.efi-hero-copy__markdown blockquote{font-size:1.25rem}.efi-hero-copy__markdown>p{font-size:.98rem;line-height:1.62}}
