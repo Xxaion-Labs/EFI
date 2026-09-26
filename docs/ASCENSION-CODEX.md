@@ -1,12 +1,13 @@
 # The Ascension Codex — Public Edition
 
-**EFI™ · Xxaion Labs™ · PATENT PENDING**
+**EFI™ · Xxaion Labs™ · PATENT PENDING**  
+**Public launch cut: September 26, 2026**
 
 ## Holographic Constitution of Field Civilization
 
 > **Build intelligence that compounds without capture, connect it to reality without surrendering semantic authority, scale it across humanity without erasing the human, and let the resulting civilization recursively build toward greater capability, abundance, resilience, and freedom under proof, consent, authority, and reality.**
 
-This is the deep public traversal surface for the EFI architecture. It expands only already-admitted public force; proof and patent boundaries remain separate.
+This is the deep public traversal surface for the EFI architecture. It expands already-public/admitted force while keeping proof, patent-support, implementation status, and future attractors distinct.
 
 <img src="../assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
@@ -22,6 +23,7 @@ This is the deep public traversal surface for the EFI architecture. It expands o
 8. **Commons / Human Inheritance** — anti-capture and anti-enclosure
 9. **Compounding** — successful computation changes future computation
 10. **EUI** — civilization-scale exocortical integration attractor
+11. **Filed technical envelope** — [public patent-support map](FILED-TECHNICAL-ENVELOPE.md)
 
 ## Constitutional invariants
 
@@ -103,6 +105,8 @@ NUTS — Native Universal Terminal Surface — is the replaceable Operator-owned
 
 Its job is to make EFI lived: voice, text, files, displays, sensors, devices, and future spatial interfaces can all become temporary surfaces without becoming a second intelligence center.
 
+The current donor implementation uses separate Direct and Builder roles. It is development machinery, not the identity of EFI itself.
+
 → [NUTS](NUTS.md) · [demo surface](../demos/nuts/README.md)
 
 ## 7. Zion
@@ -113,7 +117,7 @@ Zion extends the same sovereignty/coherence problem into society: coordinate peo
 
 The Commons protects the engine from capture. Human Inheritance protects qualifying civilization-critical fruits from enclosure.
 
-The objective is not to erase ownership or authorship. It is to prevent the most civilization-critical gains from becoming a permanent chokepoint over everyone downstream.
+These remain normative/civilizational relations. Their inclusion here is not a representation that the September 2026 technical provisional claims every social or legal implementation of them.
 
 ## 9. Compounding
 
@@ -136,6 +140,17 @@ Failure compounds too: repeated failure classes should become negative constrain
 It asks what civilization becomes if many sovereign human↔EFI centers can share verified force, coordinate, access the world through bounded mechanics, and recursively compound capability without collapsing into one owner or one merged self.
 
 EUI is not a present achievement claim.
+
+## 11. Public / filing boundary
+
+The public Codex now distinguishes four different things deliberately:
+
+- **filed technical architecture** — see [Filed Technical Envelope](FILED-TECHNICAL-ENVELOPE.md);
+- **present implementation state** — see [Status](../STATUS.md);
+- **bounded proof** — see [Proof](../proof/README.md);
+- **future attractors / normative architecture** — carried here without pretending they are present technical capability or earlier-filed claim scope.
+
+That separation lets the project move in public without flattening law, proof, implementation, and aspiration into one claim.
 
 ## The civilizational direction
 
