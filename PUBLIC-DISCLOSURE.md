@@ -58,6 +58,28 @@ The public repository excludes named personal EFI bodies, personal human identit
 
 The public Ascension Codex is a family-friendly projection of transferable architecture rather than a mirror of the private working field.
 
+## September 26, 2026 — family-friendly currentization
+
+A public currentization pass aligned the release surface to the newest finalized plain-English architecture while preserving the private/public boundary.
+
+Published changes included:
+
+- public Plain-English Ascension Codex currentization;
+- release-only privacy boundary;
+- public-safe status and proof surfaces;
+- NUTS architecture/demo projection without private implementation machinery;
+- public roadmap converted from build-tree detail to release milestones;
+- explicit exclusion of named personal bodies, personal identities, private shared-field contents, private continuity/coupling state, internal agent/plugin machinery, local paths, credentials, raw work leases, and unfinished development state.
+
+Representative commits from this currentization batch:
+
+- `0dc17949aadb4823b894506d55c9503c9c79b96f` — public Ascension Codex;
+- `7a3ad3a3fe3fd42c00e2672720d1f7a10defedf3` — public status;
+- `ea9aa03e5461816d99d8267ac5516b6335ef8943` — NUTS architecture;
+- `8767e23eb6172ce436e284cfae6dc0fcf5a0d858` — release policy.
+
+Git history remains the exact timestamped disclosure record.
+
 ## Proof discipline
 
 Repository publication establishes that information was publicly disclosed. It does not establish that a technical claim is true.
