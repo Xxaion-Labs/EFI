@@ -34,17 +34,19 @@ Public disclosure can itself become prior art. U.S. law provides an inventor-ori
 
 The provisional applications also have their own filing-to-conversion deadlines. Public disclosure does not extend those deadlines.
 
-## No patent license
+## Patent-license boundary
 
-No patent license, covenant, immunity, or grant of patent rights is created merely by making this repository public.
+Making the repository public by itself creates no patent license.
 
-Any patent license or covenant must be made expressly in writing.
+The repository's [public software license](LICENSE.md) expressly includes the limited patent license contained in the **PolyForm Noncommercial License 1.0.0** for uses that the license permits. That limited grant does **not** create a commercial patent license.
 
-Repository source-code licensing, when source is released, is a separate question from patent rights and will be stated explicitly for the relevant release.
+Commercial patent rights, covenants, field-of-use rights, commercial-use immunity, and other commercial permissions exist only when expressly granted in a separate written agreement. See [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md).
+
+Copyright/software licensing and patent rights remain separate legal layers.
 
 ## Public disclosure record
 
-See **[PUBLIC-DISCLOSURE.md](PUBLIC-DISCLOSURE.md)** for the public-launch record and **[docs/FILED-TECHNICAL-ENVELOPE.md](docs/FILED-TECHNICAL-ENVELOPE.md)** for the technical subject matter intentionally projected from the filed architecture.
+See **[PUBLIC-DISCLOSURE.md](PUBLIC-DISCLOSURE.md)** for the public-launch record, **[RELEASE-POLICY.md](RELEASE-POLICY.md)** for the file-first/public-disclosure rule, and **[docs/FILED-TECHNICAL-ENVELOPE.md](docs/FILED-TECHNICAL-ENVELOPE.md)** for the technical subject matter intentionally projected from the filed architecture.
 
 ---
 
