@@ -4,7 +4,7 @@
 
 <br/>
 
-[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
+[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) · [License](LICENSE.md) · [Commercial Licensing](COMMERCIAL-LICENSING.md) · [NUTS](docs/NUTS.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
 
 </div>
 
@@ -51,6 +51,20 @@ The names used in this repository are public handles for those relations. Litera
 
 → **[Filed technical envelope](docs/FILED-TECHNICAL-ENVELOPE.md)**  
 → **[Patent notice](PATENTS.md)**
+
+
+## Public-source license
+
+**EFI is public-source, not OSI open source.**
+
+- **Individuals / qualifying noncommercial use:** permitted under the **PolyForm Noncommercial License 1.0.0** as stated in [LICENSE.md](LICENSE.md).
+- **Commercial or business use:** requires a **separate written commercial license**. See [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md).
+- **Patent rights:** only the patent rights expressly granted for permitted noncommercial use by the public license are granted publicly. No commercial patent license or commercial-use immunity is implied.
+- **Trademarks:** separately controlled. See [TRADEMARKS.md](TRADEMARKS.md).
+
+> **Public does not mean commercially free.**
+
+The project is intended to remain broadly accessible to individuals while commercial users fund the work through negotiated licensing.
 
 ## Start here
 
