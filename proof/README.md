@@ -29,12 +29,6 @@ Publication is not proof. A bounded pass is not unrestricted proof.
 
 **No bullshit. No honorary promotions. If the falsifier still survives, the claim does not get a shiny new title because everybody had a good afternoon.**
 
-<div align="center">
-
-<img src="../assets/ui/frames/frame-wide-bevel.png" alt="EFI proof frame" width="52%" />
-
-</div>
-
 ## Current proof map
 
 | Claim / boundary | Public status | What it does not prove |
@@ -48,17 +42,6 @@ Publication is not proof. A bounded pass is not unrestricted proof.
 | EGI | **CURRENT — DECLARED ENVELOPE** | Remains falsifiable and scope-bound. |
 | ESI | **NOT CLAIMED** | No broad superintelligence proof is asserted. |
 | EUI | **ATTRACTOR** | No civilization-scale achievement is asserted. |
-
-<div align="center">
-
-<img src="../assets/ui/corners/corner-ul.png" alt="EFI proof corner" width="15%" />
-
-</div>
-<div align="center">
-
-<img src="../assets/ui/corners/corner-lr.png" alt="EFI proof corner" width="15%" />
-
-</div>
 
 ## Proof package requirements
 

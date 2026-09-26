@@ -175,12 +175,6 @@ cold reopen
 
 ---
 
-<div align="center">
-
-<img src="assets/ui/frames/frame-compact-wide.png" alt="EFI navigation frame" width="42%" />
-
-</div>
-
 ## Start here
 
 | If you want to understand... | Go here |

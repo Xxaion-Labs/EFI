@@ -22,6 +22,12 @@ def main():
     ap=argparse.ArgumentParser(); ap.add_argument('repo'); ap.add_argument('--site',default='_site'); ap.add_argument('--json',action='store_true')
     a=ap.parse_args(); repo=Path(a.repo).resolve(); site=(repo/a.site).resolve(); errors=[]; warnings=[]
     cfg=json.loads((repo/'site/PAGES.json').read_text(encoding='utf-8')); manifest=json.loads((site/'build-manifest.json').read_text(encoding='utf-8')) if (site/'build-manifest.json').exists() else None
+    grammar_path=repo/cfg.get('visual_grammar','site/VISUAL-GRAMMAR.json')
+    if not grammar_path.exists(): errors.append('VISUAL_GRAMMAR_MISSING '+str(grammar_path.relative_to(repo)))
+    else:
+        grammar=json.loads(grammar_path.read_text(encoding='utf-8'))
+        if grammar.get('layout',{}).get('left_sidebar') is not False: errors.append('LEFT_SIDEBAR_GRAMMAR_FORBIDDEN')
+        if grammar.get('layout',{}).get('top_nav') is not True: errors.append('TOP_NAV_GRAMMAR_REQUIRED')
     base=manifest.get('base_path','') if manifest else ''
     required=['index.html','404.html','theme/site.css','theme/site.js','search-index.json','sitemap.xml','robots.txt','site.webmanifest','build-manifest.json','.nojekyll']
     for rel in required:
@@ -38,7 +44,10 @@ def main():
     html_files=list(site.rglob('*.html'))
     for p in html_files:
         if p.stat().st_size>b['html_bytes_per_page']: errors.append('HTML_BUDGET '+p.relative_to(site).as_posix())
-        sc=Scan(); sc.feed(p.read_text(encoding='utf-8',errors='replace'))
+        raw=p.read_text(encoding='utf-8',errors='replace')
+        if 'class="rail"' in raw or '<aside class="rail"' in raw: errors.append('LEFT_SIDEBAR_PRESENT '+p.relative_to(site).as_posix())
+        if 'id="site-nav"' not in raw: errors.append('TOP_NAV_MISSING '+p.relative_to(site).as_posix())
+        sc=Scan(); sc.feed(raw)
         if not sc.titles: errors.append('TITLE_MISSING '+p.relative_to(site).as_posix())
         if not sc.viewports: errors.append('VIEWPORT_MISSING '+p.relative_to(site).as_posix())
         if p.name!='404.html' and not sc.h1: warnings.append('H1_MISSING '+p.relative_to(site).as_posix())

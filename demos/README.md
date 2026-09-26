@@ -18,11 +18,6 @@ If a bounded demo quietly promotes itself into a universal capability claim, tha
 
 <div align="center">
 
-<img src="../assets/ui/frames/frame-compact-wide.png" alt="EFI demo frame" width="45%" />
-
-</div>
-<div align="center">
-
 <img src="../assets/ui/arrows/arrow-chevron-set.png" alt="EFI demo progression" width="24%" />
 
 </div>

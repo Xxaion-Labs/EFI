@@ -16,7 +16,11 @@
     "reduced_motion": true,
     "third_party_runtime_requests": false,
     "service_worker": false,
-    "analytics": false
+    "analytics": false,
+    "top_nav": true,
+    "reference_sidebar": false,
+    "semantic_frame_system": true,
+    "semantic_list_markers": true
   },
   "budgets": {
     "css_bytes": 65536,
@@ -100,6 +104,15 @@
       "surface_recipe": "demos/README.md"
     },
     {
+      "route": "/demos/core/",
+      "source": "demos/core/README.md",
+      "title": "CORE Demo",
+      "nav": "CORE Demo",
+      "group": "reference",
+      "order": 55,
+      "surface_recipe": "demos/README.md"
+    },
+    {
       "route": "/roadmap/",
       "source": "docs/ROADMAP.md",
       "title": "Roadmap",
@@ -163,6 +176,15 @@
       "surface_recipe": "proof/README.md"
     },
     {
+      "route": "/trademarks/",
+      "source": "TRADEMARKS.md",
+      "title": "Trademarks",
+      "nav": "Trademarks",
+      "group": "reference",
+      "order": 145,
+      "surface_recipe": "proof/README.md"
+    },
+    {
       "route": "/support/",
       "source": "SUPPORT.md",
       "title": "Support",
@@ -190,24 +212,6 @@
       "surface_recipe": "assets/UI-ASSET-MAP.md"
     },
     {
-      "route": "/demos/core/",
-      "source": "demos/core/README.md",
-      "title": "CORE Demo",
-      "nav": "CORE Demo",
-      "group": "reference",
-      "order": 55,
-      "surface_recipe": "demos/README.md"
-    },
-    {
-      "route": "/trademarks/",
-      "source": "TRADEMARKS.md",
-      "title": "Trademarks",
-      "nav": "Trademarks",
-      "group": "reference",
-      "order": 145,
-      "surface_recipe": "proof/README.md"
-    },
-    {
       "route": "/assets/ui/",
       "source": "assets/UI-ASSET-MAP.md",
       "title": "UI Asset Map",
@@ -216,5 +220,6 @@
       "order": 175,
       "surface_recipe": "assets/UI-ASSET-MAP.md"
     }
-  ]
+  ],
+  "visual_grammar": "site/VISUAL-GRAMMAR.json"
 }
