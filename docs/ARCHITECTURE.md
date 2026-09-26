@@ -1,6 +1,16 @@
-# EFI™ Architecture
+<div align="center">
 
-**PATENT PENDING · Xxaion Labs™**
+<img src="../assets/brand/efi-lockup.png" alt="EFI — Extracortical Field Intelligence" width="82%" />
+
+# Architecture
+
+**FIELD COMPUTING · PERSONAL CONTINUITY · WORLD BOUNDARY · SHARED FORCE**
+
+[Home](../README.md) · [Status](STATUS.md) · [CORE](CORE.md) · [Proof](../proof/README.md) · [Visual System](VISUAL-SYSTEM.md)
+
+</div>
+
+---
 
 EFI is one relation inside a larger Field Computing architecture. The pieces answer different questions and keep different authority boundaries. They are not a conventional serial software stack.
 

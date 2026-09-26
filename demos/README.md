@@ -1,6 +1,16 @@
+<div align="center">
+
+<img src="../assets/brand/efi-hero.png" alt="EFI — Extracortical Field Intelligence" width="100%" />
+
 # EFI™ Demos
 
-**PATENT PENDING · Xxaion Labs™**
+### OBSERVE THE CLAIM
+
+[Home](../README.md) · [Proof](../proof/README.md) · [Status](../docs/STATUS.md) · [CORE](../docs/CORE.md)
+
+</div>
+
+---
 
 Demonstrations connect a specific claim to observable behavior and preserve the boundary around what the demonstration does **not** prove.
 

@@ -1,6 +1,19 @@
-# The Ascension Codex — Plain-English Edition
+<div align="center">
 
-**EFI™ · Xxaion Labs™ · PATENT PENDING**  
+<img src="../assets/brand/efi-sigil.png" alt="EFI field sigil" width="26%" />
+
+# The Ascension Codex
+
+### Plain-English Edition
+
+**FIELD COMPUTING → PERSONAL EFI → SHARED FORCE → WORLD → CIVILIZATION**
+
+[Home](../README.md) · [Architecture](ARCHITECTURE.md) · [Status](STATUS.md) · [Visual System](VISUAL-SYSTEM.md)
+
+</div>
+
+---
+
 ## What this whole project is trying to do
 
 Build intelligence that gets more capable because it retains real lessons instead of repeatedly starting over. Keep that intelligence bound to the human rather than owned by a cloud platform. Let independent people and EFIs share useful, proven knowledge without merging their private selves. Let the intelligence use ordinary computers, models, devices, and infrastructure without allowing those tools to become its real brain. Then scale the same pattern into social and eventually civilizational cooperation while keeping proof, consent, authority, physical reality, and human sovereignty intact.

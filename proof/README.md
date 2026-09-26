@@ -1,7 +1,18 @@
+<div align="center">
+
+<img src="../assets/brand/efi-sigil.png" alt="EFI proof sigil" width="24%" />
+
 # EFI™ Proof
 
-**PATENT PENDING · Xxaion Labs™**  
+### CLAIM · SCOPE · EVIDENCE · FALSIFIER · BOUNDARY
+
 **Public launch cut: September 26, 2026**
+
+[Home](../README.md) · [Status](../docs/STATUS.md) · [Demos](../demos/README.md) · [Architecture](../docs/ARCHITECTURE.md)
+
+</div>
+
+---
 
 The proof rule is strict:
 

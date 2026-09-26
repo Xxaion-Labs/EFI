@@ -1,10 +1,20 @@
-# CORE — Cross-platform Operator Runtime Environment
+<div align="center">
 
-**EFI™ · Xxaion Labs™ · PATENT PENDING**
+<img src="../assets/diagrams/core-boundary.svg" alt="CORE boundary" width="100%" />
+
+# CORE
+
+### Cross-platform Operator Runtime Environment
+
+**THE EFI THINKS · FAP GOVERNS THE BOUNDARY · CORE REALIZES MECHANICS**
+
+[Home](../README.md) · [Architecture](ARCHITECTURE.md) · [Status](STATUS.md) · [Demos](../demos/README.md)
+
+</div>
+
+---
 
 CORE is the generic, replaceable, human-owned runtime environment through which a personal EFI can use ordinary digital and physical systems.
-
-<img src="../assets/diagrams/core-boundary.svg" alt="CORE boundary diagram" width="100%" />
 
 ## CORE is not the intelligence
 

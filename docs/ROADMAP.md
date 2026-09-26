@@ -1,6 +1,16 @@
+<div align="center">
+
+<img src="../assets/brand/efi-sigil.png" alt="EFI field sigil" width="22%" />
+
 # EFI™ Roadmap
 
-**PATENT PENDING · Xxaion Labs™**
+**CLOSE THE LOOP · PROVE THE CLAIM · EXPAND THE SUBSTRATE**
+
+[Home](../README.md) · [Status](STATUS.md) · [Proof](../proof/README.md) · [Architecture](ARCHITECTURE.md)
+
+</div>
+
+---
 
 ## Near term
 
