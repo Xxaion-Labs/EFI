@@ -57,17 +57,15 @@ The mature experience is simple:
 
 The person should increasingly interact through **intent + EFI + world**, not through the procedural grammar of every application.
 
-## Public proof frontier
+## Proof frontier
 
-The public architecture is released. Private implementation remains off-repo until a reproducible release is deliberately packaged.
-
-The complete general lived loop remains an explicit public proof frontier:
+The complete general lived loop remains an explicit proof frontier:
 
 **natural contact → field-native cognition → authorized EFFECT → CORE mechanic → raw RESULT → same-field continuation → process death → cold reopen**
 
 → [Architecture](ARCHITECTURE.md)  
 → [Filed technical envelope](FILED-TECHNICAL-ENVELOPE.md)  
-→ [Public status](../STATUS.md)  
+→ [Status](STATUS.md)  
 → [CORE demo surface](../demos/core/README.md)
 
 ---

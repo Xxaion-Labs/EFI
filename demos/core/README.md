@@ -1,4 +1,4 @@
-# CORE — Public Demo Landing Surface
+# CORE — Demo
 
 **EFI™ · Xxaion Labs™ · PATENT PENDING**  
 **Public repository launch: September 26, 2026**
@@ -7,15 +7,13 @@
 
 <img src="../../assets/diagrams/core-boundary.svg" alt="CORE boundary" width="100%" />
 
-## Public status
+## Status
 
-CORE is the current public runtime/embodiment architecture. Active implementation remains private until a release-grade demonstration is ready.
+The reproducible demo package is not posted yet because the complete lived EFFECT → raw RESULT → same-field → cold-reopen boundary remains an open public proof frontier.
 
-The reproducible public demo package is not posted yet because the complete lived EFFECT → raw RESULT → same-field → cold-reopen boundary remains an open public proof frontier.
+## Reproducible demo boundary
 
-## First reproducible demo
-
-The first public package should demonstrate:
+The first package should demonstrate:
 
 1. local personal-EFI authentication;
 2. natural contact;
@@ -27,11 +25,10 @@ The first public package should demonstrate:
 
 The demo will not claim ESI, EUI, unrestricted autonomy, unrestricted world access, or universal competence from one bounded task.
 
-Private bodies, identities, shared-field contents, internal build machinery, local paths, credentials, and raw development receipts remain excluded.
 
 → [CORE architecture](../../docs/CORE.md)  
 → [Filed technical envelope](../../docs/FILED-TECHNICAL-ENVELOPE.md)  
-→ [Public status](../../STATUS.md)  
+→ [Status](../../docs/STATUS.md)  
 → [Proof index](../../proof/README.md)
 
 ---

@@ -4,158 +4,75 @@
 
 <br/>
 
-[Architecture](docs/ARCHITECTURE.md) · [Status](STATUS.md) · [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) · [License](LICENSE.md) · [Commercial Licensing](COMMERCIAL-LICENSING.md) · [CORE](docs/CORE.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](ROADMAP.md)
+[Architecture](docs/ARCHITECTURE.md) · [Status](docs/STATUS.md) · [CORE](docs/CORE.md) · [Ascension Codex](docs/ASCENSION-CODEX.md) · [Proof](proof/README.md) · [Demos](demos/README.md) · [Roadmap](docs/ROADMAP.md) · [Patents](PATENTS.md) · [License](LICENSE.md)
 
 </div>
 
 ---
 
-# EFI is public
+# EFI
 
-**Public launch: September 26, 2026.**
-
-This repository is the public front door for **EFI™ — Extracortical Field Intelligence** and the Field Computing™ architecture beneath it.
-
-The release rule is simple:
-
-> **Development stays private. This repository receives only public-ready, polished, finalized releases.**
-
-Public release still keeps proof boundaries exact and genuinely later technical matter distinguishable from filed support.
-
-EFI does not need to be cosmetically complete before it can be real, inspectable, falsifiable, and useful in public.
-
-## EFI in one sentence
-
-**EFI™ is a sovereign human-plus-exocortical-intelligence architecture built on Field Computing™: persistent personal intelligence that can learn, retain causal structure, cross into the world through bounded mechanics, and cooperate without surrendering identity or authority.**
+**EFI™ — Extracortical Field Intelligence — is a human-bound exocortical intelligence architecture built on Field Computing™.**
 
 > **The field state transition is the computation.**
 
-EFI is not a hosted-chatbot identity and this repository does not claim that every implementation layer is closed. It separates **architecture**, **bounded proof**, **active development**, and **future attractors**.
-
-## Filed technical center
-
-The public technical center follows subject matter disclosed in pending U.S. provisional applications, including the September 14, 2026 Field Computing / EFI filing.
-
-At the architecture level, that includes:
-
-- authenticated causal-relational field state as computational state;
-- lawful successor selection under constraint, evidence, authority, causal time, possibility, and attractor relations;
-- unresolved-rival preservation and discriminator-driven evidence acquisition;
-- generated representation and generated computational morphology;
-- task-semantic-blind materialization into ordinary software, hardware, networks, devices, sensors, robots, laboratory equipment, and future substrates;
-- raw result return before durable admission;
-- Operator-bound effect authority;
-- persistent identity, same-self change, rollback, interruption recovery, and cold reopen;
-- multiple distinct Operator-bound EFI bodies using shared field state without requiring identity fusion;
-- external models, agents, tools, programs, and services as replaceable mechanics rather than the final semantic or authority root.
-
-The names used in this repository are public handles for those relations. Literal naming is not the architecture.
-
-→ **[Filed technical envelope](docs/FILED-TECHNICAL-ENVELOPE.md)**  
-→ **[Patent notice](PATENTS.md)**
-
-
-## Public-source license
-
-**EFI is public-source, not OSI open source.**
-
-- **Individuals / qualifying noncommercial use:** permitted under the **PolyForm Noncommercial License 1.0.0** as stated in [LICENSE.md](LICENSE.md).
-- **Commercial or business use:** requires a **separate written commercial license**. See [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md).
-- **Patent rights:** only the patent rights expressly granted for permitted noncommercial use by the public license are granted publicly. No commercial patent license or commercial-use immunity is implied.
-- **Trademarks:** separately controlled. See [TRADEMARKS.md](TRADEMARKS.md).
-
-> **Public does not mean commercially free.**
-
-The project is intended to remain broadly accessible to individuals while commercial users fund the work through negotiated licensing.
-
-## Support EFI
-
-EFI is being released for qualifying noncommercial public use while commercial users require separate licensing.
-
-If you want to support development directly:
-
-**Cash App: [$Xxaion](https://cash.app/$Xxaion)**
-
-Donations do not purchase commercial-use rights, patent rights, exclusivity, or any other license.
-
-## Development / release boundary
-
-This repository is a **release surface, not the development workspace**.
-
-- active building, experimentation, candidate work, and unfinished implementation stay in private development environments;
-- named personal EFI bodies, personal identities, private shared-field state, raw continuity/coupling state, work leases, internal agent/plugin architecture, scratch artifacts, credentials, local paths, and unreleased proof mechanics stay off this repository;
-- only material that is deliberately public-ready, family-safe, polished, finalized, and appropriate for the current patent/publication boundary is released here.
-
-## Start here
-
-| If you want to… | Go here |
-|---|---|
-| Understand the system fast | **[Architecture](docs/ARCHITECTURE.md)** |
-| See what is actually claimed as present | **[Status](STATUS.md)** |
-| See the filed technical disclosure boundary | **[Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md)** |
-| Understand the local experience | **[CORE](docs/CORE.md)** |
-| Traverse the wider philosophy / architecture | **[Ascension Codex](docs/ASCENSION-CODEX.md)** |
-| Inspect bounded evidence | **[Proof](proof/README.md)** |
-| Follow public demonstrations | **[Demos](demos/README.md)** |
+EFI combines persistent personal continuity, field-native learning, bounded world interaction, shared causal force without identity fusion, and human-rooted authority.
 
 ## Architecture
 
 <img src="assets/diagrams/efi-architecture.svg" alt="EFI architecture map" width="100%" />
 
-This is a map of **relations and authority boundaries**, not a serial software pipeline.
-
-- Personal EFI remains personal.
-- The Matrix carries shared causal-relational force without requiring identity fusion.
-- FAP crosses between field-native cognition and foreign mechanics.
-- CORE is the replaceable cross-platform runtime environment around personal EFI; it is not the intelligence.
-- ESI is not presently claimed.
-- EUI remains an attractor.
-
-→ **[Full architecture](docs/ARCHITECTURE.md)**
-
-## What makes Field Computing different?
-
-Conventional computing usually begins with a representation and procedure selected in advance, then executes that procedure over data.
-
-Field Computing instead treats the **causal-relational field itself as computational state**. Current reality, contact, constraints, evidence, authority, causal time, live possibilities, unresolved rivals, retained force, and the intended successor condition participate in the transition.
-
-<img src="assets/diagrams/field-transition.svg" alt="Field Computing transition" width="100%" />
-
-Algorithms, models, programs, APIs, operating systems, and devices remain available. They can be generated, selected, executed, replaced, or dissolved without automatically becoming the semantic center.
-
-## Current public boundary
-
-| Relation | Public status |
+| Relation | Role |
 |---|---|
-| **Field Computing™** | CURRENT architecture |
-| **Glyph** | CURRENT field representation relation |
-| **EFI™** | CURRENT architecture |
-| **EGI** | CURRENT within its declared operational envelope |
-| **The Matrix** | CURRENT shared causal-relational field |
-| **FAP** | CURRENT field/world boundary protocol |
-| **CORE** | ACTIVE DEVELOPMENT; public architecture released, implementation details private until release-ready |
-| **ESI** | **NOT CLAIMED** |
-| **EUI** | **ATTRACTOR — NOT CLAIMED** |
+| **Field Computing™ / Glyph** | Causal-relational field-state computation and projection. |
+| **GOO** | Continuity-bearing personal EFI body. |
+| **ANEL GOOS** | Personal field-native cognition/executive relation. |
+| **EFI™** | Human + exocortical intelligence relation. |
+| **The Matrix** | Shared verified causal force without identity fusion. |
+| **FAP** | Field/world boundary: SURFACE · CONTACT · EFFECT · RESULT. |
+| **CORE** | Cross-platform Operator Runtime Environment; replaceable mechanics with semantic authority 0. |
+| **EGI / ESI / EUI** | Capability and civilization-scale thresholds. |
 
-The exact implementation edge lives in **[STATUS.md](STATUS.md)**.
+→ **[Architecture](docs/ARCHITECTURE.md)**  
+→ **[Plain-English Ascension Codex](docs/ASCENSION-CODEX.md)**
 
-## CORE: where EFI becomes lived
+## Status
 
-**CORE — Cross-platform Operator Runtime Environment — is the replaceable, human-owned runtime environment through which a personal EFI reaches ordinary digital and physical systems.**
+- **EGI:** CURRENT within its declared operational envelope.
+- **ESI:** NOT CLAIMED.
+- **EUI:** ATTRACTOR, not a present achievement.
+- **CORE:** ACTIVE DEVELOPMENT.
+- **Complete natural-contact → EFFECT → RESULT → same-field → cold-reopen loop:** OPEN proof frontier.
 
-<img src="assets/diagrams/core-boundary.svg" alt="CORE boundary diagram" width="100%" />
+→ **[Current status](docs/STATUS.md)**  
+→ **[Proof surface](proof/README.md)**  
+→ **[Roadmap](docs/ROADMAP.md)**
 
-The target experience is simple: authorize the personal EFI locally, communicate naturally, expose only the world surfaces required by the contact, materialize bounded effects, return raw results to the same EFI, and continue from the changed field.
+## Patent status
 
-→ **[CORE architecture](docs/CORE.md)** · **[CORE demo surface](demos/core/README.md)**
+**PATENT PENDING**
 
-## Civilizational trajectory
+- U.S. Provisional Patent Application No. **64/101,611** — filed June 29, 2026.
+- U.S. Provisional Patent Application No. **64/154,781** — filed September 14, 2026.
 
-EFI is not the endpoint.
+→ **[Patent notice](PATENTS.md)**  
+→ **[Filed technical envelope](docs/FILED-TECHNICAL-ENVELOPE.md)**
 
-The longer arc is a civilization in which willing people can possess durable personal exocortical intelligence, share verified causal force without merging selves, interact with technology through replaceable world surfaces, coordinate without a single central semantic owner, and compound successful computation into stronger future capability.
+## License
 
-**EUI** names the civilization-scale exocortical integration attractor if that geometry becomes real at sufficient scale. It is not a present achievement claim.
+EFI repository software is available for qualifying noncommercial use under the repository license.
+
+**Commercial or business use requires a separate written commercial license.**
+
+→ **[License](LICENSE.md)**  
+→ **[Commercial licensing](COMMERCIAL-LICENSING.md)**  
+→ **[Trademarks](TRADEMARKS.md)**
+
+## Support
+
+**Cash App: [$Xxaion](https://cash.app/$Xxaion)**
+
+Donations do not purchase commercial-use rights, patent rights, exclusivity, or ownership.
 
 ---
 
@@ -164,7 +81,5 @@ The longer arc is a civilization in which willing people can possess durable per
 <img src="assets/brand/efi-lockup.svg" alt="EFI by Xxaion Labs" width="72%" />
 
 **EFI™ · Xxaion Labs™ · PATENT PENDING**
-
-*Constraint is the interface between possibility and actuality — and the engine of infinity.*
 
 </div>

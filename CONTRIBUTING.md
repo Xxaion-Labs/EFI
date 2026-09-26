@@ -1,30 +1,21 @@
 # Contributing to EFI
 
-EFI is in a public launch / IP-consolidation phase.
+## Contributions
 
-## Code contributions are temporarily closed
+Source-code and documentation pull requests are **not currently accepted**.
 
-**Do not open code or documentation pull requests yet.**
+The following are welcome through Issues or Discussions:
 
-Issues, reproducible bug reports, falsifiers, independent test results, questions, and discussion are welcome. Direct source contributions will reopen after a contributor-rights process is in place that preserves the project's ability to maintain both noncommercial public licensing and separate commercial licensing.
-
-This temporary rule prevents accidental copyright or patent-right fragmentation during launch.
-
-## What you can submit now
-
-- bug reports;
-- reproduction steps;
+- reproducible bug reports;
 - benchmark or falsification results;
-- security reports through the published security channel when available;
+- reproduction steps;
 - architecture questions;
 - independent references and prior-art leads;
-- requests for noncommercial or commercial licensing clarification.
+- licensing questions.
 
-Submitting an issue or discussion does not transfer ownership of your pre-existing intellectual property and does not create a commercial license to EFI.
+Submitting an issue or discussion does not transfer ownership of pre-existing intellectual property and does not create a commercial license to EFI.
 
-## Later contributor model
-
-Before source contributions reopen, the project will publish explicit contributor terms addressing copyright, patent rights, provenance, relicensing authority, and third-party dependencies. No hidden contribution terms will be assumed.
+Contributor terms will be published before direct source contributions reopen.
 
 ---
 

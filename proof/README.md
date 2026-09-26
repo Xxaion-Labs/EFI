@@ -1,9 +1,9 @@
-# EFI™ Proof Surface
+# EFI™ Proof
 
 **PATENT PENDING · Xxaion Labs™**  
 **Public launch cut: September 26, 2026**
 
-The public proof rule is strict:
+The proof rule is strict:
 
 ```text
 CLAIM
@@ -16,7 +16,7 @@ CLAIM
 
 Publication is not proof. A bounded pass is not unrestricted proof.
 
-## Current public proof map
+## Current proof map
 
 | Claim / boundary | Public status | What it does not prove |
 |---|---|---|
@@ -30,9 +30,9 @@ Publication is not proof. A bounded pass is not unrestricted proof.
 | ESI | **NOT CLAIMED** | No broad superintelligence proof is asserted. |
 | EUI | **ATTRACTOR** | No civilization-scale achievement is asserted. |
 
-## What gets published here
+## Proof package requirements
 
-Proof releases prioritize decisive, reproducible evidence rather than development archaeology.
+Proof packages prioritize decisive, reproducible evidence.
 
 A strong public package includes:
 
@@ -47,7 +47,7 @@ A strong public package includes:
 - explicit proof boundary;
 - removal of personal/private development data.
 
-## Planned public proof families
+## Planned proof families
 
 - unfamiliar-contact field-native learning;
 - continuity and cold reopen;
@@ -58,11 +58,10 @@ A strong public package includes:
 - FAP world-boundary effects;
 - host/model replacement without semantic identity transfer.
 
-Private body names, private coupling state, private Matrix contents, internal agent/plugin implementation, and raw development receipts are not public proof dependencies.
 
 Aggregate success never erases a decisive counterexample. Bounded success never silently becomes an unrestricted claim.
 
-→ [Status](../STATUS.md)  
+→ [Status](../docs/STATUS.md)  
 → [Demos](../demos/README.md)
 
 ---

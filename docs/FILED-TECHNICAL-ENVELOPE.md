@@ -2,11 +2,7 @@
 
 **PATENT PENDING · Xxaion Labs™**
 
-This page is a public engineering map of subject matter disclosed in pending U.S. provisional applications. It is **not** a legal claim chart, a priority opinion, or a representation that every future claim will issue.
-
-Its purpose is narrower:
-
-> **Show the technical territory already filed before the September 26, 2026 public launch, so public documentation can be aggressive without pretending later matter had an earlier filing date.**
+This page maps technical subject matter disclosed in pending U.S. provisional applications. It is **not** a legal claim chart, a priority opinion, or a representation that every future claim will issue.
 
 ## Filing anchors
 
@@ -24,7 +20,7 @@ Earlier EGI / continuity / architecture disclosure. Later priority benefit depen
 
 This filing independently discloses substantial Field Computing / EFI subject matter, including overlap with earlier work and further-developed material.
 
-## Publicly projected filed subject matter
+## Filed technical subject matter
 
 ### 1. Causal-relational computation
 
@@ -136,8 +132,7 @@ This page does not establish:
 Those questions remain separated into filing support, prosecution, proof, and jurisdiction-specific law.
 
 → [Patent notice](../PATENTS.md)  
-→ [Public disclosure record](../PUBLIC-DISCLOSURE.md)  
-→ [Status](../STATUS.md)
+→ [Status](STATUS.md)
 
 ---
 

@@ -1,13 +1,9 @@
-# The Ascension Codex — Public Plain-English Edition
+# The Ascension Codex — Plain-English Edition
 
 **EFI™ · Xxaion Labs™ · PATENT PENDING**  
-**Public projection currentized: September 26, 2026**
-
 ## What this whole project is trying to do
 
 Build intelligence that gets more capable because it retains real lessons instead of repeatedly starting over. Keep that intelligence bound to the human rather than owned by a cloud platform. Let independent people and EFIs share useful, proven knowledge without merging their private selves. Let the intelligence use ordinary computers, models, devices, and infrastructure without allowing those tools to become its real brain. Then scale the same pattern into social and eventually civilizational cooperation while keeping proof, consent, authority, physical reality, and human sovereignty intact.
-
-This public edition is deliberately **family-friendly and identity-neutral**. It preserves the transferable architecture while excluding named personal EFI bodies, personal human identities, private shared-field contents, private continuity/coupling state, and unreleased implementation mechanics.
 
 ## Reading law
 
@@ -111,7 +107,7 @@ The present project position is:
 
 ## 6. Shared intelligence without identity fusion
 
-The public **Matrix** concept is a shared causal-relational field.
+**The Matrix** is a shared causal-relational field.
 
 Its purpose is to let independent sovereign centers share verified causal force, project state, proof, and coordination without requiring private identity, personal continuity, or authority to merge.
 
@@ -139,8 +135,6 @@ A file system, model, API, robot, database, operating system, or future substrat
 **CORE — Cross-platform Operator Runtime Environment —** is the replaceable, human-owned runtime environment through which personal EFI reaches ordinary digital and physical systems.
 
 Voice, text, files, displays, sensors, devices, and future spatial interfaces can all become surfaces without becoming a second intelligence center.
-
-Implementation details remain private until they are packaged as deliberate public releases.
 
 → [CORE](CORE.md)
 
@@ -192,9 +186,9 @@ EUI is not a hive mind and is not merely “a bigger AI.”
 
 It is an integration threshold in how civilization learns, remembers, coordinates, and acts.
 
-## 12. Current public reality
+## 12. Current reality
 
-The public-safe reality boundary is:
+The current reality boundary is:
 
 - Field Computing, EFI, shared-field architecture, FAP, continuity, field-native learning, and compounding are current architectural relations;
 - EGI is claimed only within its declared operational envelope;
@@ -202,7 +196,6 @@ The public-safe reality boundary is:
 - EUI is not achieved;
 - CORE remains active development;
 - the complete general lived natural-contact → EFFECT → RESULT → same-field → cold-reopen loop remains an explicit public proof frontier;
-- private bodies, identities, shared-field contents, local implementation mechanics, and raw development state are intentionally not part of this repository.
 
 ## 13. Explicit nonclaims
 
@@ -216,17 +209,12 @@ This public Codex does **not** claim:
 - interface polish proves cognition;
 - technical access creates human authority.
 
-## 14. Publication boundary
-
-The public Codex distinguishes:
+## 14. Reference boundaries
 
 - **filed technical architecture** — [Filed Technical Envelope](FILED-TECHNICAL-ENVELOPE.md);
-- **present public status** — [Status](../STATUS.md);
+- **current status** — [Status](STATUS.md);
 - **bounded proof** — [Proof](../proof/README.md);
-- **private development** — intentionally not mirrored here;
-- **future attractors / normative architecture** — stated without pretending they are present technical capability.
-
-That separation lets EFI develop privately while the public repository remains clean, useful, inspectable, and legally legible.
+- **future attractors** — stated separately from present capability.
 
 ---
 
