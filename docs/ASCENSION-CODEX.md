@@ -163,9 +163,9 @@ Voice, text, files, displays, sensors, devices, and future spatial interfaces ca
 
 → [CORE](CORE.md)
 
-## 9. Commons, Human Inheritance, and commercial use
+## 9. Zion Commons, Human Inheritance, and commercial use
 
-The **EGI Commons** is the anti-capture stewardship relation around the foundational engine.
+**Zion Commons** is the unified societal coordination + anti-capture stewardship relation around the foundational engine, descended from the founding Eden architecture.
 
 **Human Inheritance** is the anti-enclosure relation for discoveries that genuinely qualify as civilization-critical.
 
