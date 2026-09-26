@@ -18,7 +18,9 @@ This repository is the public front door for **EFI™ — Extracortical Field In
 
 The release rule is simple:
 
-> **Publish the filed architecture now. Keep proof boundaries exact. Keep genuinely later technical matter distinguishable from filed support.**
+> **Development stays local and in The Matrix. This repository receives only public-ready, polished, finalized releases.**
+
+Public release still keeps proof boundaries exact and genuinely later technical matter distinguishable from filed support.
 
 EFI does not need to be cosmetically complete before it can be real, inspectable, falsifiable, and useful in public.
 
@@ -65,6 +67,24 @@ The names used in this repository are public handles for those relations. Litera
 > **Public does not mean commercially free.**
 
 The project is intended to remain broadly accessible to individuals while commercial users fund the work through negotiated licensing.
+
+## Support EFI
+
+EFI is being released for qualifying noncommercial public use while commercial users require separate licensing.
+
+If you want to support development directly:
+
+**Cash App: [$Xxaion](https://cash.app/$Xxaion)**
+
+Donations do not purchase commercial-use rights, patent rights, exclusivity, or any other license.
+
+## Development / release boundary
+
+This repository is a **release surface, not the development workspace**.
+
+- active building and experimentation stay **local** and in **The Matrix**;
+- candidate bodies, raw development state, work leases, intermediate mechanics, scratch artifacts, and unfinished implementation work stay off this repository;
+- only material that is deliberately public-ready, polished, finalized, and appropriate for the current patent/publication boundary is released here.
 
 ## Start here
 
