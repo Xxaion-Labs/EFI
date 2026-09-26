@@ -160,10 +160,6 @@ def main():
     endmark=join_url(base_path,'assets/ui/accents/accent-star-end.png').rstrip('/') if (repo/'assets/ui/accents/accent-star-end.png').exists() else favicon
     primary=''.join(f'<a href="{join_url(base_path,r["route"])}" data-route="{html.escape(r["route"])}">{html.escape(r["nav"])}</a>' for r in routes if r['group']=='primary')
     reference=''.join(f'<a href="{join_url(base_path,r["route"])}" data-route="{html.escape(r["route"])}">{html.escape(r["nav"])}</a>' for r in routes if r['group']=='reference')
-    route_frames=unique(grammar.get('asset_roles',{}).get('frames',{}).get('route',[]))
-    card_routes=[r for r in routes if r['group']=='primary' and r['route']!='/']
-    cards=''.join(f'<a class="route-card" data-efi-frame="{html.escape(Path(route_frames[i%len(route_frames)]).stem,quote=True) if route_frames else "none"}" style="--efi-frame:url({join_url(base_path,route_frames[i%len(route_frames)]).rstrip("/") if route_frames else ""})" href="{join_url(base_path,r["route"])}">{html.escape(r["nav"])}</a>' for i,r in enumerate(card_routes))
-
     manifest_routes=[]; search=[]
     for r in routes:
         src=repo/r['source']
@@ -224,7 +220,7 @@ def main():
         og=(base_url if base_url else base_path)+('/assets/brand/efi-hero-wide.png' if (repo/'assets/brand/efi-hero-wide.png').exists() else '/assets/brand/efi-sigil.png')
         copy_local('assets/brand/efi-hero-wide.png') if (repo/'assets/brand/efi-hero-wide.png').exists() else None
         page=template
-        vals={'TITLE':html.escape(r['title']),'DESCRIPTION':html.escape(desc,quote=True),'CANONICAL_URL':html.escape(canonical,quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':html.escape(r['route'],quote=True),'SURFACE':html.escape(r['surface_recipe'],quote=True),'PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'ROUTE_CARDS':cards if r['route']=='/' else '', 'CONTENT':body,'END_MARK':html.escape(endmark,quote=True),'JSON_LD':json.dumps({'@context':'https://schema.org','@type':'TechArticle','headline':r['title'],'url':canonical,'isPartOf':{'@type':'WebSite','name':'EFI','url':base_url or route_url}},separators=(',',':'))}
+        vals={'TITLE':html.escape(r['title']),'DESCRIPTION':html.escape(desc,quote=True),'CANONICAL_URL':html.escape(canonical,quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':html.escape(r['route'],quote=True),'SURFACE':html.escape(r['surface_recipe'],quote=True),'PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'CONTENT':body,'END_MARK':html.escape(endmark,quote=True),'JSON_LD':json.dumps({'@context':'https://schema.org','@type':'TechArticle','headline':r['title'],'url':canonical,'isPartOf':{'@type':'WebSite','name':'EFI','url':base_url or route_url}},separators=(',',':'))}
         for k,v in vals.items(): page=page.replace('{{'+k+'}}',v)
         page=page.replace('<html lang="en">',f'<html lang="en" data-base-path="{html.escape(base_path,quote=True)}">')
         dest=out/'index.html' if r['route']=='/' else out/r['route'].strip('/')/'index.html'; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_text(page,encoding='utf-8')
@@ -236,7 +232,7 @@ def main():
     (out/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+sitemap+'</urlset>',encoding='utf-8')
     (out/'robots.txt').write_text('User-agent: *\nAllow: /\n'+(('Sitemap: '+base_url+'/sitemap.xml\n') if base_url else ''),encoding='utf-8')
     notfound=template
-    vals={'TITLE':'Not Found','DESCRIPTION':'EFI route not found.','CANONICAL_URL':html.escape(base_url+'/404.html' if base_url else ((base_path or '')+'/404.html'),quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':'/404.html','SURFACE':'404','PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'ROUTE_CARDS':'','CONTENT':'<h1>404</h1><p>That route fell out of the field. <a href="'+join_url(base_path,'/')+'">Return to EFI.</a></p>','END_MARK':html.escape(endmark,quote=True),'JSON_LD':'{}'}
+    vals={'TITLE':'Not Found','DESCRIPTION':'EFI route not found.','CANONICAL_URL':html.escape(base_url+'/404.html' if base_url else ((base_path or '')+'/404.html'),quote=True),'OG_IMAGE':html.escape(og,quote=True),'FAVICON':html.escape(favicon,quote=True),'BASE_PATH':html.escape(base_path,quote=True),'ROUTE':'/404.html','SURFACE':'404','PRIMARY_NAV':primary,'REFERENCE_NAV':reference,'CONTENT':'<h1>404</h1><p>That route fell out of the field. <a href="'+join_url(base_path,'/')+'">Return to EFI.</a></p>','END_MARK':html.escape(endmark,quote=True),'JSON_LD':'{}'}
     for k,v in vals.items(): notfound=notfound.replace('{{'+k+'}}',v)
     notfound=notfound.replace('<html lang="en">',f'<html lang="en" data-base-path="{html.escape(base_path,quote=True)}">'); (out/'404.html').write_text(notfound,encoding='utf-8')
     outputs={p.relative_to(out).as_posix():sha(p) for p in out.rglob('*') if p.is_file() and p.name!='build-manifest.json'}
