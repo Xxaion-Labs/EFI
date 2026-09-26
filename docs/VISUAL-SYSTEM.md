@@ -56,7 +56,6 @@ The visual system should communicate four simultaneous properties:
 
 <img src="../assets/ui/glyphs/glyph-orbit.png" alt="EFI field orbit glyph" width="22%" />
 
-<img src="../assets/ui/frames/frame-wide-bevel.png" alt="EFI bounded frame" width="52%" />
 
 </div>
 
@@ -67,7 +66,7 @@ Use repeatedly:
 - **field orbits** for multi-relation systems;
 - **instrument-line dividers** between major sections;
 - **node rails** for pipelines only when a sequential projection is useful;
-- **corner frames** for bounded claims, proof, releases, demos;
+- **frame slots** remain reserved in the grammar for future bounded layouts, but box-frame artwork is not active runtime chrome;
 - **plasma / crack / drip edges** sparingly for hero surfaces and strong transitions;
 - **field-wave interference** for contact, uncertainty, relation, and possibility.
 

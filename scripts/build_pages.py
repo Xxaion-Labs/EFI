@@ -121,8 +121,9 @@ def decorate_html(body,grammar,surface,base_path):
         def repl(m):
             nonlocal fi
             asset=frame_pool[fi%len(frame_pool)]; fi+=1
-            url=join_url(base_path,asset).rstrip('/')
-            return f'<div class="efi-frame efi-frame--{tag}" data-efi-frame="{html.escape(Path(asset).stem,quote=True)}" style="--efi-frame:url({html.escape(url,quote=True)})"><div class="efi-frame__content">{m.group(1)}</div></div>'
+            # Preserve the semantic frame slot and deterministic family assignment,
+            # but do not paint the frame asset into the runtime UI.
+            return f'<div class="efi-frame efi-frame--{tag}" data-efi-frame="{html.escape(Path(asset).stem,quote=True)}"><div class="efi-frame__content">{m.group(1)}</div></div>'
         return pat.sub(repl,text)
     for tag in grammar.get('build_projection',{}).get('frame_block_tags',['table','blockquote','pre']):
         body=wrap(tag,body)
