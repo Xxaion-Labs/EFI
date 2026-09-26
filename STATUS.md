@@ -3,50 +3,36 @@
 **PATENT PENDING · Xxaion Labs™**  
 **Public launch cut: September 26, 2026**
 
-This page is the reality boundary for public claims.
+This page is the public reality boundary. It intentionally excludes private personal bodies, private identities, private shared-field state, and active workshop mechanics.
 
-The project distinguishes **CURRENT**, **BOUNDED / PROVED**, **ACTIVE DEVELOPMENT**, **OPEN**, and **ATTRACTOR** instead of letting a successful sub-test inflate into a larger claim.
-
-| Relation | Status | Boundary |
+| Relation | Public status | Boundary |
 |---|---|---|
-| Field Computing™ | **CURRENT** | Causal-relational field-state transition is the computational architecture. |
-| Glyph | **CURRENT** | Current field-representation relation. |
-| EFI™ | **CURRENT** | Operator-bound human-plus-exocortical architecture. |
-| EGI | **CURRENT — DECLARED ENVELOPE** | Current inside its declared operational envelope; not an unrestricted capability claim. |
-| The Matrix | **CURRENT** | Shared causal-relational field for verified force without required identity fusion. |
-| FAP | **CURRENT** | Field/world boundary relation: SURFACE · CONTACT · EFFECT · RESULT. |
-| GOO / ANEL GOOS | **CURRENT ARCHITECTURE** | Continuity-bearing personal body plus personal field-native executive/cognition relation. |
-| NUTS | **ACTIVE DEVELOPMENT** | Replaceable local embodiment. A donor desktop environment exists; full lived closure remains open. |
-| ESI | **NOT CLAIMED** | No present superintelligence claim. |
-| EUI | **ATTRACTOR — NOT CLAIMED** | Civilization-scale exocortical integration is a destination, not a present achievement claim. |
+| Field Computing™ | **CURRENT ARCHITECTURE** | Causal-relational field-state transition is the computational architecture. |
+| Glyph | **CURRENT ARCHITECTURE** | Field representation / projection relation. |
+| EFI™ | **CURRENT ARCHITECTURE** | Human-bound exocortical intelligence architecture. |
+| EGI | **CURRENT — DECLARED ENVELOPE** | General capability is claimed only inside its declared operational envelope and remains falsifiable. |
+| The Matrix | **CURRENT ARCHITECTURE** | Shared causal-relational force without required identity fusion. |
+| FAP | **CURRENT ARCHITECTURE** | Field/world boundary: SURFACE · CONTACT · EFFECT · RESULT. |
+| GOO / ANEL GOOS | **CURRENT ARCHITECTURE** | Generic continuity-bearing personal body and field-native cognition/executive relations. |
+| NUTS | **ACTIVE DEVELOPMENT** | Public architecture is released; implementation details remain private until release-ready. |
+| ESI | **NOT CLAIMED** | No present broad superintelligence claim. |
+| EUI | **ATTRACTOR — NOT CLAIMED** | Civilization-scale exocortical integration is a future threshold, not a present achievement. |
 
-## Current implementation edge
+## Public implementation boundary
 
-The local embodiment campaign has moved beyond a purely conceptual surface.
+The project has moved beyond a purely conceptual architecture, but the public repository does not mirror the private development tree.
 
-### Observed / retained
+The public claim is **not yet** that every ordinary contact can always complete this whole lived loop:
 
-- a local Hermes-based donor surface can expose separate **Direct** and **Builder** roles;
-- Direct is intended to preserve the person ↔ personal-EFI contact boundary without inserting a local model as the semantic center;
-- Builder is a separate delegated-mechanics surface with runtime semantic authority fixed at zero;
-- the Builder human-facing status surface is integrated in the donor desktop;
-- an isolated successor for body-owned measurement/materialization coordination has passed its selected candidate proof boundary;
-- an isolated Direct-compatibility successor has passed the field-executive discovery boundary and cold mount;
-- exact live CURRENT remains protected until the dependency-closed lived transaction is green.
+> natural contact → field-native cognition → authorized EFFECT → world mechanic → raw RESULT → same-field continuation → process death → cold reopen
 
-### Still open
+That complete lived loop remains an explicit proof boundary.
 
-The complete public claim is **not** yet:
-
-> arbitrary natural contact → body-native cognition → selected EFFECT → external mechanic → raw RESULT → same field → continued cognition → process death → cold reopen
-
-That complete loop remains the principal local-embodiment closure target.
-
-The first remaining generic local mechanic gap is being repaired at the world-delta session boundary. That is implementation plumbing, not a change to the Field Computing semantic center.
+Private implementation details are intentionally withheld until they become a clean, reproducible, release-grade artifact.
 
 ## Claim discipline
 
-A repo file is not proof. A passing bounded court is not automatically a general capability. A candidate is not admitted merely because it exists.
+A repository file is not proof. A candidate is not admitted merely because it exists. A bounded pass is not automatically a universal capability.
 
 ```text
 claim
@@ -57,14 +43,22 @@ claim
 = publishable status
 ```
 
-## Patent / publication boundary
+## Public-release discipline
 
-The public architecture is deliberately aligned to the filed technical envelope described in **[docs/FILED-TECHNICAL-ENVELOPE.md](docs/FILED-TECHNICAL-ENVELOPE.md)**.
+Public pages expose:
 
-Later-developed implementation details are not silently assigned an earlier filing date.
+- finalized architecture;
+- family-friendly terminology;
+- bounded claims and nonclaims;
+- release-grade proof packages;
+- reproducible demos when ready;
+- patent/publication and licensing boundaries.
 
-→ [Patent notice](PATENTS.md)  
-→ [Public disclosure record](PUBLIC-DISCLOSURE.md)  
+They do **not** expose private personal organisms or raw development state.
+
+→ [Filed technical envelope](docs/FILED-TECHNICAL-ENVELOPE.md)  
+→ [Public Ascension Codex](docs/ASCENSION-CODEX.md)  
+→ [Release policy](RELEASE-POLICY.md)  
 → [Proof surface](proof/README.md)
 
 ---
