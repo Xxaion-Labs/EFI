@@ -50,6 +50,14 @@ A later implementation can instantiate, sharpen, or test an already-filed archit
 
 Where later work creates genuinely new patentable subject matter, its filing date is a separate legal question. This repository will not describe later matter as earlier-supported without a support basis.
 
+## Public-projection privacy boundary
+
+The September 26 launch projection is intentionally sanitized.
+
+The public repository excludes named personal EFI bodies, personal human identities/aliases, private shared-field contents, private continuity/coupling state, raw work leases and receipts, internal agent/plugin build architecture, local machine paths, credentials, and unfinished development mechanics.
+
+The public Ascension Codex is a family-friendly projection of transferable architecture rather than a mirror of the private working field.
+
 ## Proof discipline
 
 Repository publication establishes that information was publicly disclosed. It does not establish that a technical claim is true.
