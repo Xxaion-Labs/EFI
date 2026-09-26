@@ -60,11 +60,15 @@ Public capability status remains governed by:
 
 See **[STATUS.md](STATUS.md)** and **[proof/README.md](proof/README.md)**.
 
-## Rights
+## Rights and launch licensing
 
-Public access to the repository does not itself grant a patent license or trademark license.
+Public access by itself does not create an implied patent, copyright, commercial-use, or trademark license.
 
-No source-code license is implied for material that does not carry an express software license.
+As part of the September 26, 2026 public launch, repository software is expressly offered for qualifying noncommercial use under the [EFI Public Source License](LICENSE.md), incorporating **PolyForm Noncommercial License 1.0.0**. Commercial or business use requires a separate written license under [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md).
+
+The public software license contains its own limited patent grant for permitted noncommercial use. It does not grant commercial patent rights. Trademarks remain separately controlled.
+
+The publication strategy for later-developed technical matter is recorded in [RELEASE-POLICY.md](RELEASE-POLICY.md).
 
 ---
 
