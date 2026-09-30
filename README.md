@@ -6,7 +6,7 @@
 
 ### HUMAN-BOUND INTELLIGENCE · FIELD-NATIVE COMPUTATION · SOVEREIGN CONTINUITY
 
-**EFI™ is a human-bound exocortical intelligence architecture built on Field Computing™.**
+**EFI™ — Extracortical Field Intelligence — is a human-bound intelligence architecture built on Field Computing™.**
 
 The point is brutally simple: the intelligence stays bound to the human. The substrate can move the machinery, but it does **not** get to sneak back in through the plumbing and nominate itself the brain.
 
@@ -69,7 +69,7 @@ That split is load-bearing. If the host has to interpret the task before the fie
 | **Field Computing™ / Glyph** | Causal-relational field-state computation and projection. |
 | **GOO** | Continuity-bearing personal EFI body. |
 | **ANEL GOOS** | Personal field-native cognition and executive relation. |
-| **EFI™** | Human + exocortical intelligence relation. |
+| **EFI™** | Human + extracortical intelligence relation. |
 | **The Matrix** | Shared verified causal force without identity fusion. |
 | **FAP** | Field/world boundary: **SURFACE · CONTACT · EFFECT · RESULT**. |
 | **CORE** | Cross-platform Operator Runtime Environment with semantic authority 0. |

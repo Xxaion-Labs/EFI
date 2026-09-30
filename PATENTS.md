@@ -7,9 +7,7 @@
 - **U.S. Provisional Patent Application No. 64/101,611**, filed **June 29, 2026**.
 - **U.S. Provisional Patent Application No. 64/154,781**, filed **September 14, 2026**.
 
-The September 14 application is titled:
-
-**FIELD COMPUTING SYSTEMS AND METHODS FOR CAUSAL-RELATIONAL POSSIBILITY TRANSFORMATION, UNIVERSAL FIELD-NATIVE LEARNING, GENERATED COMPUTATIONAL MORPHOLOGY, AND OPERATOR-BOUND EXOCORTICAL FIELD INTELLIGENCE**
+The September 14 application's exact filed title is preserved verbatim in the filed application and historical patent archive. This living repository does not rewrite historical filing bytes merely because CURRENT project terminology later changed.
 
 ## Patent-pending boundary
 

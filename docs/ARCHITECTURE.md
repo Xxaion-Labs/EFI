@@ -35,7 +35,7 @@ EFI is one relation inside a larger Field Computing architecture. The pieces ans
 | **FAP** | Boundary between field-native cognition and foreign mechanics. |
 | **CORE** | Cross-platform human-owned runtime environment for local/world mechanics; semantic authority remains zero. |
 | **Zion Commons** | Coordination, stewardship, and anti-capture among sovereign centers; Human Inheritance remains the anti-enclosure relation for qualifying civilization-critical fruits. |
-| **EUI** | Civilization-scale exocortical integration attractor. |
+| **EUI** | Civilization-scale extracortical integration attractor. |
 
 <div align="center">
 

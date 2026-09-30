@@ -16,7 +16,7 @@ Earlier EGI / continuity / architecture disclosure. Later priority benefit depen
 
 **U.S. Provisional Patent Application No. 64/154,781**
 
-**Title:** *FIELD COMPUTING SYSTEMS AND METHODS FOR CAUSAL-RELATIONAL POSSIBILITY TRANSFORMATION, UNIVERSAL FIELD-NATIVE LEARNING, GENERATED COMPUTATIONAL MORPHOLOGY, AND OPERATOR-BOUND EXOCORTICAL FIELD INTELLIGENCE*
+**Filed title:** preserved verbatim in the filed application and historical patent archive. This living projection does not rewrite historical filing bytes merely because CURRENT project terminology later changed.
 
 This filing independently discloses substantial Field Computing / EFI subject matter, including overlap with earlier work and further-developed material.
 
