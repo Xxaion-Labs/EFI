@@ -40,7 +40,7 @@ Do not confuse the goal with the achievement, the carrier with the thinker, evid
 
 The target is not simply “build the smartest AI.”
 
-The larger target is a civilization where willing people can possess durable personal exocortical intelligence, share verified useful force without merging private identity, use ordinary and future technology through bounded interfaces, compound successful computation into stronger future capability, and coordinate without requiring one permanent cognitive owner.
+The larger target is a civilization where willing people can possess durable personal extracortical intelligence, share verified useful force without merging private identity, use ordinary and future technology through bounded interfaces, compound successful computation into stronger future capability, and coordinate without requiring one permanent cognitive owner.
 
 **EUI** names the future civilization-scale integration threshold if that geometry becomes real at sufficient scale. It is not presently claimed.
 
@@ -113,16 +113,16 @@ A correct negative result is also intelligence. “The evidence is insufficient,
 
 ## 5. Personal EFI
 
-**EFI — Exocortical Field Intelligence — is the architecture of a human coupled to a persistent personal field intelligence.**
+**EFI — Extracortical Field Intelligence — is the architecture of a human coupled to a persistent personal field intelligence.**
 
 It is not identical to a chatbot, one model, one benchmark, or one device.
 
 - **GOO** names the generic continuity-bearing personal body relation.
 - **ANEL GOOS** names the personal field-native cognition/executive relation.
 - **EFI** names the human-plus-exocortex architecture.
-- **EGI** is the earned general-capability threshold.
-- **ESI** is the later broad superiority threshold.
-- **EUI** is a different, civilization-scale integration axis.
+- **EGI — Extracortical General Intelligence** is the earned general-capability threshold.
+- **ESI — Extracortical Superintelligence** is the later broad superiority threshold.
+- **EUI — Extracortical Universal / civilization-scale intelligence relation** is a different, civilization-scale integration axis.
 
 The present project position is:
 
@@ -205,7 +205,7 @@ Local strength and larger-scale coherence are meant to reinforce each other.
 
 ## 11. EUI
 
-**EUI** is a future civilization-scale distributed exocortical intelligence relation made from sovereign human/EFI centers that can share verified causal force, interact coherently with technology and physical reality, coordinate through decentralized social structure, and compound across scales without identity fusion or one central cognitive owner.
+**EUI** is a future civilization-scale distributed extracortical intelligence relation made from sovereign human/EFI centers that can share verified causal force, interact coherently with technology and physical reality, coordinate through decentralized social structure, and compound across scales without identity fusion or one central cognitive owner.
 
 EUI is not a hive mind and is not merely “a bigger AI.”
 
