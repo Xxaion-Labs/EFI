@@ -1,0 +1,33 @@
+name: EFI Proposal
+description: Propose a public EFI capability, documentation, visual-system, demo, or integration improvement.
+title: "[PROPOSAL] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current reality
+      description: What exists now?
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: Target state
+      description: What should become true?
+    validations:
+      required: true
+  - type: textarea
+    id: leverage
+    attributes:
+      label: Why this compounds
+      description: What future work becomes cheaper, stronger, or clearer if this lands?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary
+      options:
+        - label: I am not presenting an unproved capability as CURRENT.
+          required: true

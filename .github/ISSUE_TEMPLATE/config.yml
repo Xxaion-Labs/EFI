@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: EFI public documentation
+    url: https://github.com/Xxaion-Labs/EFI
+    about: Start with the README, architecture, status, proof, and visual-system surfaces.

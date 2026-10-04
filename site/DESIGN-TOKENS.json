@@ -1,5 +1,5 @@
 {
-  "schema": "efi.design-tokens.v1",
+  "schema": "efi.design-tokens.v2",
   "id": "efi-public-visual-tokens",
   "palette": {
     "void": "#050505",
@@ -38,6 +38,44 @@
   "effects": {
     "glow_soft": "0 0 22px rgba(168,255,0,.12)",
     "glow_violet": "0 0 30px rgba(168,85,255,.14)",
-    "glow_orange": "0 0 26px rgba(255,138,0,.12)"
+    "glow_orange": "0 0 26px rgba(255,138,0,.12)",
+    "glow_cyan": "0 0 26px rgba(0,212,255,.12)",
+    "glow_magenta": "0 0 28px rgba(255,0,230,.11)"
+  },
+  "semantic": {
+    "identity": "acid",
+    "current": "acid",
+    "relation": "violet",
+    "effect": "orange",
+    "experiment": "magenta",
+    "observation": "cyan",
+    "substrate": "void",
+    "text": "text",
+    "muted": "muted"
+  },
+  "density": {
+    "reduced": {
+      "hero_marks_max": 1,
+      "accent_channels_max": 2,
+      "large_art": false
+    },
+    "standard": {
+      "hero_marks_max": 1,
+      "accent_channels_max": 4,
+      "large_art": "section_only"
+    },
+    "full": {
+      "hero_marks_max": 1,
+      "accent_channels_max": 5,
+      "large_art": true
+    }
+  },
+  "instrumentation": {
+    "label_tracking_em": 0.16,
+    "eyebrow_size_rem": 0.72,
+    "rail_px": 1,
+    "rail_glow_px": 18,
+    "section_gap_rem": 3.2,
+    "proof_border_px": 1
   }
 }

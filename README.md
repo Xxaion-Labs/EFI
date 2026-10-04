@@ -21,6 +21,7 @@ The point is brutally simple: the intelligence stays bound to the human. The sub
 [**Proof**](proof/README.md) ·
 [**Demos**](demos/README.md) ·
 [**Roadmap**](docs/ROADMAP.md) ·
+[**Skills**](skills/README.md) ·
 [**Visual System**](docs/VISUAL-SYSTEM.md)
 
 </div>
@@ -187,6 +188,7 @@ cold reopen
 | **Observable demonstrations** | [Demos](demos/README.md) |
 | **Where development goes next** | [Roadmap](docs/ROADMAP.md) |
 | **The canonical public visual language** | [Visual System](docs/VISUAL-SYSTEM.md) |
+| **Reusable EFI public-output Skills** | [Skills](skills/README.md) |
 | **The filed technical disclosure boundary** | [Filed Technical Envelope](docs/FILED-TECHNICAL-ENVELOPE.md) |
 
 ---
@@ -196,6 +198,35 @@ cold reopen
 <img src="assets/ui/dividers/header-slice-04.png" alt="EFI patent boundary marker" width="36%" />
 
 </div>
+
+
+<div align="center">
+
+<img src="assets/ui/dividers/divider-rail-spine.png" alt="EFI calling-card rail" width="78%" />
+
+</div>
+
+## The EFI calling card
+
+EFI treats visual identity as **infrastructure**, not decoration.
+
+Every public surface should feel like another projection of the same field:
+
+| Surface | EFI treatment |
+|---|---|
+| **GitHub / source** | Reduced visual density, exact status, strong identity, zero decorative noise. |
+| **GitHub Pages / web** | Instrument rails, spectral field accents, semantic state markers, readable black-field layout. |
+| **White papers / PDF / docs** | Technical publication grammar, bounded callouts, figure rails, exact proof/status language. |
+| **Presentations** | Full hero identity on title/section slides; standard field grammar on content/data slides. |
+| **Social / announcements** | One message, one visual gravity well, unmistakable EFI spectrum and sigil. |
+| **Skills** | Compact EFI identity plus the canonical brand contract so future output stays coherent automatically. |
+| **CLI / logs / code-adjacent** | Minimal mode: status semantics first, color optional, no visual noise. |
+
+The machine-readable composition source is [site/VISUAL-GRAMMAR.json](site/VISUAL-GRAMMAR.json). The human guide is the [EFI Visual System](docs/VISUAL-SYSTEM.md). The reusable public-output Skill lives under [skills/efi-visual-system/](skills/efi-visual-system/).
+
+> **One field. One visual language. Any surface.**
+
+---
 
 ## Patent status
 
