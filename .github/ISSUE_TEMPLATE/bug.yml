@@ -1,0 +1,40 @@
+name: EFI Bug
+description: Report a reproducible defect in the public EFI repository, Pages site, assets, docs, demos, or Skills.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Give the smallest exact path that reproduces it.
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      options:
+        - GitHub README / docs
+        - GitHub Pages
+        - Visual assets / brand
+        - Public Skill
+        - Demo
+        - Proof / status
+        - Other
+    validations:
+      required: true

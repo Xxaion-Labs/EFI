@@ -180,3 +180,108 @@ Prefer compact matrices and unmistakable labels:
 **EFI™ · XXAION LABS™ · PATENT PENDING**
 
 </div>
+
+
+---
+
+# Integrated Public-Output System
+
+## The calling-card invariant
+
+A public EFI surface does **not** need every motif at once. It does need enough recurring structure to be recognizable without relying only on the letters EFI.
+
+Minimum signal set:
+
+1. **Void-black or black-dominant negative space.**
+2. **Acid-green identity/current-state signal.**
+3. **A spectral secondary accent chosen by meaning.**
+4. **At least one technical relation motif:** rail, node, orbit, ring, sigil, or constrained geometric line.
+5. **Instrument-like hierarchy:** clear title, small technical labels, exact metadata where useful.
+6. **Explicit proof/status language** whenever the content makes a technical claim.
+7. **One EFI identity mark** on major public surfaces.
+
+**Rule:** color is energy, not fill.
+
+## Semantic color roles
+
+| State / relation | Preferred signal |
+|---|---|
+| **EFI identity / CURRENT / PASS** | Acid Green |
+| **Relation / shared field** | Electric Violet |
+| **EFFECT / materialization / active transition** | Molten Orange |
+| **Experiment / exception / unstable possibility** | Hot Magenta |
+| **Observation / world contact / raw RESULT** | Cyan |
+| **Substrate / silence / negative space** | Void Black |
+
+Visual intensity must never imply a stronger technical claim than the source supports.
+
+## Density profiles
+
+### REDUCED
+
+Use for README sections, source repositories, public Skill metadata, issue/PR templates, CLI/logs, and code-adjacent technical output.
+
+Carry identity, one compact relation motif where the medium permits it, semantic status labels, and disciplined accent color. Skip heavy plasma art.
+
+### STANDARD
+
+Use for GitHub Pages, technical documentation, public reports, dashboards, ordinary content slides, and release pages.
+
+Use section rails, semantic glyphs, status markers, black-field layout, and one strong visual center per major section.
+
+### FULL
+
+Use for launch surfaces, title and section-divider slides, white-paper covers, posters, campaign art, and social hero graphics.
+
+Use the canonical sigil/hero mark, luminous orbit geometry, material textures, spectral energy, and cinematic scale around a controlled geometric center.
+
+## Cross-surface application matrix
+
+| Surface | Density | Required behavior |
+|---|---|---|
+| **GitHub README** | Reduced -> Standard | One hero, clean navigation, exact status, limited dividers, Markdown remains readable without CSS. |
+| **GitHub Pages** | Standard | Top navigation, instrument rails, spectral linework, semantic status treatment, responsive black field, search. |
+| **Architecture / proof docs** | Standard | Geometry follows relations; proof looks instrumented, not marketed. |
+| **White paper / PDF** | Standard + Full cover | Strong cover identity, restrained interior rails/callouts, figure labels, explicit proof boundaries. |
+| **Presentation** | Standard + Full title slides | One dominant idea per slide; data/proof gets instrument panels; hero art only where it earns the space. |
+| **Social / announcement** | Full | One message, one visual gravity well, minimal copy, immediate EFI recognition. |
+| **Public Skill** | Reduced | Compact icon, concise metadata, canonical brand contract bundled as reusable instructions. |
+| **CLI / logs** | Reduced | Status semantics first; color optional; plain text remains complete. |
+| **Code internals** | Minimal | Brand surrounding documentation and releases, not executable semantics. |
+
+## Motif semantics
+
+- **Sigil ring** = identity / continuity / locked center.
+- **Reaction ring** = active field transformation.
+- **Field orbit** = multi-relation or multi-center system.
+- **Node** = state, evidence point, source, or boundary.
+- **Instrument rail** = transition, dependency, or section boundary.
+- **Cracked metal** = materialization / hard constraint / substrate.
+- **Plasma glass / field wave** = possibility, relation, contact, uncertainty.
+- **Spark / star** = terminal accent or exceptional emphasis.
+
+## Public-output Skill
+
+The reusable Skill source is [skills/efi-visual-system/](../skills/efi-visual-system/).
+
+Its job is simple: when a new public EFI artifact is created, the visual system arrives **with the work** instead of being rediscovered afterward.
+
+The Skill does not get to change technical meaning. It applies hierarchy, composition, visual density, palette roles, motif roles, and QA to source-authoritative content.
+
+## Quality court
+
+Before publishing, ask:
+
+- Is this recognizable as EFI without depending only on the letters EFI?
+- Are colors carrying meaning rather than random decoration?
+- Is the strongest visual emphasis attached to the strongest actual claim?
+- Are proof/status boundaries explicit?
+- Is there one visual center rather than five competing ones?
+- Was an existing canonical asset reused when it already solved the need?
+- Can a person actually read the damn thing?
+- Does the density match the medium?
+- Does this feel like another projection of the same living system?
+
+If the answer to any of those is no, the surface is not done.
+
+> **One field. One visual language. Any surface.**

@@ -21,7 +21,9 @@
     "reference_sidebar": false,
     "semantic_frame_system": true,
     "semantic_list_markers": true,
-    "frame_asset_rendering": false
+    "frame_asset_rendering": false,
+    "brand_calling_card": true,
+    "brand_skill": true
   },
   "budgets": {
     "css_bytes": 65536,
@@ -121,6 +123,15 @@
       "group": "primary",
       "order": 60,
       "surface_recipe": "docs/ROADMAP.md"
+    },
+    {
+      "route": "/skills/",
+      "source": "skills/README.md",
+      "title": "EFI Skills",
+      "nav": "Skills",
+      "group": "primary",
+      "order": 65,
+      "surface_recipe": "skills/README.md"
     },
     {
       "route": "/codex/",

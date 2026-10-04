@@ -1,17 +1,21 @@
 {
-  "schema": "efi.visual-grammar.v1",
+  "schema": "efi.visual-grammar.v2",
   "authority": "single-source-of-visual-composition-truth",
-  "objective": "Turn EFI assets into a reusable semantic UI language across repository surfaces and the generated GitHub Pages projection. Assets express structure, hierarchy, relation, state, progression, and emphasis rather than acting as decorative stickers.",
+  "objective": "Make the EFI visual system a reusable public-output interface across repositories, GitHub Pages, documents, presentations, social graphics, release surfaces, Skills, and compact terminal/code-adjacent output while preserving exact technical claim boundaries.",
   "global_laws": [
+    "one_living_visual_language",
     "every_asset_must_have_a_job",
-    "frames_contain_content",
-    "no_random_asset_placement",
+    "semantic_role_selects_visual_role",
+    "color_is_energy_not_fill",
+    "proof_intensity_must_not_exceed_evidence_force",
+    "one_primary_visual_center_per_section",
+    "reuse_before_generation",
     "controlled_variation_required",
     "clarity_over_decoration",
-    "reuse_before_generation",
-    "semantic_role_selects_visual_role",
     "github_pages_uses_full_system",
     "github_readme_uses_reduced_system",
+    "skill_ui_uses_reduced_system",
+    "cli_survives_without_color",
     "top_navigation_is_primary",
     "left_sidebar_is_forbidden",
     "single_primary_navigation_plane",
@@ -32,7 +36,8 @@
         "complex_css_components",
         "deep_layout_assembly",
         "decorative_asset_spam"
-      ]
+      ],
+      "density": "REDUCED_TO_STANDARD"
     },
     "github_pages": {
       "mode": "full",
@@ -50,6 +55,73 @@
         "random_rotation",
         "whole_atlas_decoration",
         "duplicate_primary_route_lattice"
+      ],
+      "density": "STANDARD"
+    },
+    "skill_ui": {
+      "mode": "reduced",
+      "density": "REDUCED",
+      "allow": [
+        "compact_identity_mark",
+        "concise_metadata",
+        "canonical_brand_contract"
+      ],
+      "disallow": [
+        "hero_art_spam",
+        "long_slogans_in_metadata",
+        "decorative_noise"
+      ]
+    },
+    "artifact_document": {
+      "mode": "standard",
+      "density": "STANDARD_WITH_FULL_COVER",
+      "allow": [
+        "technical_rails",
+        "status_callouts",
+        "figure_frames",
+        "hero_cover"
+      ],
+      "disallow": [
+        "proof_as_marketing",
+        "random_neon"
+      ]
+    },
+    "artifact_presentation": {
+      "mode": "standard",
+      "density": "STANDARD_WITH_FULL_TITLE_SLIDES",
+      "allow": [
+        "hero_title_slides",
+        "instrument_data_panels",
+        "orbit_relation_diagrams"
+      ],
+      "disallow": [
+        "dense_readme_on_slide",
+        "motif_wallpaper"
+      ]
+    },
+    "social_graphic": {
+      "mode": "full",
+      "density": "FULL",
+      "allow": [
+        "single_message",
+        "single_visual_gravity_well",
+        "master_identity"
+      ],
+      "disallow": [
+        "paragraph_copy",
+        "multiple_competing_heroes"
+      ]
+    },
+    "cli_terminal": {
+      "mode": "minimal",
+      "density": "REDUCED",
+      "allow": [
+        "semantic_status_tokens",
+        "optional_ansi_color"
+      ],
+      "disallow": [
+        "meaning_depends_on_color",
+        "rainbow_output"
       ]
     }
   },
@@ -266,6 +338,21 @@
         "primary",
         "secondary"
       ]
+    },
+    "skills/README.md": {
+      "frames": [
+        "intro",
+        "summary",
+        "route"
+      ],
+      "markers": [
+        "standard",
+        "emphasis"
+      ],
+      "dividers": [
+        "primary",
+        "accent"
+      ]
     }
   },
   "layout": {
@@ -274,7 +361,10 @@
     "reference_navigation": "footer_utility_links",
     "content_width": "wide",
     "route_cards": false,
-    "search": true
+    "search": true,
+    "instrument_rail": true,
+    "black_field": true,
+    "calling_card_enforced": true
   },
   "rotation_rules": {
     "strategy": "deterministic_semantic_rotation",
@@ -340,7 +430,29 @@
       "duplicate_primary_navigation_surface_present",
       "home_intro_background_frame_forbidden",
       "runtime_box_frame_asset_rendered",
-      "runtime_box_frame_css_present"
+      "runtime_box_frame_css_present",
+      "calling_card_minimum_missing",
+      "visual_claim_exceeds_source_status",
+      "skill_visual_contract_missing"
     ]
+  },
+  "calling_card": {
+    "minimum_signals": [
+      "void_black_or_black_dominant_field",
+      "acid_green_identity_or_current_signal",
+      "semantic_secondary_spectral_accent",
+      "rail_node_orbit_ring_or_sigil_relation_motif",
+      "instrument_hierarchy",
+      "explicit_status_or_proof_vocabulary_when_claims_exist"
+    ],
+    "slogan": "ONE_FIELD_ONE_VISUAL_LANGUAGE_ANY_SURFACE"
+  },
+  "semantic_color_roles": {
+    "acid": "#A8FF00 identity/current/primary-action",
+    "violet": "#A855FF relation/shared-field",
+    "orange": "#FF8A00 effect/materialization/open-transition",
+    "magenta": "#FF00E6 experiment/exception/unstable-possibility",
+    "cyan": "#00D4FF observation/world-contact/evidence",
+    "void": "#050505 substrate/negative-space"
   }
 }
